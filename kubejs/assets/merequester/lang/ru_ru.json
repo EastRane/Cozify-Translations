@@ -1,0 +1,37 @@
+{
+  "itemGroup.merequester.tab": "ME Requester",
+
+  "merequester.midnightconfig.title": "ME Requester Config",
+  "merequester.midnightconfig.REQUESTS": "Requests per Requester",
+  "merequester.midnightconfig.IDLE_ENERGY": "Requester idle energy drain",
+  "merequester.midnightconfig.REQUIRE_CHANNEL": "Requester requires channel",
+
+  "item.merequester.requester_terminal": "Терминал МЭ запросчика",
+  "block.merequester.requester": "МЭ запросчик",
+
+  "gui.merequester.requester_terminal": "Терм. МЭ Запр.",
+  "gui.merequester.no_requesters": "МЭ запросчики не найдены!",
+
+  "tooltip.merequester.requester_desc": "Автоматически поддерживает запас предметов и жидкостей, запрашивая новые создания при необходимости. Должен быть подключен к МЭ сети и доступен через Терминал МЭ запросчика. Теряет конфигурацию при разрушении. Настройки можно копировать с помощью Карты памяти.",
+
+  "tooltip.merequester.shift_for_more": "%s для подробностей",
+  "tooltip.merequester.enter_to_submit": "%s для подтверждения",
+
+  "tooltip.merequester.whole_number": "Должно быть целым числом!",
+  "tooltip.merequester.locked": "Заблокировано! Запрос в процессе.",
+
+  "tooltip.merequester.toggle": "Переключить запрос",
+  "tooltip.merequester.amount": "Количество для запаса",
+  "tooltip.merequester.batch": "Размер партии",
+  "tooltip.merequester.submit": "Применить изменения",
+  "tooltip.merequester.status": "Статус запроса",
+
+  "tooltip.merequester.idle": "Ожидание",
+  "tooltip.merequester.idle_desc": "Запросчик находится в режиме ожидания, когда запрошенное количество уже достигнуто или отсутствует шаблон создания для этого предмета/жидкости.",
+  "tooltip.merequester.missing": "Недостающие ингредиенты",
+  "tooltip.merequester.missing_desc": "В системе отсутствуют ингредиенты для создания запрошенного предмета/жидкости. Процесс продолжится при их появлении.",
+  "tooltip.merequester.link": "Создание",
+  "tooltip.merequester.link_desc": "Система в процессе создания запрошенного предмета/жидкости.",
+  "tooltip.merequester.export": "Экспорт",
+  "tooltip.merequester.export_desc": "Запросчик пытается экспортировать результаты создания в систему. Если статус сохраняется долго - нет свободного места для экспорта."
+}

@@ -1,0 +1,79 @@
+{
+  "itemGroup.geodes.more_geodes": "Дополнительные жеоды",
+  
+  "block.geodes.emerald_geode": "Блок изумрудных кристаллов",
+  "block.geodes.budding_emerald": "Прорастающий изумруд",
+  "block.geodes.emerald_cluster": "Скопление изумрудов",
+  "block.geodes.large_emerald_bud": "Большой изумрудный отросток",
+  "block.geodes.medium_emerald_bud": "Средний изумрудный отросток",
+  "block.geodes.small_emerald_bud": "Малый изумрудный отросток",
+  
+  "block.geodes.lapis_crystal_block": "Блок лазуритовых кристаллов",
+  "block.geodes.budding_lapis": "Прорастающий лазурит",
+  "block.geodes.lapis_cluster": "Скопление лазурита",
+  "block.geodes.large_lapis_bud": "Большой лазуритовый отросток",
+  "block.geodes.medium_lapis_bud": "Средний лазуритовый отросток",
+  "block.geodes.small_lapis_bud": "Малый лазуритовый отросток",
+  
+  "block.geodes.pyrite": "Пирит",
+  "item.geodes.pyrite_chunk": "Кусок пирита",
+  "block.geodes.pyrite_slab": "Пиритовая плита",
+  "block.geodes.pyrite_stairs": "Пиритовые ступени",
+  "block.geodes.pyrite_wall": "Пиритовая стена",
+  
+  "block.geodes.calcite_slab": "Кальцитовая плита",
+  "block.geodes.calcite_stairs": "Кальцитовые ступени",
+  "block.geodes.calcite_wall": "Кальцитовая стена",
+  
+  "item.geodes.emerald_shard": "Осколок изумруда",
+  
+  "block.geodes.quartz_geode": "Блок кварцевых кристаллов",
+  "block.geodes.budding_quartz": "Прорастающий кварц",
+  "block.geodes.quartz_cluster": "Скопление кварца",
+  "block.geodes.large_quartz_bud": "Большой кварцевый отросток",
+  "block.geodes.medium_quartz_bud": "Средний кварцевый отросток",
+  "block.geodes.small_quartz_bud": "Малый кварцевый отросток",
+  
+  "block.geodes.diamond_geode": "Блок алмазных кристаллов",
+  "block.geodes.diamond_cluster": "Скопление алмазов",
+  
+  "block.geodes.echo_block": "Блок эха",
+  "block.geodes.budding_echo_block": "Прорастающий блок эха",
+  "block.geodes.echo_cluster": "Скопление эха",
+  "block.geodes.large_echo_bud": "Большой отросток эха",
+  "block.geodes.medium_echo_bud": "Средний отросток эха",
+  "block.geodes.small_echo_bud": "Малый отросток эха",
+  
+  "block.geodes.gypsum_crystal_block": "Блок гипсовых кристаллов",
+  "block.geodes.budding_gypsum": "Прорастающий гипс",
+  "block.geodes.gypsum_rose": "Гипсовая роза",
+  "block.geodes.large_gypsum_bud": "Большой гипсовый отросток",
+  "block.geodes.medium_gypsum_bud": "Средний гипсовый отросток",
+  "block.geodes.small_gypsum_bud": "Малый гипсовый отросток",
+  "item.geodes.gypsum_shard": "Осколок гипса",
+  
+  "block.geodes.echo_locator": "Локатор эха",
+  "block.geodes.emerald_crystal_echo_locator": "Изумрудный локатор эха",
+  "block.geodes.quartz_crystal_echo_locator": "Кварцевый локатор эха",
+  "block.geodes.amethyst_crystal_echo_locator": "Аметистовый локатор эха",
+  "block.geodes.diamond_crystal_echo_locator": "Алмазный локатор эха",
+  "block.geodes.echo_crystal_echo_locator": "Локатор эха из кристаллов эха",
+  
+  "block.geodes.gabbro": "Габбро",
+  
+  "advancement.geodes.adventure.outrageous.title": "Самоцветы поистине великолепны",
+  "advancement.geodes.adventure.outrageous.description": "Соберите блоки изумрудной и алмазной жеоды",
+  "advancement.geodes.adventure.use_echo_locator.title": "Здесь есть эхо?",
+  "advancement.geodes.adventure.use_echo_locator.description": "Используйте локатор эха",
+  "advancement.geodes.nether.barter_fools_gold.title": "Дурака золотом не купишь",
+  "advancement.geodes.nether.barter_fools_gold.description": "Попытайтесь отвлечь пиглина пиритом",
+  
+  "subtitles.block.geodes.echo_locator.resonate": "Кристалл резонирует",
+  "subtitles.block.geodes.echo_locator.use": "Локатор эха гудит",
+  "subtitles.block.geodes.echo_block.chime": "Эхо звучит",
+  "subtitles.block.geodes.emerald_geode.chime": "Изумруд звенит",
+  "subtitles.block.geodes.quartz_geode.chime": "Кварц гудет",
+  "subtitles.block.geodes.diamond_geode.chime": "Алмаз сверкает",
+  "subtitles.block.geodes.lapis_crystal_block.chime": "Лазурит звенит",
+  "subtitles.block.geodes.gypsum_crystal_block.chime": "Гипс звенит"
+}

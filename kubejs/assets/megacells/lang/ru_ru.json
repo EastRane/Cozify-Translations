@@ -1,0 +1,101 @@
+{
+  "itemGroup.megacells.tab": "MEGA Cells",
+
+  "item.megacells.cell_component_1m": "1М МЭ компонент хранения",
+  "item.megacells.cell_component_4m": "4М МЭ компонент хранения",
+  "item.megacells.cell_component_16m": "16М МЭ компонент хранения",
+  "item.megacells.cell_component_64m": "64М МЭ компонент хранения",
+  "item.megacells.cell_component_256m": "256М МЭ компонент хранения",
+
+  "item.megacells.mega_item_cell_housing": "МЭ корпус для большой предметной ячейки",
+  "item.megacells.mega_fluid_cell_housing": "МЭ корпус для большой жидкостной ячейки",
+  "item.megacells.mega_mana_cell_housing": "МЭ корпус для большой ячейки маны",
+  "item.megacells.mega_chemical_cell_housing": "МЭ корпус для мега химической ячейки",
+
+  "item.megacells.item_storage_cell_1m": "1М МЭ предметная ячейка хранения",
+  "item.megacells.item_storage_cell_4m": "4М МЭ предметная ячейка хранения",
+  "item.megacells.item_storage_cell_16m": "16М МЭ предметная ячейка хранения",
+  "item.megacells.item_storage_cell_64m": "64М МЭ предметная ячейка хранения",
+  "item.megacells.item_storage_cell_256m": "256М МЭ предметная ячейка хранения",
+
+  "item.megacells.fluid_storage_cell_1m": "1М МЭ жидкостная ячейка хранения",
+  "item.megacells.fluid_storage_cell_4m": "4М МЭ жидкостная ячейка хранения",
+  "item.megacells.fluid_storage_cell_16m": "16М МЭ жидкостная ячейка хранения",
+  "item.megacells.fluid_storage_cell_64m": "64М МЭ жидкостная ячейка хранения",
+  "item.megacells.fluid_storage_cell_256m": "256М МЭ жидкостная ячейка хранения",
+
+  "item.megacells.mana_storage_cell_1m": "1М МЭ ячейка хранения маны",
+  "item.megacells.mana_storage_cell_4m": "4М МЭ ячейка хранения маны",
+  "item.megacells.mana_storage_cell_16m": "16М МЭ ячейка хранения маны",
+  "item.megacells.mana_storage_cell_64m": "64М МЭ ячейка хранения маны",
+  "item.megacells.mana_storage_cell_256m": "256М МЭ ячейка хранения маны",
+
+  "item.megacells.chemical_storage_cell_1m": "1М МЭ химическая ячейка хранения",
+  "item.megacells.chemical_storage_cell_4m": "4М МЭ химическая ячейка хранения",
+  "item.megacells.chemical_storage_cell_16m": "16М МЭ химическая ячейка хранения",
+  "item.megacells.chemical_storage_cell_64m": "64М МЭ химическая ячейка хранения",
+  "item.megacells.chemical_storage_cell_256m": "256М МЭ химическая ячейка хранения",
+
+  "item.megacells.bulk_cell_component": "МЭ компонент массового хранения",
+  "item.megacells.bulk_item_cell": "МЭ ячейка массового хранения предметов",
+
+  "item.megacells.radioactive_cell_component": "МЭ радиоактивный компонент хранения",
+  "item.megacells.radioactive_chemical_cell": "МЭ радиоактивная химическая ячейка хранения",
+
+  "item.megacells.portable_item_cell_1m": "1М переносная предметная ячейка",
+  "item.megacells.portable_item_cell_4m": "4М переносная предметная ячейка",
+  "item.megacells.portable_item_cell_16m": "16М переносная предметная ячейка",
+  "item.megacells.portable_item_cell_64m": "64М переносная предметная ячейка",
+  "item.megacells.portable_item_cell_256m": "256М переносная предметная ячейка",
+
+  "item.megacells.portable_fluid_cell_1m": "1М переносная жидкостная ячейка",
+  "item.megacells.portable_fluid_cell_4m": "4М переносная жидкостная ячейка",
+  "item.megacells.portable_fluid_cell_16m": "16М переносная жидкостная ячейка",
+  "item.megacells.portable_fluid_cell_64m": "64М переносная жидкостная ячейка",
+  "item.megacells.portable_fluid_cell_256m": "256М переносная жидкостная ячейка",
+
+  "item.megacells.portable_mana_cell_1m": "1М переносная ячейка маны",
+  "item.megacells.portable_mana_cell_4m": "4М переносная ячейка маны",
+  "item.megacells.portable_mana_cell_16m": "16М переносная ячейка маны",
+  "item.megacells.portable_mana_cell_64m": "64М переносная ячейка маны",
+  "item.megacells.portable_mana_cell_256m": "256М переносная ячейка маны",
+
+  "item.megacells.portable_chemical_cell_1m": "1М переносная химическая ячейка",
+  "item.megacells.portable_chemical_cell_4m": "4М переносная химическая ячейка",
+  "item.megacells.portable_chemical_cell_16m": "16М переносная химическая ячейка",
+  "item.megacells.portable_chemical_cell_64m": "64М переносная химическая ячейка",
+  "item.megacells.portable_chemical_cell_256m": "256М переносная химическая ячейка",
+
+  "item.megacells.compression_card": "Карта сжатия",
+  "item.megacells.greater_energy_card": "Улучшенная энергетическая карта",
+
+  "item.megacells.cable_mega_pattern_provider": "Большой МЭ поставщик шаблонов",
+  "item.megacells.decompression_module": "МЭ модуль декомпрессии",
+
+  "item.megacells.decompression_pattern": "Шаблон декомпрессии",
+
+  "block.megacells.1m_crafting_storage": "1М МЭ хранилище создания",
+  "block.megacells.4m_crafting_storage": "4М МЭ хранилище создания",
+  "block.megacells.16m_crafting_storage": "16М МЭ хранилище создания",
+  "block.megacells.64m_crafting_storage": "64М МЭ хранилище создания",
+  "block.megacells.256m_crafting_storage": "256М МЭ хранилище создания",
+  "block.megacells.mega_crafting_accelerator": "Большой блок обработки создания",
+  "block.megacells.mega_crafting_monitor": "Большой монитор создания",
+  "block.megacells.mega_crafting_unit": "Большой блок создания",
+  "block.megacells.mega_energy_cell": "Большая плотная энергетическая ячейка",
+  "block.megacells.mega_pattern_provider": "Большой МЭ поставщик шаблонов",
+
+  "gui.tooltips.megacells.ALot": "Очень много.",
+  "gui.tooltips.megacells.AcceleratorThreads": "Обеспечивает 4 потока сопроцессинга на блок.",
+  "gui.tooltips.megacells.Compression": "Сжатие: %s",
+  "gui.tooltips.megacells.Contains": "Содержимое: %s",
+  "gui.tooltips.megacells.Disabled": "Отключено",
+  "gui.tooltips.megacells.Empty": "Пусто",
+  "gui.tooltips.megacells.Enabled": "Включено",
+  "gui.tooltips.megacells.FilterChemicalUnsupported": "Химический фильтр не поддерживается!",
+  "gui.tooltips.megacells.MismatchedFilter": "Несоответствующий фильтр!",
+  "gui.tooltips.megacells.NotPartitioned": "Не разделено",
+  "gui.tooltips.megacells.PartitionedFor": "Разделено для: %s",
+  "gui.tooltips.megacells.ProcessingOnly": "Поддерживает только шаблоны обработки.",
+  "gui.tooltips.megacells.Quantity": "Количество: %s"
+}

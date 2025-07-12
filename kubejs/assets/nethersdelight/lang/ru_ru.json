@@ -1,0 +1,56 @@
+{
+  "item.nethersdelight.hoglin_hide": "Шкура хоглина",
+  "item.nethersdelight.raw_stuffed_hoglin": "Сырой фаршированный хоглин",
+
+  "item.nethersdelight.hoglin_loin": "Филе хоглина",
+  "item.nethersdelight.hoglin_sirloin": "Вырезка хоглина",
+  "item.nethersdelight.strider_slice": "Ломтик лавороста",
+  "item.nethersdelight.ground_strider": "Фарш лавороста",
+  "item.nethersdelight.strider_moss_stew": "Суп из мха лавороста",
+  "item.nethersdelight.hoglin_ear": "Жареное ухо хоглина",
+  "item.nethersdelight.plate_of_stuffed_hoglin_snout": "Тарелка с фаршированной мордой хоглина",
+  "item.nethersdelight.plate_of_stuffed_hoglin_ham": "Тарелка с фаршированным окороком хоглина",
+  "item.nethersdelight.plate_of_stuffed_hoglin_roast": "Тарелка с фаршированным хоглином",
+  "item.nethersdelight.grilled_strider": "Жареный лаворост",
+  "item.nethersdelight.warped_moldy_meat": "Искажённое заплесневелое мясо",
+
+  "block.nethersdelight.stuffed_hoglin": "Фаршированный хоглин",
+  "block.nethersdelight.crimson_fungus_colony": "Колония багровых грибов",
+  "block.nethersdelight.warped_fungus_colony": "Колония искажённых грибов",
+  "block.nethersdelight.hoglin_mount": "Голова хоглина",
+  "block.nethersdelight.soul_compost": "Компост душ",
+  "block.nethersdelight.rich_soul_soil": "Удобренная земля душ",
+  "block.nethersdelight.mimicarnation": "Мимикарния",
+  "block.nethersdelight.blackstone_stove": "Чернокварцевая печь",
+  "block.nethersdelight.blackstone_blast_furnace": "Чернокварцевая домна",
+  "block.nethersdelight.blackstone_furnace": "Чернокварцевая печь",
+  "block.nethersdelight.nether_brick_smoker": "Дымящаяся незеритокирпичная печь",
+
+  "nethersdelight.container.blackstone_blast_furnace": "Чернокварцевая домна",
+  "nethersdelight.container.blackstone_furnace": "Чернокварцевая печь",
+  "nethersdelight.container.nether_brick_smoker": "Дымящаяся незеритокирпичная печь",
+
+  "itemGroup.nethersdelight": "Nether's Delight",
+
+  "nethersdelight.block.feast.use_knife": "Для нарезки требуется нож.",
+  "item.nethersdelight.golden_machete": "Золотой мачете",
+  "item.nethersdelight.iron_machete": "Железный мачете",
+  "item.nethersdelight.diamond_machete": "Алмазный мачете",
+  "item.nethersdelight.netherite_machete": "Незеритовый мачете",
+
+  "nethersdelight.rei.decomposition": "Разложение",
+  "nethersdelight.rei.decomposition.light": "Ускоряется от соседнего огня",
+  "nethersdelight.rei.decomposition.fluid": "Ускоряется от соседней лавы",
+  "nethersdelight.rei.decomposition.accelerators": "Ускоряется от соседних активаторов (см. ниже)",
+
+  "block.nethersdelight.propelplant_torch": "Факел пропелпланта",
+  "block.nethersdelight.propelplant_berry_stem": "Стебель пропелпланта",
+  "block.nethersdelight.propelplant_cane": "Тростник пропелпланта",
+  "block.nethersdelight.propelplant_berry_cane": "Ягодный тростник пропелпланта",
+  "block.nethersdelight.propelplant_stem": "Стебель пропелпланта",
+  "item.nethersdelight.propelpearl": "Пропелперл",
+  "item.nethersdelight.nether_skewer": "Нидерский шашлык",
+  "item.nethersdelight.magma_gelatin": "Магмовый желатин",
+
+  "itemGroup.nethersdelight.tab": "Nether's Delight"
+}
