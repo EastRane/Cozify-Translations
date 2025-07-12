@@ -1,0 +1,39 @@
+{
+	icon: "cozify:logo"
+	id: "17AD087D43168E1C"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{ item: "cozify:cowboy_hat" }
+		{ item: "cozify:neko_ears" }
+		{ item: "cozify:pirate_hat" }
+		{ item: "cozify:samurai_hat" }
+		{ item: "cozify:speedwagon_hat" }
+		{ item: "cozify:crown" }
+		{ item: "cozify:luffy_hat" }
+		{ item: "cozify:wreath" }
+		{ item: "cozify:earflaps" }
+		{ item: "cozify:tiara" }
+		{ item: "cozify:bunny_ears" }
+		{ item: "cozify:halo" }
+		{ item: "cozify:academic_hat" }
+		{ item: "cozify:cook_hat" }
+		{ item: "cozify:mita_cap" }
+		{ item: "cozify:miku_braids" }
+		{ item: "cozify:zerotwo_horns" }
+		{ item: "cozify:aqua_braids" }
+		{ item: "cozify:jotaro_cap" }
+		{ item: "cozify:kanna_braids" }
+		{ item: "cozify:niko_hat" }
+		{ item: "cozify:hokage_hat" }
+		{ item: "cozify:yazawa_braids" }
+		{ item: "cozify:karen_hat" }
+		{ item: "cozify:megumin_hat" }
+		{ item: "cozify:altair_hat" }
+		{ item: "cozify:hutao_hat" }
+		{ item: "cozify:kamina_glasses" }
+		{ item: "cozify:driller_hat" }
+		{ item: "cozify:inosuke_hat" }
+	]
+	title: "Cozify Rewards"
+}
