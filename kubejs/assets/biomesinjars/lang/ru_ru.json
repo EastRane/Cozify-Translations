@@ -1,0 +1,19 @@
+{
+  "item.biomesinjars.filled_biome_jar.generic": "Biome in a Jar",
+  "item.biomesinjars.filled_biome_jar": "%s в банке",
+  "item.biomesinjars.filled_biome_jar.tooltip.line_1": "§6Кажется, в этой банке сжат",
+  "item.biomesinjars.filled_biome_jar.tooltip.line_2": "§6фрагмент мира.",
+  "item.biomesinjars.filled_biome_jar.tooltip.line_3": "§6Она дрожит у вас в руке.",
+  "item.biomesinjars.filled_biome_jar.tooltip.line_4": "",
+  "item.biomesinjars.filled_biome_jar.tooltip.line_5": "§6Может, его можно как-то извлечь?",
+  "biome.biomesinjars.dead_land": "Мёртвая земля",
+  "item.biomesinjars.empty_biome_jar": "Пустая банка для биома",
+  "item.biomesinjars.empty_biome_jar.tooltip.line_1": "§6Эту маленькую банку окружает",
+  "item.biomesinjars.empty_biome_jar.tooltip.line_2": "§6сильная аура. У вас мурашки",
+  "item.biomesinjars.empty_biome_jar.tooltip.line_3": "§6бегут по коже, когда вы смотрите на неё.",
+  "item.biomesinjars.empty_biome_jar.tooltip.line_4": "§6Если поднести её близко к земле,",
+  "item.biomesinjars.empty_biome_jar.tooltip.line_5": "§6она начинает вибрировать.",
+  "biomesinjars.command.biomejar.unable_to_give": "§cНе удалось выдать предмет! Нет свободных слотов!",
+  "entity.biomesinjars.empty_biome_jar": "Пустая банка для биома",
+  "entity.biomesinjars.filled_biome_jar": "Заполненная банка для биома"
+}

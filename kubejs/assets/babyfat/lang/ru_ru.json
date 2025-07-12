@@ -1,0 +1,10 @@
+{
+  "item.babyfat.ranchu": "Ранчу",
+  "item.babyfat.ranchu_spawn_egg": "Яйцо призыва ранчу",
+  "item.babyfat.ranchu_bucket": "Ведро с ранчу",
+
+  "entity.babyfat.ranchu": "Ранчу",
+  "block.babyfat.water_lettuce": "Пистия",
+
+  "itemGroup.babyfat": "Baby Fat"
+}

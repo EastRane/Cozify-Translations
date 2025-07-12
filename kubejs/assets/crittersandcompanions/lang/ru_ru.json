@@ -1,0 +1,18 @@
+{
+  "entity.crittersandcompanions.jumping_spider": "Прыгающий паук",
+  "block.crittersandcompanions.sea_bunny_slime_block": "Слизневый блок морского зайца",
+  "block.crittersandcompanions.silk_cocoon": "Шёлковый кокон",
+  "entity.crittersandcompanions.shima_enaga": "Сима энага",
+  "item.crittersandcompanions.diamond_dragonfly_armor": "Алмазные доспехи для стрекозы",
+  "item.crittersandcompanions.dragonfly_wing": "Крыло стрекозы",
+  "item.crittersandcompanions.gold_dragonfly_armor": "Золотые доспехи для стрекозы",
+  "item.crittersandcompanions.grappling_hook": "Кошка (альпинистский крюк)",
+  "item.crittersandcompanions.iron_dragonfly_armor": "Железные доспехи для стрекозы",
+  "item.crittersandcompanions.jumping_spider_spawn_egg": "Яйцо призыва прыгающего паука",
+  "item.crittersandcompanions.sea_bunny_slime_bottle": "Флакон слизи морского зайца",
+  "item.crittersandcompanions.shima_enaga_spawn_egg": "Яйцо призыва сима энага",
+  "item.crittersandcompanions.silk": "Шёлк",
+  "item.crittersandcompanions.silk_lead": "Шёлковый поводок",
+  "subtitles.crittersandcompanions.bubble_pop": "Лопается пузырь",
+  "subtitles.crittersandcompanions.shima_enaga.ambient": "Сима энага поёт"
+}

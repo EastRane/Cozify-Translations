@@ -1,0 +1,15 @@
+{
+  "block.magnumtorch.diamond_magnum_torch": "Алмазный магнум-факел",
+  "block.magnumtorch.emerald_magnum_torch": "Изумрудный магнум-факел",
+  "block.magnumtorch.amethyst_magnum_torch": "Аметистовый магнум-факел",
+  "block.magnumtorch.magnum_torch.info": "Предотвращает появление мобов на огромной территории.",
+  "block.magnumtorch.magnum_torch.info.more": "Удерживайте %s для дополнительной информации",
+  "block.magnumtorch.magnum_torch.info.shift": "Shift",
+  "block.magnumtorch.magnum_torch.info.mob_types": "Тип(ы) мобов: %s",
+  "block.magnumtorch.magnum_torch.info.blacklist": "Чёрный список: %s",
+  "block.magnumtorch.magnum_torch.info.whitelist": "Белый список: %s",
+  "block.magnumtorch.magnum_torch.info.shape_type": "Тип зоны: %s",
+  "block.magnumtorch.magnum_torch.info.horizontal_range": "Горизонтальный радиус: %s",
+  "block.magnumtorch.magnum_torch.info.vertical_range": "Вертикальный радиус: %s",
+  "itemGroup.magnumtorch.main": "Magnum Torch"
+}

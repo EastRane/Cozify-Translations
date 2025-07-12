@@ -1,0 +1,11 @@
+{
+  "item.mermod.sea_necklace": "Морское ожерелье",
+  "item.mermod.sea_crystal": "Морской кристалл",
+  "item.mermod.mermaid_bra_modifier": "Лиф русалки",
+  "item.mermod.tail_gradient_modifier": "Градиент хвоста",
+  "item.mermod.glowing_pearl_modifier": "Светящаяся жемчужина",
+  "item.mermod.moon_rock_modifier": "Лунный камень",
+  "item.mermod.ursula_shell_modifier": "Раковина урсулы",
+  "tooltip.mermod.modifierHint": "Удерживайте Shift и ПКМ для удаления модификаторов",
+  "tooltip.mermod.canBeDyed": "Можно покрасить"
+}

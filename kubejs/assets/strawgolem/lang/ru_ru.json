@@ -1,0 +1,18 @@
+{
+  "entity.strawgolem.strawgolem": "Соломенный голем",
+  "strawgolem.health.new": "Здоровый",
+  "strawgolem.health.old": "Стареющий",
+  "strawgolem.health.withered": "Высохший",
+  "strawgolem.health.dying": "Умирающий",
+  "strawgolem.subtitle.golemAmbient": "Звуки соломенного голема",
+  "strawgolem.subtitle.golemScared": "Соломенный голем напуган",
+  "strawgolem.subtitle.golemHurt": "Соломенный голем ранен",
+  "strawgolem.subtitle.golemDeath": "Соломенный голем умирает",
+  "strawgolem.subtitle.golemHeal": "Соломенный голем починен",
+  "strawgolem.subtitle.golemInterested": "Соломенный голем заинтересовался",
+  "strawgolem.subtitle.golemStrained": "Соломенный голем напрягается",
+  "strawgolem.subtitle.golemDisgusted": "Соломенный голем раздражён",
+  "config.jade.plugin_strawgolem.strawgolem_enabled": "Показывать данные соломенного голема",
+  "config.jade.plugin_strawgolem.strawgolem": "Настройки соломенного голема",
+  "item.strawgolem.straw_hat": "Соломенная шляпа"
+}

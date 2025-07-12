@@ -1,0 +1,47 @@
+{
+  "tooltip.solsweetpotato.disabled": "Эта еда не увеличивает разнообразие питания.",
+
+  "command.solsweetpotato.solsweetpotato.no_permissions": "У вас нет прав для применения этой команды к другим игрокам!",
+  "command.solsweetpotato.solsweetpotato.clear.success": "Список съеденной еды сброшен!",
+  "command.solsweetpotato.solsweetpotato.diversity_feedback": "Разнообразие питания: %.2f",
+  "command.solsweetpotato.solsweetpotato.sync.success": "Список еды синхронизирован!",
+  "command.solsweetpotato.solsweetpotato.origin.invalidated": "Кэш происхождения игрока сброшен!",
+  "command.solsweetpotato.solsweetpotato.origin.cleared": "Весь кэш происхождений очищен!",
+  "command.solsweetpotato.solsweetpotato.origin.inapplicable": "Мод Origins не установлен. Данные о происхождении всё равно очищены.",
+
+  "item.solsweetpotato.food_book": "Кулинарная книга",
+  "item.solsweetpotato.lunchbox": "Ланчбокс",
+  "item.solsweetpotato.container.lunchbox": "Ланчбокс",
+  "item.solsweetpotato.golden_lunchbox": "Золотой ланчбокс",
+  "item.solsweetpotato.container.golden_lunchbox": "Золотой ланчбокс",
+  "item.solsweetpotato.lunchbag": "Сумочка для еды",
+  "item.solsweetpotato.container.lunchbag": "Сумочка для еды",
+
+  "key.solsweetpotato.open_food_book": "Открыть кулинарную книгу",
+  "key.solsweetpotato.category": "Spice of Life: Картофельное Издание",
+  
+  "gui.solsweetpotato.food_book.stats": "Обзор",
+  "gui.solsweetpotato.food_book.stats.current_diversity": "Текущее разнообразие питания",
+  "gui.solsweetpotato.food_book.stats.min_warning1": "Нужно поесть ещё %d раз(а)",
+  "gui.solsweetpotato.food_book.stats.min_warning2": "для активации бонусов",
+  "gui.solsweetpotato.food_book.active_benefits_header": "Активные бонусы",
+  "gui.solsweetpotato.food_book.inactive_benefits_header": "Неактивные бонусы",
+  "gui.solsweetpotato.food_book.active_detriments_header": "Активные штрафы",
+  "gui.solsweetpotato.food_book.inactive_detriments_header": "Неактивные штрафы",
+  "gui.solsweetpotato.food_book.benefits.threshold_label": "Порог",
+  "gui.solsweetpotato.food_book.benefits.active_tooltip": "Этот бонус активен, так как ваше разнообразие питания превышает этот порог.",
+  "gui.solsweetpotato.food_book.benefits.inactive_tooltip": "Если ваше разнообразие питания превысит этот порог, этот бонус активируется.",
+  "gui.solsweetpotato.food_book.food_queue_label": "Съеденная еда",
+  "gui.solsweetpotato.food_book.queue.food_queue_tooltip": "Список всей съеденной еды, которая учитывается для разнообразия питания.",
+
+  "gui.solsweetpotato.food_book.fraction": "%1$s/%2$s",
+
+  "gui.solsweetpotato.food_book.queue.tooltip.contribution_label": "Вклад в разнообразие",
+  "gui.solsweetpotato.food_book.queue.tooltip.last_eaten_label": "Съедено: %d приёмов пищи назад",
+  "gui.solsweetpotato.food_book.queue.tooltip.last_eaten_label_singular": "Съедено: %d приём пищи назад",
+  
+  "config.solsweetpotato.is_food_tooltip_enabled": "Включить подсказки о еде",
+  "config.solsweetpotato.food_blacklist": "Чёрный список",
+  "config.solsweetpotato.food_whitelist": "Белый список (отключает чёрный список)",
+  "config.solsweetpotato.reset_on_death": "Сброс при смерти"
+}

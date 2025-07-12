@@ -1,0 +1,21 @@
+{
+  "block.snuffles.snuffle_fluff": "Пушок Снаффла",
+  "block.snuffles.frosty_fluff": "Ледяной пушок",
+  "block.snuffles.snuffle_fluff_carpet": "Ковёр из пушка Снаффла",
+  "block.snuffles.frosty_fluff_carpet": "Ковёр из ледяного пушка",
+
+  "item.snuffles.snuffle_spawn_egg": "Яйцо призыва Снаффла",
+
+  "entity.snuffles.snuffle": "Снаффл",
+
+  "snuffles.subtitles.block.frosty_fluff.thaw": "Пушок тает",
+
+  "snuffles.subtitles.entity.snuffle.ambient": "Снаффл фыркает",
+  "snuffles.subtitles.entity.snuffle.death": "Снаффл умирает",
+  "snuffles.subtitles.entity.snuffle.eat": "Снаффл чавкает",
+  "snuffles.subtitles.entity.snuffle.hurt": "Снаффлу больно",
+  "snuffles.subtitles.entity.snuffle.shake": "Снаффл трясётся",
+  "snuffles.subtitles.entity.snuffle.step": "Снаффл шагает",
+  "snuffles.subtitles.entity.snuffle.style": "Шлёпается слизевый шарик",
+  "snuffles.subtitles.entity.snuffle.thaw": "Снаффл оттаивает"
+}

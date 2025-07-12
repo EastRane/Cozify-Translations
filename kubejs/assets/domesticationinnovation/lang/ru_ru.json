@@ -1,0 +1,18 @@
+{
+    "block.domesticationinnovation.wayward_lantern": "Блуждающий фонарь",
+    "domesticationinnovation.sound.subtitle.blazing_protection": "Исчезают огненные барьеры",
+    "enchantment.domesticationinnovation.blazing_protection": "Огненная защита",
+    "enchantment.domesticationinnovation.blazing_protection.desc": "Питомец будет защищён от урона 2 огненными барьерами за уровень, которые отбрасывают и поджигают атакующих.",
+    "enchantment.domesticationinnovation.healing_aura": "Аура исцеления",
+    "enchantment.domesticationinnovation.healing_aura.desc": "Питомец будет периодически исцелять хозяина и других питомцев вокруг себя. Уровень зачарования определяет силу эффекта.",
+    "enchantment.domesticationinnovation.immaturity_curse": "Проклятие детства",
+    "enchantment.domesticationinnovation.immaturity_curse.desc": "Питомец выглядит и ведёт себя как детёныш, нанося уменьшенный урон.",
+    "enchantment.domesticationinnovation.muffled": "Бесшумность",
+    "enchantment.domesticationinnovation.muffled.desc": "Питомец не издаёт звуков и вибраций при движении.",
+    "enchantment.domesticationinnovation.rejuvenation": "Омоложение",
+    "enchantment.domesticationinnovation.rejuvenation.desc": "При получении урона питомец может поглощать сферы опыта для исцеления.",
+    "enchantment.domesticationinnovation.tethered_teleport": "Телепортация на привязи",
+    "enchantment.domesticationinnovation.tethered_teleport.desc": "Питомец будет телепортироваться вместе с хозяином, даже между измерениями.",
+    "entity.domesticationinnovation.psychic_wall": "Пси-барьер",
+    "message.domesticationinnovation.wayward_lantern_return": "%s нашёл путь к ближайшему Блуждающему фонарю"
+}

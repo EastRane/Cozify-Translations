@@ -1,0 +1,11 @@
+{
+  "_comment": "Blocks",
+  "block.disenchanting.disenchanter": "Дизенчантер",
+  "block.disenchanting.disenchanter.tooltip": "Снимает чары с предметов и переносит их на книги.",
+
+  "_comment": "Creative Tabs",
+  "itemGroup.Disenchanting": "Disenchanting",
+
+  "_comment": "Names",
+  "gui.disenchanting.disenchanter.cost": "Стоимость"
+}

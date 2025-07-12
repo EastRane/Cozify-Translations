@@ -1,0 +1,21 @@
+{
+  "block.applecrates.acacia_crate": "Акациевый ящик",
+  "block.applecrates.birch_crate": "Берёзовый ящик",
+  "block.applecrates.crimson_crate": "Багровый ящик",
+  "block.applecrates.dark_oak_crate": "Ящик из тёмного дуба",
+  "block.applecrates.jungle_crate": "Тропический ящик",
+  "block.applecrates.oak_crate": "Дубовый ящик",
+  "block.applecrates.spruce_crate": "Еловый ящик",
+  "block.applecrates.warped_crate": "Искажённый ящик",
+  "cannot.switch.trade": "Чтобы изменить платёж, слот выплаты должен быть пустым",
+  "container.crate": "Ящик",
+  "container.crate.owner": "Мой магазин в ящике",
+  "crate.set.creative": "Ящик настроен как креативный магазин",
+  "crate.add.owner": "Добавить владельца",
+  "crate.add.owner.confirm": "Подтвердить добавление владельца",
+  "crate.add.owner.success": "Игрок %s добавлен как владелец!",
+  "crate.add.owner.not_found": "Игрок %s не найден, нельзя добавить как владельца",
+  "crate.add.owner.already_owner": "%s уже является владельцем!",
+  "crate.button.sale.owner": "Настроить обмен",
+  "crate.button.sale.buyer": "Обменять"
+}

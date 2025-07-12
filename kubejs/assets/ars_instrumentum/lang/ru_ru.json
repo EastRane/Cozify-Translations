@@ -1,0 +1,14 @@
+{
+  "ars_instrumentum.tooltip.mana_cost": "Стоимость маны: ",
+  "block.ars_instrumentum.arcane_applicator": "Чародейский аппликатор",
+  "instrumentum.armarium.hotbar_no_switch": "Армарий волшебника не будет переключать предметы на панели",
+  "instrumentum.armarium.hotbar_switch": "Армарий волшебника будет переключать предметы на панели",
+  "item.ars_instrumentum.copy_paste_spell_scroll": "Свиток переноса заклинаний",
+  "item.ars_instrumentum.fake_wilden_tribute": "Эссенция поверженных врагов",
+  "item.ars_instrumentum.numeric_mana_charm": "Амулет числовой маны",
+  "item.ars_instrumentum.runic_storage_stone": "Рунический камень хранения",
+  "item.ars_instrumentum.scroll_of_save_starbuncle": "Свиток спасения звездоуха",
+  "item.ars_instrumentum.wizards_armarium": "Армарий волшебника",
+  "key.ars_nouveau.choose_armarium_slot": "(Армарий волшебника) Переключить HUD выбора",
+  "key.ars_nouveau.switch_armarium_slot": "Переключить армарий волшебника"
+}

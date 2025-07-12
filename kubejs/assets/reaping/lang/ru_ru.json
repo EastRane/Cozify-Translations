@@ -1,0 +1,21 @@
+{
+  "item.reaping.iron_reaping_tool": "Железная коса",
+  "item.reaping.gold_reaping_tool": "Золотая коса",
+  "item.reaping.diamond_reaping_tool": "Алмазная коса",
+  "item.reaping.netherite_reaping_tool": "Незеритовая коса",
+  "item.reaping.human_meat": "Подозрительное мясо",
+  "enchantment.reaping.executioner": "Палач",
+  "enchantment.reaping.executioner.desc": "Даёт шанс выпадения головы игрока при его «скашивании».",
+  "enchantment.reaping.curse_of_bluntness": "Проклятие тупоты",
+  "enchantment.reaping.curse_of_bluntness.desc": "Увеличивает шанс смерти животных при их «скашивании».",
+  "reaping.advancements.human_meat.title": "Не так уж вкусно...",
+  "reaping.advancements.human_meat.description": "Надо было дважды подумать перед тем, как это есть.",
+  "reaping.advancements.netherite_reaping_tool.title": "Зачем ты это сделал?",
+  "reaping.advancements.netherite_reaping_tool.description": "Серьёзно, задумайся: 'Зачем я это сделал?'",
+  "stat.reaping.use_reaper_tool": "Использований косы",
+  "text.autoconfig.reaping.title": "Настройки мода Reaping",
+  "text.autoconfig.reaping.option.enableDispenserBehavior": "Разрешить раздатчикам",
+  "text.autoconfig.reaping.option.enableDispenserBehavior.@Tooltip": "Позволяет автоматизировать процесс «скашивания» с помощью раздатчиков.",
+  "text.autoconfig.reaping.option.reapPlayers": "Разрешить «скашивание» игроков",
+  "text.autoconfig.reaping.option.reapPlayers.@Tooltip": "Позволяет «скашивать» игроков, временно уменьшая их размер."
+}
