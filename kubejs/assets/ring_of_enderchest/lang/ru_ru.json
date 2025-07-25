@@ -1,0 +1,8 @@
+{
+	"item.ring_of_enderchest.ring_of_enderchest": "Кольцо Сундука Края",
+	"item.ring_of_enderchest.ring_of_enderchest.line1": "Даёт доступ к вашему Сундуку Края",
+	"item.ring_of_enderchest.ring_of_enderchest.line2": "Использование: ПКМ",
+	"item.ring_of_enderchest.ring_of_enderchest.line3": "Сундук Края всегда под рукой",
+		
+	"itemGroup.ring_of_enderchest": "Ring of Enderchest"
+}
