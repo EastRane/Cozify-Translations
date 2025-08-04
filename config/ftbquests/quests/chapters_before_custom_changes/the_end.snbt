@@ -1,0 +1,719 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "5FB460EFA0A2567E"
+	icon: "minecraft:ender_eye"
+	id: "5CD8650A590340E5"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 10.0d
+		hover: [ ]
+		image: "cottagewitch:textures/quest_ui/bgtheend.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{cottagewitch.the_end.quests0.description0}"
+				"{cottagewitch.the_end.quests0.description1}"
+				""
+				"{cottagewitch.the_end.quests0.description2}"
+			]
+			id: "19ED6330FD3E968C"
+			rewards: [
+				{
+					id: "7B03ECB960F43CA2"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+				{
+					count: 4
+					id: "66F840ADEF6868F0"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{cottagewitch.the_end.quests0.subtitle}"
+			tasks: [{
+				id: "52571EA0A052EBB4"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:eyes"
+					}
+				}
+				title: "{cottagewitch.the_end.quests0.tasks0.title}"
+				type: "item"
+			}]
+			title: "{cottagewitch.the_end.quests0.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["{cottagewitch.the_end.quests1.description0}"]
+			id: "1689A10C4DBBE5B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E71893970FB14C4"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0AB9F107629AD0F7"
+				item: {
+					Count: 1b
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["{cottagewitch.the_end.quests2.description0}"]
+			id: "2C24C18C174AD842"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59D5819F6A1DF3BA"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1F5C79ECEC9F9E1D"
+				item: {
+					Count: 1b
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["{cottagewitch.the_end.quests3.description0}"]
+			id: "468D0B739D93E018"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "317B59CE91F954A0"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3D5D03F3351D90DA"
+				item: {
+					Count: 1b
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["{cottagewitch.the_end.quests4.description0}"]
+			id: "59B0992CDA1B5797"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57E86B80B8DABCFB"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "58361D1901173A62"
+				item: {
+					Count: 1b
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["{cottagewitch.the_end.quests5.description0}"]
+			id: "3278B2F717A8F374"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11D711C47166B750"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1FBCA3F2D130D48F"
+				item: {
+					Count: 1b
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["{cottagewitch.the_end.quests6.description0}"]
+			id: "2DCD3962DBC7E1F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44335C7AD6A4DF74"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6F5AB50C27E984E7"
+				item: {
+					Count: 1b
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["{cottagewitch.the_end.quests7.description0}"]
+			id: "393FED910B541631"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "798DF96B9837235D"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6EB8191E6422D6E8"
+				item: {
+					Count: 1b
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["{cottagewitch.the_end.quests8.description0}"]
+			id: "513067CD571D369E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16866C8BC1B49A76"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "21DFE47B30E241A4"
+				item: {
+					Count: 1b
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["{cottagewitch.the_end.quests9.description0}"]
+			id: "0ED4E7CE946E5F48"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6546FCC5018CB0A3"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "277FB00BFBEBAC58"
+				item: {
+					Count: 1b
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["{cottagewitch.the_end.quests10.description0}"]
+			id: "13555E89D6122D88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46A71C1A85887BEC"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "64CC7ACA72208D69"
+				item: {
+					Count: 1b
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["{cottagewitch.the_end.quests11.description0}"]
+			id: "2356716DE94666CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45EF02BC028B69D6"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "168060C4F3E854E7"
+				item: {
+					Count: 1b
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["{cottagewitch.the_end.quests12.description0}"]
+			id: "605D30BFA0C1C6A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3353D01BC8E3691E"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5CC3D5714841ADDB"
+				item: {
+					Count: 1b
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["{cottagewitch.the_end.quests13.description0}"]
+			id: "3AADAC34ECDEF891"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10C486355C05FB0A"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1698112600C02176"
+				item: {
+					Count: 1b
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: ["{cottagewitch.the_end.quests14.description0}"]
+			id: "537CCA9E121868CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58624D9FAD24CB4C"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "34B655A1388E1E57"
+				item: {
+					Count: 1b
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["09ED0DFEB72DFD71"]
+			description: [
+				"{cottagewitch.the_end.quests15.description0}"
+				"{cottagewitch.the_end.quests15.description1}"
+				"{cottagewitch.the_end.quests15.description2}"
+				"{cottagewitch.the_end.quests15.description3}"
+			]
+			id: "2499CAE3934539A8"
+			rewards: [
+				{
+					id: "413E37523059C4FA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "25C3E0834F07B31B"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1537323324
+									-1924446866
+									-1821788879
+									931981548
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2NhYTViZjFiZWRlOWEyN2EwZDBiOTg1Zjc3ZThiOTczMGQ1ZGIzZWRhOTUyZGZlM2YxYTMxYjg3ZDVlZmVjOCJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Galactic Fancy Cube\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23DF10EB4F592A9B"
+					item: {
+						Count: 1b
+						id: "mcsa:dragonsbane_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6569BB096080BB6A"
+					item: {
+						Count: 1b
+						id: "mcsa:dragonsbane_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07E1A7339E40C5D1"
+					item: {
+						Count: 1b
+						id: "mcsa:dragonsbane_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47FCF0801CF06111"
+					item: {
+						Count: 1b
+						id: "mcsa:dragonsbane_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "156465FDCAE26D4A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2499CAE3934539A8"]
+			description: ["{cottagewitch.the_end.quests16.description0}"]
+			id: "73EAABCF703B9DC9"
+			rewards: [
+				{
+					id: "531F56AEE724EECA"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "1FE95FD86BB52DD5"
+					item: "plushies:dragon"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{cottagewitch.the_end.quests16.subtitle}"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "67B253CC90918C33"
+				type: "kill"
+				value: 2L
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: [
+				"{cottagewitch.the_end.quests17.description0}"
+				"{cottagewitch.the_end.quests17.description1}"
+			]
+			icon: "minecraft:end_stone"
+			id: "09ED0DFEB72DFD71"
+			rewards: [
+				{
+					id: "76EADCCD9FC6E5A3"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+				{
+					id: "7AABD5828ADFB215"
+					table_id: 223398162038636868L
+					type: "loot"
+				}
+				{
+					count: 4
+					id: "5C10C3DAA763509E"
+					item: "ends_delight:chorus_flower_tea"
+					type: "item"
+				}
+			]
+			subtitle: "{cottagewitch.the_end.quests17.subtitle}"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "4B187CE8DA0DF7C5"
+				type: "dimension"
+			}]
+			title: "{cottagewitch.the_end.quests17.title}"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3278B2F717A8F374"
+				"59B0992CDA1B5797"
+				"2C24C18C174AD842"
+				"513067CD571D369E"
+				"537CCA9E121868CC"
+				"605D30BFA0C1C6A7"
+				"3AADAC34ECDEF891"
+				"2356716DE94666CF"
+				"13555E89D6122D88"
+				"1689A10C4DBBE5B0"
+				"0ED4E7CE946E5F48"
+				"468D0B739D93E018"
+				"2DCD3962DBC7E1F4"
+				"393FED910B541631"
+			]
+			description: [
+				"{cottagewitch.the_end.quests18.description0}"
+				"{cottagewitch.the_end.quests18.description1}"
+			]
+			hide_dependency_lines: true
+			id: "72A4C21205E75EAD"
+			rewards: [
+				{
+					id: "01C5430F01DBEBB0"
+					item: {
+						Count: 1b
+						id: "mcsa:ender_defender_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64C5B5E5FA86F453"
+					item: {
+						Count: 1b
+						id: "mcsa:ender_defender_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1873090398231C34"
+					item: {
+						Count: 1b
+						id: "mcsa:ender_defender_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "213BCA77231CB858"
+					item: {
+						Count: 1b
+						id: "mcsa:ender_defender_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1B27633C39539B20"
+				title: "{cottagewitch.the_end.quests18.tasks0.title}"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			id: "43C892891BB4B5BF"
+			invisible: true
+			optional: true
+			secret: true
+			tasks: [{
+				id: "0C40EFA512BABADB"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09ED0DFEB72DFD71"]
+			description: ["{cottagewitch.the_end.quests20.description0}"]
+			id: "26E52D95C9C75019"
+			repeatable: true
+			rewards: [{
+				id: "06C611660703EF32"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "{cottagewitch.the_end.quests20.subtitle}"
+			tasks: [{
+				consume_items: true
+				id: "5E03B62FE26BC617"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "{cottagewitch.the_end.quests20.title}"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19ED6330FD3E968C"]
+			description: [
+				"{cottagewitch.the_end.quests21.description0}"
+				""
+				"{cottagewitch.the_end.quests21.description1}"
+			]
+			id: "6167F02311D1B848"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B94199CC5BB9F6D"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2D68E1F8B3ADF236"
+				item: {
+					Count: 1b
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+	]
+	title: "{cottagewitch.the_end.title}"
+}

@@ -1,0 +1,1201 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "hexerei"
+	group: "2757402A47D6A081"
+	icon: {
+		Count: 1b
+		id: "hexerei:book_of_shadows"
+		tag: { }
+	}
+	id: "16A6E852FCFF0916"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 15.0d
+		hover: [ ]
+		image: "cottagewitch:textures/quest_ui/bghexerei.png"
+		rotation: 0.0d
+		width: 25.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["082D264993F18EDB"]
+			description: [
+				"{cottagewitch.hexerei.quests0.description0}"
+				""
+				"{cottagewitch.hexerei.quests0.description1}"
+				""
+				"{cottagewitch.hexerei.quests0.description2}"
+			]
+			id: "0BD409AFD13534B3"
+			rewards: [{
+				count: 5
+				id: "56A0A94A9AABA4EB"
+				item: "hexerei:animal_fat"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.hexerei.quests0.subtitle}"
+			tasks: [{
+				id: "528DF902FAC0B2BA"
+				item: {
+					Count: 1b
+					id: "hexerei:book_of_shadows"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0BD409AFD13534B3"]
+			description: ["{cottagewitch.hexerei.quests1.description0}"]
+			id: "047370ADE354D8DB"
+			rewards: [
+				{
+					count: 5
+					id: "69D122C374973D30"
+					item: "hexerei:sage"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D5043A8454E6425"
+					table_id: 578597190891487109L
+					type: "random"
+				}
+			]
+			subtitle: "{cottagewitch.hexerei.quests1.subtitle}"
+			tasks: [{
+				id: "6D8496FFCD25B7E8"
+				item: "hexerei:book_of_shadows_altar"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"{cottagewitch.hexerei.quests2.description0}"
+				""
+				"{cottagewitch.hexerei.quests2.description1}"
+			]
+			id: "082D264993F18EDB"
+			rewards: [
+				{
+					id: "4BFFBD231F70F8A5"
+					item: "hexerei:mahogany_sapling"
+					type: "item"
+				}
+				{
+					id: "196150A8877A6ED4"
+					item: "hexerei:sage_seed"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{cottagewitch.hexerei.quests2.subtitle}"
+			tasks: [{
+				id: "0EFEF3BCA9D8406D"
+				item: "hexerei:dowsing_rod"
+				type: "item"
+			}]
+			title: "{cottagewitch.hexerei.quests2.title}"
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["082D264993F18EDB"]
+			description: [
+				"{cottagewitch.hexerei.quests3.description0}"
+				"{cottagewitch.hexerei.quests3.description1}"
+			]
+			id: "327D93798A7BE211"
+			rewards: [
+				{
+					id: "5D4390657530F67D"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3F84B3AB271E4BFD"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "7CB5DF32EB55AFF9"
+					item: "hexerei:animal_fat"
+					type: "item"
+				}
+			]
+			subtitle: "{cottagewitch.hexerei.quests3.subtitle}"
+			tasks: [{
+				id: "488C14AA07A91B92"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			title: "{cottagewitch.hexerei.quests3.title}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["327D93798A7BE211"]
+			description: [
+				"{cottagewitch.hexerei.quests4.description0}"
+				"{cottagewitch.hexerei.quests4.description1}"
+			]
+			id: "2E5DB4D84367E11B"
+			rewards: [{
+				count: 24
+				id: "71A2895B8EF9F14B"
+				item: "hexerei:mahogany_planks"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.hexerei.quests4.subtitle}"
+			tasks: [{
+				id: "15EC7F22F2909AA0"
+				item: {
+					Count: 1b
+					id: "hexerei:coffer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{cottagewitch.hexerei.quests4.title}"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["327D93798A7BE211"]
+			description: ["{cottagewitch.hexerei.quests5.description0}"]
+			id: "427FD234857AEBE8"
+			rewards: [{
+				count: 10
+				id: "541A9AA5FD090EA9"
+				item: "minecraft:black_dye"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.hexerei.quests5.subtitle}"
+			tasks: [{
+				id: "76507BA19151F1B1"
+				item: "hexerei:infused_fabric"
+				type: "item"
+			}]
+			title: "{cottagewitch.hexerei.quests5.title}"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["327D93798A7BE211"]
+			description: [
+				"{cottagewitch.hexerei.quests6.description0}"
+				""
+				"{cottagewitch.hexerei.quests6.description1}"
+				""
+				"{cottagewitch.hexerei.quests6.description2}"
+			]
+			id: "0CE78F66E92FB026"
+			rewards: [
+				{
+					count: 4
+					id: "161E8286B74205FA"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "033143791C152FFF"
+					item: "hexerei:animal_fat"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.hexerei.quests6.subtitle}"
+			tasks: [{
+				id: "7E7042B5D9EA5B06"
+				item: "hexerei:candle_dipper"
+				type: "item"
+			}]
+			title: "{cottagewitch.hexerei.quests6.title}"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0CE78F66E92FB026"]
+			description: [
+				"{cottagewitch.hexerei.quests7.description0}"
+				""
+				"{cottagewitch.hexerei.quests7.description1}"
+			]
+			id: "512C813AEE3A5BCD"
+			rewards: [
+				{
+					count: 3
+					id: "34689BAE2847DE91"
+					item: "minecraft:chain"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C2DB4FD1A8ECFC0"
+					table_id: 578597190891487109L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.hexerei.quests7.subtitle}"
+			tasks: [{
+				id: "6D8F60A172E688C7"
+				item: "hexerei:candelabra"
+				type: "item"
+			}]
+			title: "{cottagewitch.hexerei.quests7.title}"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["327D93798A7BE211"]
+			description: ["{cottagewitch.hexerei.quests8.description0}"]
+			id: "24C19E2033095FFA"
+			rewards: [
+				{
+					count: 3
+					id: "5FD96D6AD493AF0D"
+					item: "minecraft:melon_seeds"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6BF010F56B19A834"
+					item: "minecraft:pumpkin_seeds"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1D9F22481094999E"
+					item: "hexerei:sage_seed"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2F7ADE8AEDA834FA"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4BE640F21E13E972"
+					item: "minecraft:beetroot_seeds"
+					type: "item"
+				}
+			]
+			subtitle: "{cottagewitch.hexerei.quests8.subtitle}"
+			tasks: [{
+				id: "45ECD184E676ED09"
+				item: "hexerei:pestle_and_mortar"
+				type: "item"
+			}]
+			title: "{cottagewitch.hexerei.quests8.title}"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["082D264993F18EDB"]
+			description: ["{cottagewitch.hexerei.quests9.description0}"]
+			id: "621ACA8319D6CB93"
+			rewards: [
+				{
+					id: "14DC50EE33D19287"
+					item: "hexerei:herb_drying_rack_full"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "064D57C2FD1652D0"
+					table_id: 578597190891487109L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "567219C6B62AB26E"
+				item: "hexerei:herb_drying_rack"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["327D93798A7BE211"]
+			description: ["{cottagewitch.hexerei.quests10.description0}"]
+			id: "34670D78DC22EC27"
+			rewards: [
+				{
+					id: "61678DF10F0987BF"
+					item: {
+						Count: 1b
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "422CAA5D8C6F7490"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "38F0D2AA68359BAC"
+				item: "hexerei:sage_burning_plate"
+				type: "item"
+			}]
+			title: "{cottagewitch.hexerei.quests10.title}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34670D78DC22EC27"]
+			description: [
+				"{cottagewitch.hexerei.quests11.description0}"
+				""
+				"{cottagewitch.hexerei.quests11.description1}"
+				""
+				"{cottagewitch.hexerei.quests11.description2}"
+				""
+				"{cottagewitch.hexerei.quests11.description3}"
+			]
+			id: "2AABE6469023F950"
+			rewards: [
+				{
+					id: "7CF51240572B8CA9"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					id: "6E1202E0A5E54FA6"
+					item: {
+						Count: 1b
+						id: "hexerei:dried_sage_bundle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{cottagewitch.hexerei.quests11.subtitle}"
+			tasks: [{
+				id: "6271D4424F4DE0CD"
+				item: "hexerei:sage_bundle"
+				type: "item"
+			}]
+			title: "{cottagewitch.hexerei.quests11.title}"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["427FD234857AEBE8"]
+			description: ["{cottagewitch.hexerei.quests12.description0}"]
+			id: "30CF344B2B4C22E8"
+			rewards: [{
+				count: 5
+				id: "37096165CD57ED01"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.hexerei.quests12.subtitle}"
+			tasks: [{
+				id: "2E4DAE009735A9AE"
+				item: {
+					Count: 1b
+					id: "hexerei:witch_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["30CF344B2B4C22E8"]
+			description: ["{cottagewitch.hexerei.quests13.description0}"]
+			id: "12BD390D5D9BA40F"
+			rewards: [{
+				id: "6D542FA8DCE20339"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.hexerei.quests13.subtitle}"
+			tasks: [{
+				id: "7BD71B4C57FB882C"
+				item: {
+					Count: 1b
+					id: "hexerei:mushroom_witch_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{cottagewitch.hexerei.quests13.title}"
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["427FD234857AEBE8"]
+			description: [
+				"{cottagewitch.hexerei.quests14.description0}"
+				"{cottagewitch.hexerei.quests14.description1}"
+			]
+			id: "56D87707F4EA479B"
+			rewards: [{
+				id: "5A64CE15AFF667FA"
+				item: {
+					Count: 1b
+					id: "hexerei:broom_keychain"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.hexerei.quests14.subtitle}"
+			tasks: [{
+				id: "530E75B6474DD630"
+				item: {
+					Count: 1b
+					id: "hexerei:witch_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{cottagewitch.hexerei.quests14.title}"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["427FD234857AEBE8"]
+			description: [
+				"{cottagewitch.hexerei.quests15.description0}"
+				""
+				"{cottagewitch.hexerei.quests15.description1}"
+			]
+			id: "593B80E42F663D6A"
+			rewards: [{
+				id: "4A0076C2F9DDB97D"
+				item: "hexerei:crystal_ball"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.hexerei.quests15.subtitle}"
+			tasks: [{
+				id: "286AD377C5E2B47A"
+				item: {
+					Count: 1b
+					id: "hexerei:witch_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["327D93798A7BE211"]
+			description: [
+				"{cottagewitch.hexerei.quests16.description0}"
+				""
+				"{cottagewitch.hexerei.quests16.description1}"
+				""
+				"{cottagewitch.hexerei.quests16.description2}"
+				""
+				"{cottagewitch.hexerei.quests16.description3}"
+			]
+			id: "05772A2D60C9FF3D"
+			rewards: [{
+				count: 10
+				id: "6586238363D5B476"
+				item: "hexerei:belladonna_flowers"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.hexerei.quests16.subtitle}"
+			tasks: [{
+				id: "436CB6E46B3B076B"
+				item: {
+					Count: 1b
+					id: "hexerei:herb_jar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{cottagewitch.hexerei.quests16.title}"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2F933DC876021A85"]
+			description: [
+				"{cottagewitch.hexerei.quests17.description0}"
+				""
+				"{cottagewitch.hexerei.quests17.description1}"
+				""
+				"{cottagewitch.hexerei.quests17.description2}"
+			]
+			id: "2C760E07C84C91F2"
+			rewards: [{
+				id: "31176D1E58F04AE2"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			subtitle: "{cottagewitch.hexerei.quests17.subtitle}"
+			tasks: [{
+				id: "01F04DAC0D910CBC"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_flute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["24C19E2033095FFA"]
+			description: ["{cottagewitch.hexerei.quests18.description0}"]
+			id: "18FD7541912B5772"
+			rewards: [{
+				count: 15
+				id: "4F09C97F9D1D8BDD"
+				item: "hexerei:seed_mixture"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.hexerei.quests18.subtitle}"
+			tasks: [{
+				id: "6BB279A5AA82F107"
+				item: "hexerei:seed_mixture"
+				type: "item"
+			}]
+			title: "{cottagewitch.hexerei.quests18.title}"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"327D93798A7BE211"
+				"13B72F5C0CF9E9FB"
+			]
+			description: [
+				"{cottagewitch.hexerei.quests19.description0}"
+				""
+				"{cottagewitch.hexerei.quests19.description1}"
+				""
+				"{cottagewitch.hexerei.quests19.description2}"
+				""
+				"{cottagewitch.hexerei.quests19.description3}"
+				"{cottagewitch.hexerei.quests19.description4}"
+				""
+				"{cottagewitch.hexerei.quests19.description5}"
+			]
+			id: "1698226644682207"
+			rewards: [{
+				id: "69FA42FB516A4B1E"
+				item: {
+					Count: 1b
+					id: "hexerei:broom_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.hexerei.quests19.subtitle}"
+			tasks: [
+				{
+					id: "7DCEB8A6B4301FD3"
+					item: {
+						Count: 1b
+						id: "hexerei:broom_whistle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E53FCCAB6F56A53"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:brooms"
+						}
+					}
+					title: "{cottagewitch.hexerei.quests19.tasks1.title}"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.hexerei.quests19.title}"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1698226644682207"]
+			description: ["{cottagewitch.hexerei.quests20.description0}"]
+			id: "12C571F5FBC6B57C"
+			rewards: [{
+				count: 4
+				id: "75BE36F478AB4ED8"
+				item: "minecraft:sea_lantern"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.hexerei.quests20.subtitle}"
+			tasks: [{
+				id: "675DC589F6C9FEB6"
+				item: {
+					Count: 1b
+					id: "hexerei:broom_waterproof_tip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{cottagewitch.hexerei.quests20.title}"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1698226644682207"]
+			description: [
+				"{cottagewitch.hexerei.quests21.description0}"
+				""
+				"{cottagewitch.hexerei.quests21.description1}"
+				""
+				"{cottagewitch.hexerei.quests21.description2}"
+				""
+				"{cottagewitch.hexerei.quests21.description3}"
+			]
+			id: "02CA3D4397E8BA25"
+			rewards: [{
+				id: "07957AB1AE4682EC"
+				item: "hexerei:small_satchel"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.hexerei.quests21.subtitle}"
+			tasks: [{
+				id: "74C05E33A1A78FDF"
+				item: "hexerei:small_satchel"
+				type: "item"
+			}]
+			title: "{cottagewitch.hexerei.quests21.title}"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7793743B2F9DE215"]
+			description: ["{cottagewitch.hexerei.quests22.description0}"]
+			id: "056F7888052BBEF2"
+			rewards: [{
+				id: "54DE2B9C9A50D548"
+				table_id: 5161092699925703455L
+				type: "random"
+			}]
+			subtitle: "{cottagewitch.hexerei.quests22.subtitle}"
+			tasks: [{
+				id: "3B0F714724380504"
+				item: {
+					Count: 1b
+					id: "hexerei:herb_enhanced_broom_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{cottagewitch.hexerei.quests22.title}"
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["082D264993F18EDB"]
+			description: ["{cottagewitch.hexerei.quests23.description0}"]
+			id: "5857E5BBCF888CDE"
+			rewards: [
+				{
+					id: "4A6763782CD2AA2F"
+					item: "hexerei:mandrake_root"
+					type: "item"
+				}
+				{
+					id: "2971875546F31153"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									2079778463
+									1436896318
+									-1886529491
+									1932404166
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODgwYWM0ZmY0ODhhNmY0MjJmNjk5MmY3N2RkZDU2N2VjMTM5ODdmNmE3ZGNmMzBjOWMzMDJkMmFhZjBmOWI4ZCJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Mandrake\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3267EA1037AD5EDA"
+				item: "hexerei:mandrake_root"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["082D264993F18EDB"]
+			description: [
+				"{cottagewitch.hexerei.quests24.description0}"
+				"{cottagewitch.hexerei.quests24.description1}"
+				"{cottagewitch.hexerei.quests24.description2}"
+			]
+			id: "13B72F5C0CF9E9FB"
+			rewards: [
+				{
+					count: 3
+					id: "188B83FAAB1ABDC5"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77C9F258E151E680"
+					table_id: 174664628969880996L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "300658E94E37A475"
+				item: "hexerei:blood_sigil"
+				type: "item"
+			}]
+			title: "{cottagewitch.hexerei.quests24.title}"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12C571F5FBC6B57C"]
+			description: ["{cottagewitch.hexerei.quests25.description0}"]
+			id: "76A73E61526B9EE1"
+			rewards: [
+				{
+					id: "33E59453A65D36E0"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0EBD721394C342"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.hexerei.quests25.subtitle}"
+			tasks: [{
+				id: "5159842F9DC7FD8C"
+				item: {
+					Count: 1b
+					id: "hexerei:broom_netherite_tip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{cottagewitch.hexerei.quests25.title}"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1698226644682207"]
+			description: ["{cottagewitch.hexerei.quests26.description0}"]
+			id: "7793743B2F9DE215"
+			rewards: [{
+				id: "276FEB3FDFA72135"
+				table_id: 174664628969880996L
+				type: "choice"
+			}]
+			subtitle: "{cottagewitch.hexerei.quests26.subtitle}"
+			tasks: [{
+				id: "78EC7021D87AB697"
+				item: "hexerei:wet_broom_brush"
+				type: "item"
+			}]
+			title: "{cottagewitch.hexerei.quests26.title}"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["082D264993F18EDB"]
+			description: [
+				"{cottagewitch.hexerei.quests27.description0}"
+				""
+				"{cottagewitch.hexerei.quests27.description1}"
+			]
+			id: "41B2EB805FCD2C60"
+			rewards: [
+				{
+					id: "57D8CD7FE6D552D1"
+					item: "hexerei:dried_belladonna_flowers"
+					type: "item"
+				}
+				{
+					id: "3711ECB4C5542F50"
+					item: "hexerei:belladonna_berries"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "40E492FBA6264AAD"
+				item: "hexerei:belladonna_flowers"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["082D264993F18EDB"]
+			description: ["{cottagewitch.hexerei.quests28.description0}"]
+			id: "10936C04ABFAA5B1"
+			rewards: [
+				{
+					id: "5F9644CD2D0EEF08"
+					item: "hexerei:dried_yellow_dock_leaves"
+					type: "item"
+				}
+				{
+					id: "107CB782E44009E2"
+					item: "hexerei:dried_yellow_dock_flowers"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "624E063C37C44A31"
+				item: "hexerei:yellow_dock_leaves"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["082D264993F18EDB"]
+			description: ["{cottagewitch.hexerei.quests29.description0}"]
+			id: "04331D16FB50EEE3"
+			rewards: [
+				{
+					id: "51C5F52A8A1BDAB7"
+					item: "hexerei:dried_mugwort_flowers"
+					type: "item"
+				}
+				{
+					id: "5D3060CF116818A9"
+					item: "hexerei:dried_mugwort_leaves"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5A58C5633F1ECB53"
+				item: "hexerei:mugwort_leaves"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["18FD7541912B5772"]
+			description: [
+				"{cottagewitch.hexerei.quests30.description0}"
+				""
+				"{cottagewitch.hexerei.quests30.description1}"
+				"{cottagewitch.hexerei.quests30.description2}"
+				""
+				"{cottagewitch.hexerei.quests30.description3}"
+				"{image:hexerei:textures/book/pictures/crow_gui.png width:100 height:150 align:1}"
+				"{cottagewitch.hexerei.quests30.description4}"
+			]
+			id: "2F933DC876021A85"
+			rewards: [{
+				count: 10
+				id: "6E7B88E1BF0FA7E0"
+				item: "hexerei:seed_mixture"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.hexerei.quests30.subtitle}"
+			tasks: [{
+				icon: "hexerei:crow_spawn_egg"
+				id: "673D323CC691B58F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "hexerei:crow"
+				type: "observation"
+			}]
+			title: "{cottagewitch.hexerei.quests30.title}"
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2F933DC876021A85"]
+			description: ["{cottagewitch.hexerei.quests31.description0}"]
+			id: "2EF910B028DA06B7"
+			rewards: [
+				{
+					id: "17F85BC08E68919E"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					id: "6A53C11FB9DC1BE7"
+					table_id: 174664628969880996L
+					type: "random"
+				}
+			]
+			subtitle: "{cottagewitch.hexerei.quests31.subtitle}"
+			tasks: [{
+				id: "389497740C370A4A"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			title: "{cottagewitch.hexerei.quests31.title}"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["082D264993F18EDB"]
+			description: ["{cottagewitch.hexerei.quests32.description0}"]
+			id: "196ECF57CAC465DF"
+			rewards: [
+				{
+					id: "3F68B1E47A232DD2"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1866703154
+									1186350311
+									-2050235516
+									1088607100
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI2ODMyODZhOTEyZWVkYzIyNDk3NGIyZDRhZmI3ZmE1NDViMTNhZTYxZDE5ZjNjZGY5OTBlNTFhNTA1YWVmMSJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Grub Soup\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D76F7C923AE48C3"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1966695769
+									-666548780
+									-1984983496
+									-2101651985
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzI5YzUxNzA4ZGQwZWU5MjU4ZTdiZGQ1NzliNWFmZjIzMDZkYTRjMjI1OWQ0OTA5NDdmZmM5NTU4YjU5NWUzOCJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Moon\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "hexerei:crystal_ball"
+				id: "411E16F46A2C2630"
+				structure: "hexerei:dark_coven"
+				type: "structure"
+			}]
+			title: "{cottagewitch.hexerei.quests32.title}"
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["02CA3D4397E8BA25"]
+			description: ["{cottagewitch.hexerei.quests33.description0}"]
+			id: "257F1DCDEC619664"
+			rewards: [{
+				id: "542A82C68F3CC445"
+				item: {
+					Count: 1b
+					id: "hexerei:herb_enhanced_broom_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F5C7EE0FC118025"
+				item: "hexerei:replacer_satchel"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["02CA3D4397E8BA25"]
+			description: ["{cottagewitch.hexerei.quests34.description0}"]
+			id: "434E391D87C3EBD9"
+			rewards: [
+				{
+					id: "56AFA581A237AA71"
+					item: "minecraft:ender_chest"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28F8DDE2D678294D"
+					table_id: 578597190891487109L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "42B39DD407E13292"
+				item: "hexerei:ender_satchel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2F933DC876021A85"]
+			description: ["{cottagewitch.hexerei.quests35.description0}"]
+			id: "0D8DA3376EF50A60"
+			rewards: [
+				{
+					id: "58C876E34099B9F2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3444ADFDCFE78AFA"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2888E00FB1D4D3D5"
+				item: "hexerei:crow_ankh_amulet"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			id: "48F297C52E831F12"
+			invisible: true
+			optional: true
+			secret: true
+			tasks: [{
+				id: "6D04AF94DDA1F2BE"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["327D93798A7BE211"]
+			description: [
+				"{cottagewitch.hexerei.quests37.description0}"
+				""
+				"{cottagewitch.hexerei.quests37.description1}"
+			]
+			id: "766F6DE3017EB431"
+			rewards: [{
+				id: "3278A9E63C2F3475"
+				item: "twilightforest:moon_dial"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "136C49680CFFA705"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "66A3E8EAD7198CE6"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.hexerei.quests37.title}"
+			x: 0.5d
+			y: 4.5d
+		}
+	]
+	title: "{cottagewitch.hexerei.title}"
+}

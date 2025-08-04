@@ -1,0 +1,3017 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "wildlife"
+	group: "5FB460EFA0A2567E"
+	icon: "minecraft:rabbit_hide"
+	id: "4DB925317B421272"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/bgtameable.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/bgneutral.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/bgwyldhunts.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/bgpetslivestock.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/bgmonsters.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/bgmythicmounts.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -9.0d
+			y: 4.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{cottagewitch.wildlife.quests0.description0}"
+				"{cottagewitch.wildlife.quests0.description1}"
+			]
+			id: "51E1C10CB6348CB6"
+			rewards: [{
+				count: 4
+				id: "1CE1B21780C9397B"
+				item: "alexsmobs:cosmic_cod"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests0.subtitle}"
+			tasks: [{
+				icon: "alexsmobs:cosmic_cod"
+				id: "27C5967E071B7CFA"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:cosmaw"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests0.title}"
+			x: -8.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests1.description0}"
+				"{cottagewitch.wildlife.quests1.description1}"
+				"{cottagewitch.wildlife.quests1.description2}"
+			]
+			id: "2B24CC677B5015E5"
+			rewards: [
+				{
+					count: 3
+					id: "5C724813067FBA62"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+				{
+					id: "4F420CB69B639B6C"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									1212509325
+									442452322
+									-1679553384
+									-1344749062
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGY5MzM3ZWQ4YmIwMTg5NzRkZWQwOThhMTE0N2E2ZTkxMGE5NmExZTIyZTAzMDkzN2VjZGZmMWNkM2ViNTBkIn19fQ=="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Mushroom with Eye\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests1.subtitle}"
+			tasks: [{
+				icon: "alexsmobs:mungal_spores"
+				id: "1451AB7F0C9B563D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:mungus"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests1.title}"
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2B24CC677B5015E5"]
+			description: ["{cottagewitch.wildlife.quests2.description0}"]
+			id: "6674937B885ABAE6"
+			rewards: [{
+				id: "0F87224E04B1FC4B"
+				table_id: 7049021818423122779L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "3478529CED933FC7"
+				item: "alexsmobs:mungal_spores"
+				type: "item"
+			}]
+			title: "{cottagewitch.wildlife.quests2.title}"
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests3.description0}"
+				"{cottagewitch.wildlife.quests3.description1}"
+			]
+			id: "7D1423F1D27CCF45"
+			rewards: [
+				{
+					id: "607721ABD5BDBB6F"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E3EF42EE4B0FDE9"
+					table_id: 1279979498352596350L
+					type: "random"
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				icon: "alexsmobs:mimicream"
+				id: "422CC9A5A99269FD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:mimicube"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests3.title}"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: ["{cottagewitch.wildlife.quests4.description0}"]
+			id: "33F3FB13A3EAEF94"
+			rewards: [
+				{
+					id: "4B95E1660ED6D5E6"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "17B298443F339A99"
+					item: "minecraft:potato"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests4.subtitle}"
+			tasks: [{
+				icon: "snuffles:snuffle_fluff"
+				id: "1B7ACAD09345E758"
+				observe_type: 5
+				timer: 0L
+				to_observe: "snuffles:snuffle"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests4.title}"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			description: ["{cottagewitch.wildlife.quests5.description0}"]
+			id: "3D478BC0385C3BE1"
+			rewards: [
+				{
+					id: "2527740DC852B5EB"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64C74820CE6A155B"
+					table_id: 1279979498352596350L
+					type: "choice"
+				}
+			]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests5.subtitle}"
+			tasks: [{
+				icon: "duckling:duck_egg"
+				id: "4830B18A34ECF464"
+				observe_type: 5
+				timer: 0L
+				to_observe: "duckling:quackling"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests5.title}"
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests6.description0}"
+				"{cottagewitch.wildlife.quests6.description1}"
+			]
+			id: "213FB54168FC881F"
+			rewards: [{
+				count: 3
+				id: "626F4446B1B4CF1E"
+				item: "alexsmobs:guster_eye"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "49B0422C0FFB7629"
+				item: "alexsmobs:guster_eye"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3B900109B67CF812"]
+			description: ["{cottagewitch.wildlife.quests7.description0}"]
+			id: "2815581E43C11DFC"
+			rewards: [{
+				id: "6DB9DD2B05EA6CE6"
+				table_id: 7049021818423122779L
+				type: "choice"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/breed_froststalker"
+				criterion: ""
+				id: "52C91B46CDFEC1C4"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests8.description0}"
+				"{cottagewitch.wildlife.quests8.description1}"
+			]
+			id: "3B900109B67CF812"
+			rewards: [{
+				id: "053961692B00BB79"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2B526564C7D69BD8"
+				item: {
+					Count: 1b
+					id: "alexsmobs:froststalker_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["76AE2C92FF896611"]
+			description: ["{cottagewitch.wildlife.quests9.description0}"]
+			id: "1278F8ABB539E261"
+			rewards: [{
+				id: "4F976B6DE5EA26A4"
+				table_id: 7049021818423122779L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7790DBE27A938195"
+				item: "alexsmobs:pigshoes"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			description: ["{cottagewitch.wildlife.quests10.description0}"]
+			id: "76AE2C92FF896611"
+			rewards: [{
+				count: 5
+				id: "67E304D3549A329B"
+				item: "minecraft:brown_mushroom"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests10.subtitle}"
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_tusklin"
+				id: "58B242B28A3B9D69"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:tusklin"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests10.title}"
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests11.description0}"
+				"{cottagewitch.wildlife.quests11.description1}"
+				"{cottagewitch.wildlife.quests11.description2}"
+			]
+			id: "0CED4D17E7F90678"
+			rewards: [
+				{
+					id: "7B2F741EEEC1E014"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					id: "26128A92629C6155"
+					item: "alexsmobs:straddlite"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests11.subtitle}"
+			tasks: [{
+				icon: "alexsmobs:straddlite"
+				id: "25B8F751CD0ACDE8"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:straddler"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests11.title}"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests12.description0}"
+				"{cottagewitch.wildlife.quests12.description1}"
+			]
+			id: "0BC5E9E08677AFC5"
+			rewards: [
+				{
+					id: "2A516B0108716AD5"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C1412DFA9F03CFE"
+					table_id: 1279979498352596350L
+					type: "choice"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{cottagewitch.wildlife.quests12.subtitle}"
+			tasks: [{
+				id: "058D3FB324B36853"
+				item: "alexsmobs:mysterious_worm"
+				type: "item"
+			}]
+			title: "{cottagewitch.wildlife.quests12.title}"
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests13.description0}"
+				"{cottagewitch.wildlife.quests13.description1}"
+			]
+			id: "17CAEDD5E243511D"
+			rewards: [{
+				count: 4
+				id: "2D59D055CD930E61"
+				item: "alexsmobs:rocky_shell"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests13.subtitle}"
+			tasks: [{
+				icon: "alexsmobs:rocky_shell"
+				id: "2A2249DE6B3D9F4C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:rocky_roller"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests13.title}"
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["29BC7591898DB337"]
+			description: ["{cottagewitch.wildlife.quests14.description0}"]
+			id: "6A74504CDF6CECE2"
+			rewards: [
+				{
+					id: "7135EB9C0ED3EA48"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0089411AE895120B"
+					table_id: 1279979498352596350L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.wildlife.quests14.subtitle}"
+			tasks: [{
+				id: "26A11CB956E62F77"
+				item: {
+					Count: 1b
+					id: "alexsmobs:pupfish_locator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests15.description0}"
+				"{cottagewitch.wildlife.quests15.description1}"
+			]
+			id: "29BC7591898DB337"
+			rewards: [
+				{
+					id: "4C30375D62E31976"
+					item: "alexsmobs:fish_bones"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EAD625A64319917"
+					table_id: 1279979498352596350L
+					type: "random"
+				}
+			]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests15.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "alexsmobs:skelewag_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3420B408D8FDF245"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:skelewag"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests15.title}"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests16.description0}"
+				"{cottagewitch.wildlife.quests16.description1}"
+			]
+			id: "76666E9309B6892C"
+			rewards: [{
+				id: "431CD6A5C66FD121"
+				item: "delightful:ender_nectar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.wildlife.quests16.subtitle}"
+			tasks: [{
+				id: "3AEC2EE87BFD35FD"
+				item: "alexsmobs:chorus_on_a_stick"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests17.description0}"
+				"{cottagewitch.wildlife.quests17.description1}"
+			]
+			id: "1ABF76C09E35ED92"
+			rewards: [{
+				count: 5
+				id: "5010EEAD150AF239"
+				item: "alexsmobs:banana"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests17.subtitle}"
+			tasks: [{
+				icon: "alexsmobs:banana"
+				id: "0F1079B5635B918B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:capuchin_monkey"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests17.title}"
+			x: -11.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0CED4D17E7F90678"]
+			description: ["{cottagewitch.wildlife.quests18.description0}"]
+			id: "295D2FB1A88B8928"
+			rewards: [{
+				id: "3D372FE8BCBD4EED"
+				table_id: 7049021818423122779L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.wildlife.quests18.subtitle}"
+			tasks: [{
+				id: "7F7A7A4D6B6CB303"
+				item: "alexsmobs:straddle_saddle"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests19.description0}"
+				"{cottagewitch.wildlife.quests19.description1}"
+				"{cottagewitch.wildlife.quests19.description2}"
+				"{cottagewitch.wildlife.quests19.description3}"
+				"{cottagewitch.wildlife.quests19.description4}"
+			]
+			id: "7BF9EE9AB6D63EE4"
+			rewards: [{
+				count: 10
+				id: "3ECE1939AB180C0B"
+				item: "alexsmobs:lobster_tail"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests19.subtitle}"
+			tasks: [{
+				icon: "alexsmobs:mimic_octopus_bucket"
+				id: "6D9989ED41065321"
+				observe_type: 5
+				timer: 0L
+				title: "{cottagewitch.wildlife.quests19.tasks0.title}"
+				to_observe: "alexsmobs:mimic_octopus"
+				type: "observation"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests20.description0}"
+				"{cottagewitch.wildlife.quests20.description1}"
+				"{cottagewitch.wildlife.quests20.description2}"
+			]
+			id: "6ECD3400B5F0FFD5"
+			rewards: [{
+				id: "4B3E987450B9C0C6"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests20.subtitle}"
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_laviathan"
+				id: "0A39E56B919E2646"
+				observe_type: 5
+				timer: 0L
+				title: "{cottagewitch.wildlife.quests20.tasks0.title}"
+				to_observe: "alexsmobs:laviathan"
+				type: "observation"
+			}]
+			x: 11.5d
+			y: -6.0d
+		}
+		{
+			description: ["{cottagewitch.wildlife.quests21.description0}"]
+			id: "10508E0CE1018A5C"
+			rewards: [{
+				id: "197C3F8CBB49B141"
+				table_id: 5161092699925703455L
+				type: "random"
+			}]
+			shape: "heart"
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_spectre"
+				id: "29B332C8E6DA929A"
+				observe_type: 5
+				timer: 0L
+				title: "{cottagewitch.wildlife.quests21.tasks0.title}"
+				to_observe: "alexsmobs:spectre"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests22.description0}"
+				"{cottagewitch.wildlife.quests22.description1}"
+				"{cottagewitch.wildlife.quests22.description2}"
+			]
+			id: "583AB2FDE4821349"
+			rewards: [{
+				id: "6E750D2EB109A0EB"
+				item: "minecraft:flower_pot"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				icon: "alexsmobs:potted_flutter"
+				id: "67DCC7D3E6337E5A"
+				observe_type: 5
+				timer: 0L
+				title: "{cottagewitch.wildlife.quests22.tasks0.title}"
+				to_observe: "alexsmobs:flutter"
+				type: "observation"
+			}]
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests23.description0}"
+				"{cottagewitch.wildlife.quests23.description1}"
+			]
+			id: "48B03DF69BB3222E"
+			rewards: [
+				{
+					id: "63382909319D732F"
+					item: "alexsmobs:rainbow_jelly"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E4FB43FB5542CC2"
+					table_id: 1279979498352596350L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{cottagewitch.wildlife.quests23.subtitle}"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/rainbow_jelly"
+				criterion: ""
+				id: "15E17BA6B7FB4D8F"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests24.description0}"
+				"{cottagewitch.wildlife.quests24.description1}"
+				"{cottagewitch.wildlife.quests24.description2}"
+			]
+			icon: "alexsmobs:devils_hole_pupfish_bucket"
+			id: "389061C8D24B16F2"
+			rewards: [
+				{
+					id: "0312D00ABF86015A"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50D044AC9D6FE106"
+					table_id: 1279979498352596350L
+					type: "choice"
+				}
+			]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests24.subtitle}"
+			tasks: [{
+				icon: "alexsmobs:devils_hole_pupfish_bucket"
+				id: "77A7379367418045"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:devils_hole_pupfish"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests24.title}"
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests25.description0}"
+				"{cottagewitch.wildlife.quests25.description1}"
+				"{cottagewitch.wildlife.quests25.description2}"
+			]
+			id: "2827322063C5003E"
+			rewards: [
+				{
+					id: "049E9FC1B54415AF"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7264FB03BD9820A1"
+					table_id: 1279979498352596350L
+					type: "choice"
+				}
+			]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests25.subtitle}"
+			tasks: [{
+				icon: "alexsmobs:medium_catfish_bucket"
+				id: "0D8C18FBCF491F0B"
+				observe_type: 5
+				timer: 0L
+				title: "{cottagewitch.wildlife.quests25.tasks0.title}"
+				to_observe: "alexsmobs:catfish"
+				type: "observation"
+			}]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests26.description0}"
+				"{cottagewitch.wildlife.quests26.description1}"
+				"{cottagewitch.wildlife.quests26.description2}"
+			]
+			id: "050B9B4BC881142A"
+			rewards: [
+				{
+					id: "53D5D7E59B8FF14F"
+					item: "alexsmobs:ambergris"
+					type: "item"
+				}
+				{
+					id: "6DAFDA012BF23C5F"
+					item: "alexsmobs:cachalot_whale_tooth"
+					type: "item"
+				}
+			]
+			subtitle: "{cottagewitch.wildlife.quests26.subtitle}"
+			tasks: [{
+				icon: "alexsmobs:ambergris"
+				id: "756671951869041B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:cachalot_whale"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests26.title}"
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests27.description0}"
+				"{cottagewitch.wildlife.quests27.description1}"
+			]
+			id: "2CF2C4C4E1554205"
+			rewards: [{
+				count: 2
+				id: "77970400A5DB10A7"
+				item: "babyfat:water_lettuce"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4C666C81B222649A"
+				item: "babyfat:ranchu_bucket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["17CAEDD5E243511D"]
+			description: ["{cottagewitch.wildlife.quests28.description0}"]
+			id: "017F8C83795453E3"
+			rewards: [{
+				id: "0924385ACDEB9CDE"
+				item: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								900590232
+								-571061945
+								-1211914510
+								1791760120
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRmODlmYmQxMmMyMDlmN2YyNmMxZjM0YTFiZDdmNDc2MzU4MTQ3NTljMDk2ODhkZDIxMmIyMDVjNzNhOGMwMiJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Name: "{\"text\":\"Derpy Rock\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/rocky_shell"
+				criterion: ""
+				id: "7AAC55D83C5EDC7A"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests29.description0}"
+				"{image:cottagewitch:textures/elephant.png width:150 height:150 align:1}"
+			]
+			id: "2E69432952BEB130"
+			rewards: [{
+				count: 10
+				id: "5637F9ABF0306708"
+				item: "sprout:peanut"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests29.subtitle}"
+			tasks: [{
+				icon: "sprout:peanut"
+				id: "5F44B153C821B44E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "sprout:elephant"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests29.title}"
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests30.description0}"
+				"{cottagewitch.wildlife.quests30.description1}"
+			]
+			id: "4916C2ED6C71E696"
+			rewards: [{
+				count: 3
+				id: "3B3FFA9D9B739DD2"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.wildlife.quests30.subtitle}"
+			tasks: [{
+				id: "36CFF9FD493FDAB5"
+				item: "alexsmobs:hummingbird_feeder"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["52BC8196E858B238"]
+			description: [
+				"{cottagewitch.wildlife.quests31.description0}"
+				"{cottagewitch.wildlife.quests31.description1}"
+			]
+			id: "20BAF307F1556BC5"
+			rewards: [
+				{
+					count: 10
+					id: "2C6E2768C2989D2B"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "66B484F644D229FD"
+					item: "minecraft:cod"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.wildlife.quests31.subtitle}"
+			tasks: [{
+				id: "784E27A136920288"
+				item: {
+					Count: 1b
+					id: "supplementaries:flute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests32.description0}"
+				""
+				"{cottagewitch.wildlife.quests32.description1}"
+				""
+				"{cottagewitch.wildlife.quests32.description2}"
+			]
+			id: "52BC8196E858B238"
+			rewards: [
+				{
+					id: "15995D321F1A2FA3"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1737828357
+									-1690416618
+									-1970765744
+									1600769351
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTNjMWRmOTEwZmUwYTU4YTgzODNmMTBiMjc0ZWNkMzk5NTg3NDE0MDYyNDNmY2U2MTMyYjdmMjI3N2E0YThlNCJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Companion Cube\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A26CDD43FBBFF01"
+					item: "domesticationinnovation:pet_bed_white"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EFB09E2B895A622"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{cottagewitch.wildlife.quests32.subtitle}"
+			tasks: [{
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+				id: "650E23F990D62E75"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			description: ["{cottagewitch.wildlife.quests33.description0}"]
+			id: "3C87581273ACB6A0"
+			rewards: [
+				{
+					id: "6D4990F08A4D5483"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+				{
+					id: "0AEB98268C0B3561"
+					item: "plushies:parrot"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{cottagewitch.wildlife.quests33.subtitle}"
+			tasks: [{
+				advancement: "minecraft:husbandry/breed_an_animal"
+				criterion: ""
+				id: "24EAA163CD45072E"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["79630C442EB1C589"]
+			description: ["{cottagewitch.wildlife.quests34.description0}"]
+			id: "48BA2D702EE5E79A"
+			rewards: [{
+				id: "7EF6146DFC383A62"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			subtitle: "{cottagewitch.wildlife.quests34.subtitle}"
+			tasks: [{
+				id: "2B166DD2285C8B03"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			title: "{cottagewitch.wildlife.quests34.title}"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests35.description0}"
+				"{cottagewitch.wildlife.quests35.description1}"
+				"{cottagewitch.wildlife.quests35.description2}"
+				""
+				"{cottagewitch.wildlife.quests35.description3}"
+			]
+			id: "79630C442EB1C589"
+			rewards: [{
+				id: "2F1AFA383DDF2D2C"
+				item: "strawgolem:straw_hat"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{cottagewitch.wildlife.quests35.subtitle}"
+			tasks: [{
+				id: "5410614320F255E3"
+				item: "minecraft:hay_block"
+				type: "item"
+			}]
+			title: "{cottagewitch.wildlife.quests35.title}"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["79630C442EB1C589"]
+			description: ["{cottagewitch.wildlife.quests36.description0}"]
+			id: "000D647AEFF79D8D"
+			rewards: [{
+				id: "305D73FEDBF74D2F"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.wildlife.quests36.subtitle}"
+			tasks: [{
+				id: "3B2803CEF4CED0F0"
+				item: "strawgolem:straw_hat"
+				type: "item"
+			}]
+			title: "{cottagewitch.wildlife.quests36.title}"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["52BC8196E858B238"]
+			description: ["{cottagewitch.wildlife.quests37.description0}"]
+			id: "1661059D340835FC"
+			rewards: [{
+				id: "0C0564C622535F90"
+				item: "plushies:panda"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "09F430BB3D8CD3C1"
+				item: "domesticationinnovation:drum"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["52BC8196E858B238"]
+			description: ["{cottagewitch.wildlife.quests38.description0}"]
+			id: "09827E9E92823643"
+			rewards: [{
+				id: "1800903FEE579AE0"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "domesticationinnovation:healing_aura"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "50B6AC73D9257351"
+				item: "domesticationinnovation:collar_tag"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["52BC8196E858B238"]
+			description: ["{cottagewitch.wildlife.quests39.description0}"]
+			id: "1C37EDEA99A890EF"
+			rewards: [
+				{
+					id: "7D8FC845A86B5AF0"
+					item: "moblassos:golden_lasso"
+					type: "item"
+				}
+				{
+					id: "03D5BBB38D40B5FC"
+					item: "plushies:cow"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "47B6BA7F65A9904A"
+				item: "domesticationinnovation:deed_of_ownership"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["52BC8196E858B238"]
+			description: [
+				"{cottagewitch.wildlife.quests40.description0}"
+				"{cottagewitch.wildlife.quests40.description1}"
+				""
+				"{cottagewitch.wildlife.quests40.description2}"
+			]
+			id: "5DB08A394A7B8122"
+			rewards: [
+				{
+					id: "378CD636A77C1440"
+					item: "minecraft:name_tag"
+					type: "item"
+				}
+				{
+					id: "06BB95383B80DB74"
+					item: "plushies:red_fox"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4FEF850143E6C25D"
+				item: "domesticationinnovation:wayward_lantern"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests41.description0}"
+				""
+				"{cottagewitch.wildlife.quests41.description1}"
+			]
+			id: "0C7029D3D91202D8"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3C1775E08B8E135B"
+					table_id: 3965165831041023950L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03D0804CDF60B878"
+					table_id: 6951594928314176539L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "friendsandfoes:adventure/complete_hide_and_seek_game"
+				criterion: ""
+				id: "7137ED4324FF041E"
+				type: "advancement"
+			}]
+			title: "{cottagewitch.wildlife.quests41.title}"
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			id: "61F03A15727266F2"
+			invisible: true
+			optional: true
+			secret: true
+			tasks: [{
+				id: "29888A0E689F88F2"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			description: ["{cottagewitch.wildlife.quests43.description0}"]
+			id: "23D702F268464D8E"
+			rewards: [{
+				count: 10
+				id: "3EE5A3331616DACC"
+				item: "byg:packed_black_ice"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "friendsandfoes:adventure/kill_iceologer"
+				criterion: ""
+				id: "016BADEBDA25900E"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			icon: "minecraft:skeleton_skull"
+			id: "13DCE1539EEE07B8"
+			rewards: [
+				{
+					count: 20
+					id: "6CB1348126BAA2EA"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "29E7968B7BD4F920"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "2B8B87F20448CF1A"
+					item: "minecraft:skeleton_spawn_egg"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "2B089937DE3D191B"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			description: [
+				"{cottagewitch.wildlife.quests45.description0}"
+				""
+				"{cottagewitch.wildlife.quests45.description1}"
+				""
+				"{cottagewitch.wildlife.quests45.description2}"
+			]
+			icon: "handcrafted:creeper_trophy"
+			id: "5F03012DC9E38D8D"
+			rewards: [
+				{
+					id: "23C411FB6E5B7932"
+					item: "handcrafted:creeper_trophy"
+					type: "item"
+				}
+				{
+					id: "2726C99582901BCA"
+					item: "creeperoverhaul:ocean_creeper_spawn_egg"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "{cottagewitch.wildlife.quests45.subtitle}"
+			tasks: [
+				{
+					entity: "creeperoverhaul:badlands_creeper"
+					id: "5475EAB66D01AA3E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:badlands_creeper"
+					id: "148B4231D30E2A9C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:bamboo_creeper"
+					id: "2F57370380F6849F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:beach_creeper"
+					id: "498342403CB4E17A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:cave_creeper"
+					id: "247406896BFA2CBF"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:dark_oak_creeper"
+					id: "4FCFFF2423D597EA"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:desert_creeper"
+					id: "27CFF5A89E252A25"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:dripstone_creeper"
+					id: "6BE030760A82D760"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:hills_creeper"
+					id: "3E4A28D5B5A84819"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:jungle_creeper"
+					id: "31AD3B6DD0B0D2E1"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:mushroom_creeper"
+					id: "6688C85A7EA1707D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:savannah_creeper"
+					id: "77736E3FD3B0C165"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:snowy_creeper"
+					id: "158183796F59B405"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:spruce_creeper"
+					id: "3E78F3F494221E8B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:swamp_creeper"
+					id: "2673798B82CD0866"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:creeper"
+					id: "50BCCA198B6D6B98"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{cottagewitch.wildlife.quests45.title}"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			icon: "minecraft:creeper_head"
+			id: "7E36FAC9107093C2"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "064F74E6565B4859"
+					item: "minecraft:creeper_head"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "24D4F5F119DC1A39"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "4765ECB455E0F3A3"
+				type: "kill"
+				value: 100L
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E36FAC9107093C2"]
+			dependency_requirement: "all_started"
+			description: ["{cottagewitch.wildlife.quests47.description0}"]
+			icon: {
+				Count: 1b
+				id: "twilightforest:creeper_skull_candle"
+				tag: {
+					BlockEntityTag: {
+						CandleAmount: 1
+						CandleColor: 0
+					}
+				}
+			}
+			id: "2A61057B25357F37"
+			rewards: [
+				{
+					id: "1330C0871BA69A9A"
+					item: "minecraft:creeper_spawn_egg"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2678031D8DC68007"
+					table_id: 8808494820591225409L
+					type: "choice"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "7472B97EC9584AF7"
+				type: "kill"
+				value: 500L
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			icon: "minecraft:zombie_head"
+			id: "05C2A9D00C440EAC"
+			rewards: [
+				{
+					count: 5
+					id: "6E063F9F8ACEC220"
+					item: "minecraft:zombie_head"
+					type: "item"
+				}
+				{
+					id: "46F7C59C3BD0BCBA"
+					item: "minecraft:zombie_spawn_egg"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "23C2CC9FC18828AB"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			description: ["{cottagewitch.wildlife.quests49.description0}"]
+			id: "61E2531671CC8118"
+			rewards: [{
+				id: "4C326A6B45BB6BF4"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "friendsandfoes:adventure/kill_illusioner"
+				criterion: ""
+				id: "1BBF8996270374EB"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			description: ["{cottagewitch.wildlife.quests50.description0}"]
+			icon: "supplementaries:enderman_head"
+			id: "3EBAD94D079ACDD8"
+			rewards: [
+				{
+					id: "530E0BE7D446EA79"
+					item: {
+						Count: 1b
+						id: "mcsa:enderman_soren_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DEC2490E1C1DB62"
+					item: {
+						Count: 1b
+						id: "mcsa:enderman_soren_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D1C406CAE3A7B86"
+					item: {
+						Count: 1b
+						id: "mcsa:enderman_soren_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AC1AC011F560920"
+					item: {
+						Count: 1b
+						id: "mcsa:enderman_soren_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CF1D8687CF1180D"
+					item: "minecraft:enderman_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "2340B768458086C7"
+					item: "plushies:enderman"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "1C574797484F95E7"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			dependency_requirement: "one_started"
+			description: ["{cottagewitch.wildlife.quests51.description0}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "twilightforest:wither_skeleton_skull_candle"
+				tag: {
+					BlockEntityTag: {
+						CandleAmount: 1
+						CandleColor: 0
+					}
+				}
+			}
+			id: "26E8A9DFDC4C1635"
+			rewards: [
+				{
+					id: "059E3E20350E1BC0"
+					item: "minecraft:spawner"
+					type: "item"
+				}
+				{
+					id: "6588523AD85BBFF1"
+					item: "minecraft:wither_skeleton_spawn_egg"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "04B537DE779D8CE4"
+				type: "kill"
+				value: 500L
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "12CC2182B839D954"
+			optional: true
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "58BF5A5E17BB8A83"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "3506C0BD5CA7D0C5"
+					item: "minecraft:wither_rose"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "0A6E74616F39F811"
+				type: "kill"
+				value: 15L
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			icon: "handcrafted:pillager_trophy"
+			id: "53D63982971E2F60"
+			rewards: [
+				{
+					count: 20
+					id: "6AD16E5C15BCE1BC"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "7DFBD293FDD356EA"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "5DA4D69DEC4C8437"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43B3A6804B59565E"]
+			icon: {
+				Count: 1b
+				id: "minecraft:trident"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "714C8AC1434688EF"
+			rewards: [
+				{
+					count: 3
+					id: "71D83A4349AE8785"
+					item: "minecraft:nautilus_shell"
+					type: "item"
+				}
+				{
+					id: "36D89FBD81444CE5"
+					item: "minecraft:drowned_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "4EEA3A9E253B7412"
+					item: "bettertridents:trident_fragment"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "34FD1291BA7CEDB0"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			description: ["{cottagewitch.wildlife.quests55.description0}"]
+			id: "077E56B6A68AB3AC"
+			rewards: [
+				{
+					id: "743B5E809927506A"
+					item: "ars_nouveau:wixie_charm"
+					type: "item"
+				}
+				{
+					id: "660DA5C0B4FF6006"
+					item: "ars_nouveau:whirlisprig_charm"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "friendsandfoes:adventure/the_magicians"
+				criterion: ""
+				id: "39A1B59A1F5CD337"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests56.description0}"
+				"{cottagewitch.wildlife.quests56.description1}"
+			]
+			id: "43B3A6804B59565E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1330C08C04945E39"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "407518B5BB4A56A4"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "0A45057771B77CE0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{cottagewitch.wildlife.quests56.title}"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			description: ["{cottagewitch.wildlife.quests57.description0}"]
+			id: "3057155A3A2B5F47"
+			repeatable: true
+			rewards: [
+				{
+					id: "57AEF83E18326ED4"
+					item: {
+						Count: 1b
+						id: "endrem:guardian_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "26C21B65560BD25A"
+					item: "minecraft:sponge"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:guardian"
+				icon: "minecraft:prismarine_shard"
+				id: "35A42B6209CA1D8C"
+				type: "kill"
+				value: 30L
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			description: ["{cottagewitch.wildlife.quests58.description0}"]
+			id: "6CD4F0A4650CBA2F"
+			rewards: [
+				{
+					id: "3A5546869704A4FE"
+					item: "minecraft:powder_snow_bucket"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "41813A712049D48B"
+					item: "minecraft:snow_block"
+					type: "item"
+				}
+				{
+					id: "025034A031F1EE27"
+					item: "plushies:snow_golem"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				icon: "minecraft:snowball"
+				id: "7DDD21C495EF730D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:snow_golem"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests58.title}"
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			description: ["{cottagewitch.wildlife.quests59.description0}"]
+			id: "22628C8DC1BB807F"
+			repeatable: true
+			rewards: [
+				{
+					id: "5FAF5E951EEF853D"
+					item: "alexsmobs:centipede_leg"
+					type: "item"
+				}
+				{
+					id: "330B95DA0BDA0267"
+					item: "alexsmobs:mosquito_larva"
+					type: "item"
+				}
+				{
+					id: "788934F4168FA21E"
+					item: "alexsmobs:tarantula_hawk_wing_fragment"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "{cottagewitch.wildlife.quests59.subtitle}"
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: "minecraft:spider_eye"
+				id: "593E0D6FD65220E2"
+				type: "kill"
+				value: 100L
+			}]
+			title: "{cottagewitch.wildlife.quests59.title}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests60.description0}"
+				"{cottagewitch.wildlife.quests60.description1}"
+				"{cottagewitch.wildlife.quests60.description2}"
+			]
+			id: "60F070208CAD2886"
+			rewards: [{
+				count: 2
+				id: "4B61840933BBC775"
+				item: "alexsmobs:raccoon_tail"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests60.subtitle}"
+			tasks: [{
+				icon: "alexsmobs:raccoon_tail"
+				id: "58E7C57CA3A8E8DC"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:raccoon"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests60.title}"
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests61.description0}"
+				"{cottagewitch.wildlife.quests61.description1}"
+				"{cottagewitch.wildlife.quests61.description2}"
+				"{cottagewitch.wildlife.quests61.description3}"
+				"{cottagewitch.wildlife.quests61.description4}"
+				"{cottagewitch.wildlife.quests61.description5}"
+			]
+			id: "114EFE7EF75B22F3"
+			rewards: [{
+				id: "24BE315499AA4A97"
+				item: "plushies:goat"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "{cottagewitch.wildlife.quests61.subtitle}"
+			tasks: [{
+				advancement: "minecraft:husbandry/ride_a_boat_with_a_goat"
+				criterion: ""
+				id: "5A01D74D65A58962"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests62.description0}"
+				"{cottagewitch.wildlife.quests62.description1}"
+			]
+			id: "232A8F9F6388C377"
+			rewards: [
+				{
+					id: "3D06E592368CB47A"
+					item: "plushies:axolotl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "148921F8896ACA61"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:husbandry/kill_axolotl_target"
+				criterion: ""
+				id: "66A0BD4051C658F5"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests63.description0}"
+				"{cottagewitch.wildlife.quests63.description1}"
+			]
+			id: "2FC0EAD96E3C41D4"
+			rewards: [{
+				id: "44BE0CD5ECFD83B2"
+				item: "plushies:frog"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:husbandry/tadpole_in_a_bucket"
+				criterion: ""
+				id: "7A90C9C915A28458"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests64.description0}"
+				"{cottagewitch.wildlife.quests64.description1}"
+				"{cottagewitch.wildlife.quests64.description2}"
+				"{cottagewitch.wildlife.quests64.description3}"
+				"{cottagewitch.wildlife.quests64.description4}"
+				""
+				""
+				"{cottagewitch.wildlife.quests64.description5}"
+			]
+			id: "7A028A2ABDD3D304"
+			rewards: [{
+				id: "4DF7256C6FF7781B"
+				item: "environmental:slabfish_effigy"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				icon: "environmental:slabfish_effigy"
+				id: "7EADDF251FAAE962"
+				observe_type: 5
+				timer: 0L
+				to_observe: "environmental:slabfish"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests64.title}"
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests65.description0}"
+				"{cottagewitch.wildlife.quests65.description1}"
+				"{cottagewitch.wildlife.quests65.description2}"
+				"{cottagewitch.wildlife.quests65.description3}"
+				""
+				"{cottagewitch.wildlife.quests65.description4}"
+			]
+			id: "538D45E5FE8591D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C76B55071F1CB88"
+				table_id: 4747620395501175375L
+				type: "choice"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6870A2403C99B582"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:zombie_gate_small"
+					}
+				}
+				type: "item"
+			}]
+			title: "{cottagewitch.wildlife.quests65.title}"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests66.description0}"
+				"{cottagewitch.wildlife.quests66.description1}"
+			]
+			id: "3556685D896ADA7C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1711429F0EE0C533"
+				table_id: 1510389528595555205L
+				type: "random"
+			}]
+			shape: "heart"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:goat_horn"
+					tag: {
+						instrument: "minecraft:ponder_goat_horn"
+					}
+				}
+				id: "5BB9CB6527E6EF77"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:goat"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests66.title}"
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			description: ["{cottagewitch.wildlife.quests67.description0}"]
+			id: "2A930C9591A317A3"
+			rewards: [{
+				id: "5DC83818918FD852"
+				item: "endrem:undead_soul"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "quark:wraith"
+				icon: "quark:soul_bead"
+				id: "67167BE721C1C831"
+				type: "kill"
+				value: 50L
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0BC5E9E08677AFC5"]
+			description: ["{cottagewitch.wildlife.quests68.description0}"]
+			id: "2B67ECD4F68DD10B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "707AAE80F37CF965"
+					table_id: 7707783220386620668L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03B9150888515BEB"
+					table_id: 4747620395501175375L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "31488AB7F012F95E"
+				item: {
+					Count: 1b
+					id: "alexsmobs:dimensional_carver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2B67ECD4F68DD10B"]
+			description: [
+				"{cottagewitch.wildlife.quests69.description0}"
+				"{cottagewitch.wildlife.quests69.description1}"
+				"{cottagewitch.wildlife.quests69.description2}"
+				"{cottagewitch.wildlife.quests69.description3}"
+				"{cottagewitch.wildlife.quests69.description4}"
+			]
+			id: "00B06CAECE143947"
+			rewards: [
+				{
+					count: 4
+					id: "36BEC5618B463D5A"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D507D2855C3E52D"
+					table_id: 5161092699925703455L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A06DA36E1A4F514"
+					table_id: 5036677739913042344L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "6E9B22E55A864DE8"
+				item: {
+					Count: 1b
+					id: "alexsmobs:shattered_dimensional_carver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["34C790E76C15E41B"]
+			description: [
+				"{cottagewitch.wildlife.quests70.description0}"
+				"{cottagewitch.wildlife.quests70.description1}"
+			]
+			id: "21DBD16B44D5452E"
+			rewards: [
+				{
+					id: "5258376A20A81A8B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3ED8C9C002E35D79"
+					table_id: 5161092699925703455L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "43CEF2BA9F0960D0"
+				item: "alexsmobs:transmutation_table"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["00B06CAECE143947"]
+			description: [
+				"{cottagewitch.wildlife.quests71.description0}"
+				"{cottagewitch.wildlife.quests71.description1}"
+				"{cottagewitch.wildlife.quests71.description2}"
+			]
+			id: "34C790E76C15E41B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5495D64F8DC8B823"
+				table_id: 5525848455660196930L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "2ACE498822AD2B56"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:farseer_gate"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests72.description0}"
+				"{cottagewitch.wildlife.quests72.description1}"
+				"{cottagewitch.wildlife.quests72.description2}"
+			]
+			id: "09DB43154746CE4F"
+			rewards: [{
+				id: "73657EACEE0FFB13"
+				item: "duckling:duck_spawn_egg"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "309E15AE217D71E6"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			title: "{cottagewitch.wildlife.quests72.title}"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["43B3A6804B59565E"]
+			description: ["{cottagewitch.wildlife.quests73.description0}"]
+			id: "376F0C3219E696C9"
+			repeatable: true
+			rewards: [{
+				count: 4
+				id: "06F77BA8B0FA6B73"
+				item: "minecraft:sponge"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:guardian"
+				icon: "minecraft:sponge"
+				id: "65777A88B18EE777"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			description: ["{cottagewitch.wildlife.quests74.description0}"]
+			id: "30C49F5FE020A827"
+			rewards: [{
+				count: 5
+				id: "5F8A105776D892FE"
+				item: "minecraft:mutton"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests74.subtitle}"
+			tasks: [{
+				icon: "mythicmounts:acencia_spawn_egg"
+				id: "0D9F73EE13D43265"
+				observe_type: 5
+				timer: 0L
+				title: "{cottagewitch.wildlife.quests74.tasks0.title}"
+				to_observe: "mythicmounts:acencia"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests74.title}"
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			description: ["{cottagewitch.wildlife.quests75.description0}"]
+			id: "648A50640E91D24A"
+			rewards: [{
+				count: 5
+				id: "3F2735924C6B4597"
+				item: "minecraft:salmon"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests75.subtitle}"
+			tasks: [{
+				icon: "mythicmounts:archelon_spawn_egg"
+				id: "576F2F84251A382C"
+				observe_type: 5
+				timer: 0L
+				title: "{cottagewitch.wildlife.quests75.tasks0.title}"
+				to_observe: "mythicmounts:archelon"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests75.title}"
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			description: ["{cottagewitch.wildlife.quests76.description0}"]
+			id: "21528845876CE157"
+			rewards: [{
+				count: 5
+				id: "2EAEC5D9849DAB02"
+				item: "minecraft:poppy"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests76.subtitle}"
+			tasks: [{
+				icon: "mythicmounts:colelytra_spawn_egg"
+				id: "5901AACDFB867A81"
+				observe_type: 5
+				timer: 0L
+				title: "{cottagewitch.wildlife.quests76.tasks0.title}"
+				to_observe: "mythicmounts:colelytra"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests76.title}"
+			x: -10.5d
+			y: 7.5d
+		}
+		{
+			description: ["{cottagewitch.wildlife.quests77.description0}"]
+			icon: "mythicmounts:courierbird_spawn_egg"
+			id: "65AA3625C4BFB209"
+			rewards: [{
+				count: 5
+				id: "4766B845E11CA27C"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests77.subtitle}"
+			tasks: [{
+				id: "2FBAAA40959B40D1"
+				observe_type: 5
+				timer: 0L
+				title: "{cottagewitch.wildlife.quests77.tasks0.title}"
+				to_observe: "mythicmounts:courierbird"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests77.title}"
+			x: -11.5d
+			y: 6.5d
+		}
+		{
+			description: ["{cottagewitch.wildlife.quests78.description0}"]
+			id: "768B4047531DA253"
+			rewards: [{
+				count: 4
+				id: "6D47486CAAF6185A"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests78.subtitle}"
+			tasks: [{
+				icon: "mythicmounts:direwolf_spawn_egg"
+				id: "002A96C2150A0675"
+				observe_type: 5
+				timer: 0L
+				title: "{cottagewitch.wildlife.quests78.tasks0.title}"
+				to_observe: "mythicmounts:direwolf"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests78.title}"
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			description: ["{cottagewitch.wildlife.quests79.description0}"]
+			id: "14615CB8F1735FA2"
+			rewards: [{
+				count: 5
+				id: "59A9AE2071F8FA76"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests79.subtitle}"
+			tasks: [{
+				icon: "mythicmounts:dragon_spawn_egg"
+				id: "4BDA628CE3E21F64"
+				observe_type: 5
+				timer: 0L
+				title: "{cottagewitch.wildlife.quests79.tasks0.title}"
+				to_observe: "mythicmounts:dragon"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests79.title}"
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			description: ["{cottagewitch.wildlife.quests80.description0}"]
+			id: "7F47F7D233DC95D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "009A2E1D70451ADB"
+				table_id: 7049021818423122779L
+				type: "loot"
+			}]
+			subtitle: "{cottagewitch.wildlife.quests80.subtitle}"
+			tasks: [{
+				id: "5ACC8B4D92DD6D6C"
+				item: "mythicmounts:summoning_staff"
+				type: "item"
+			}]
+			title: "{cottagewitch.wildlife.quests80.title}"
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			description: ["{cottagewitch.wildlife.quests81.description0}"]
+			id: "1782885E17C84F8F"
+			rewards: [{
+				count: 5
+				id: "680E7489BFFFB8CC"
+				item: "minecraft:hay_block"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests81.subtitle}"
+			tasks: [{
+				icon: "mythicmounts:geckotoalizard_spawn_egg"
+				id: "2A1BA8484B88A5D9"
+				observe_type: 5
+				timer: 0L
+				title: "{cottagewitch.wildlife.quests81.tasks0.title}"
+				to_observe: "mythicmounts:geckotoalizard"
+				type: "observation"
+			}]
+			x: -12.5d
+			y: 5.0d
+		}
+		{
+			description: ["{cottagewitch.wildlife.quests82.description0}"]
+			id: "493D39C87927E8B8"
+			rewards: [{
+				count: 5
+				id: "401D625E720E717A"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests82.subtitle}"
+			tasks: [{
+				icon: "mythicmounts:moth_spawn_egg"
+				id: "314834CD0700647F"
+				observe_type: 5
+				timer: 0L
+				title: "{cottagewitch.wildlife.quests82.tasks0.title}"
+				to_observe: "mythicmounts:moth"
+				type: "observation"
+			}]
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			description: ["{cottagewitch.wildlife.quests83.description0}"]
+			id: "50AA90B7E60328CC"
+			rewards: [{
+				count: 5
+				id: "15B6C08D5D313DC4"
+				item: "minecraft:rabbit"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests83.subtitle}"
+			tasks: [{
+				icon: "mythicmounts:griffon_spawn_egg"
+				id: "232C61F0A33F9FA5"
+				observe_type: 5
+				timer: 0L
+				title: "{cottagewitch.wildlife.quests83.tasks0.title}"
+				to_observe: "mythicmounts:griffon"
+				type: "observation"
+			}]
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			description: ["{cottagewitch.wildlife.quests84.description0}"]
+			id: "04BBB86977655EB7"
+			rewards: [{
+				count: 5
+				id: "33F378C57D020AEC"
+				item: "minecraft:porkchop"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests84.subtitle}"
+			tasks: [{
+				icon: "mythicmounts:netherbat_spawn_egg"
+				id: "5E0758AD28FDB506"
+				observe_type: 5
+				timer: 0L
+				title: "{cottagewitch.wildlife.quests84.tasks0.title}"
+				to_observe: "mythicmounts:netherbat"
+				type: "observation"
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			description: ["{cottagewitch.wildlife.quests85.description0}"]
+			id: "19B9CB7C3611E68B"
+			rewards: [{
+				count: 5
+				id: "692DA6420326EE5D"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests85.subtitle}"
+			tasks: [{
+				icon: "mythicmounts:nightmare_spawn_egg"
+				id: "288A190F078EF8E3"
+				observe_type: 5
+				timer: 0L
+				title: "{cottagewitch.wildlife.quests85.tasks0.title}"
+				to_observe: "mythicmounts:nightmare"
+				type: "observation"
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			description: ["{cottagewitch.wildlife.quests86.description0}"]
+			id: "4820853CA82E0A49"
+			rewards: [{
+				count: 5
+				id: "0A041EAA6116B291"
+				item: "minecraft:seagrass"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests86.subtitle}"
+			tasks: [{
+				icon: "mythicmounts:nudibranch_spawn_egg"
+				id: "3EF59979EAD2AC24"
+				observe_type: 5
+				timer: 0L
+				title: "{cottagewitch.wildlife.quests86.tasks0.title}"
+				to_observe: "mythicmounts:nudibranch"
+				type: "observation"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			description: ["{cottagewitch.wildlife.quests87.description0}"]
+			id: "4AECEC9D64050806"
+			rewards: [{
+				count: 5
+				id: "05B24D63F1A63703"
+				item: "minecraft:chicken"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests87.subtitle}"
+			tasks: [{
+				icon: "mythicmounts:ridinglizard_spawn_egg"
+				id: "4FC0543C69D3E13F"
+				observe_type: 5
+				timer: 0L
+				title: "{cottagewitch.wildlife.quests87.tasks0.title}"
+				to_observe: "mythicmounts:ridinglizard"
+				type: "observation"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			description: ["{cottagewitch.wildlife.quests88.description0}"]
+			id: "594C827670019E11"
+			rewards: [{
+				count: 4
+				id: "42D643AAA3801BD7"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests88.subtitle}"
+			tasks: [{
+				icon: "mythicmounts:firebird_spawn_egg"
+				id: "2B3163010EA02133"
+				observe_type: 5
+				timer: 0L
+				title: "{cottagewitch.wildlife.quests88.tasks0.title}"
+				to_observe: "mythicmounts:firebird"
+				type: "observation"
+			}]
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests89.description0}"
+				""
+				"{cottagewitch.wildlife.quests89.description1}"
+			]
+			id: "3C1AC5730A574F29"
+			rewards: [{
+				count: 5
+				id: "14733F4457AA3686"
+				item: "crittersandcompanions:dragonfly_wing"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests89.subtitle}"
+			tasks: [{
+				icon: "crittersandcompanions:silk_cocoon"
+				id: "237BF2170AFAE280"
+				observe_type: 5
+				timer: 0L
+				to_observe: "crittersandcompanions:jumping_spider"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests89.title}"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{cottagewitch.wildlife.quests90.description0}"
+				""
+				"{cottagewitch.wildlife.quests90.description1}"
+				""
+				"{cottagewitch.wildlife.quests90.description2}"
+				""
+				"{cottagewitch.wildlife.quests90.description3}"
+			]
+			id: "1BAE94F61437DA22"
+			rewards: [{
+				id: "76C2A1B1628E3879"
+				item: {
+					Count: 1b
+					id: "xercapaint:item_canvas"
+					tag: {
+						author: "Emmulah"
+						generation: 2
+						name: "7e0a1802-2a6a-403d-a487-d3a60cb2d037_1726015973"
+						pixels: [I;
+							-13880291
+							-12760037
+							-12760037
+							-12760037
+							-11705320
+							-11705320
+							-11705320
+							-11705320
+							-11705320
+							-11705320
+							-11705320
+							-11705320
+							-11705320
+							-12760037
+							-12760037
+							-13880291
+							-12760037
+							-12760037
+							-11705320
+							-11705320
+							-11705320
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-11705320
+							-11705320
+							-12760037
+							-12760037
+							-12760037
+							-11705320
+							-11705320
+							-9195233
+							-8337633
+							-8226261
+							-8226261
+							-8226261
+							-8226261
+							-8226261
+							-8226261
+							-8226261
+							-8226261
+							-11705320
+							-11705320
+							-12760037
+							-11705320
+							-11705320
+							-9195233
+							-8337633
+							-8226261
+							-4211920
+							-4211920
+							-4211920
+							-8226261
+							-8226261
+							-4211920
+							-4211920
+							-4211920
+							-8226261
+							-11705320
+							-11705320
+							-11705320
+							-8337633
+							-8337633
+							-8226261
+							-4211920
+							-2829773
+							-14869215
+							-3099088
+							-3098320
+							-3099600
+							-3099600
+							-14869215
+							-2829773
+							-4211920
+							-8226261
+							-11705320
+							-8337633
+							-8337633
+							-8337633
+							-4211920
+							-4211920
+							-2829773
+							-2829773
+							-3098320
+							-2912722
+							-2912722
+							-3099600
+							-2829773
+							-2829773
+							-4211920
+							-4211920
+							-11705320
+							-8337633
+							-9195233
+							-8337633
+							-4211920
+							-2829773
+							-2829773
+							-2829773
+							-2829773
+							-2912722
+							-2912722
+							-2829773
+							-2829773
+							-2829773
+							-2829773
+							-4211920
+							-11705320
+							-8337633
+							-9195233
+							-8337633
+							-4211920
+							-2897614
+							-2829773
+							-2829773
+							-2829773
+							-4423893
+							-2912722
+							-2829773
+							-2829773
+							-2829773
+							-2897614
+							-4211920
+							-11705320
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-4211920
+							-2897614
+							-2829773
+							-2829773
+							-2829773
+							-4423893
+							-2829773
+							-2897614
+							-2897614
+							-4211920
+							-11705320
+							-11705320
+							-9195233
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-2897614
+							-2897614
+							-2897614
+							-2829773
+							-2897614
+							-2897614
+							-8337633
+							-8337633
+							-11705320
+							-12760037
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-2897614
+							-2897614
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-11705320
+							-12760037
+							-8337633
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-9195233
+							-11705320
+							-11705320
+							-12760037
+							-9195233
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-9195233
+							-11705320
+							-12760037
+							-12760037
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-9195233
+							-11705320
+							-11705320
+							-12760037
+							-13880291
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-8337633
+							-11705320
+							-12760037
+							-12760037
+							-13880291
+							-9195233
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-9195233
+							-8337633
+							-8337633
+							-8337633
+							-9195233
+							-11705320
+							-11705320
+							-12760037
+							-13880291
+							-13880291
+						]
+						title: "{cottagewitch.wildlife.quests90.rewards0.item.tag.title}"
+						v: 120
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{cottagewitch.wildlife.quests90.subtitle}"
+			tasks: [{
+				icon: "minecraft:carrot"
+				id: "0932C1F8412CA59D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "kakapos:kakapo"
+				type: "observation"
+			}]
+			title: "{cottagewitch.wildlife.quests90.title}"
+			x: -9.0d
+			y: -4.5d
+		}
+	]
+	title: "{cottagewitch.wildlife.title}"
+}

@@ -1,0 +1,1024 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "twilight_forest"
+	group: "5FB460EFA0A2567E"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "23CEC5718927D582"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 15.0d
+		hover: [ ]
+		image: "cottagewitch:textures/quest_ui/bgtwilightforest.png"
+		rotation: 0.0d
+		width: 27.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["399D55B3452588FF"]
+			description: [
+				"{cottagewitch.twilight_forest.quests0.description0}"
+				"{cottagewitch.twilight_forest.quests0.description1}"
+				"{cottagewitch.twilight_forest.quests0.description2}"
+			]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "730964D8E1FD059F"
+			rewards: [
+				{
+					id: "19306FFE5AF17538"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					id: "33E22D562AA8E674"
+					item: "twilightforest:twilight_portal_miniature_structure"
+					type: "item"
+				}
+			]
+			subtitle: "{cottagewitch.twilight_forest.quests0.subtitle}"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "2522694F96FD15CA"
+				type: "dimension"
+			}]
+			title: "{cottagewitch.twilight_forest.quests0.title}"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{cottagewitch.twilight_forest.quests1.description0}"
+				"{cottagewitch.twilight_forest.quests1.description1}"
+			]
+			id: "399D55B3452588FF"
+			rewards: [
+				{
+					count: 3
+					id: "3CE5D25AECE3322A"
+					item: "minecraft:poppy"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "34FDED8B106683EC"
+					item: "minecraft:dandelion"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "730C5B0A95B13AFC"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{cottagewitch.twilight_forest.quests1.subtitle}"
+			tasks: [{
+				id: "546DCCE3B330C33A"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "{cottagewitch.twilight_forest.quests1.title}"
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["730964D8E1FD059F"]
+			description: ["{cottagewitch.twilight_forest.quests2.description0}"]
+			icon: "twilightforest:raven_feather"
+			id: "3B33F8C27B3361AC"
+			optional: true
+			rewards: [{
+				count: 9
+				id: "769527119DB85277"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.twilight_forest.quests2.subtitle}"
+			tasks: [{
+				id: "28457D6369D12841"
+				observe_type: 5
+				timer: 0L
+				to_observe: "twilightforest:raven"
+				type: "observation"
+			}]
+			title: "{cottagewitch.twilight_forest.quests2.title}"
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3B33F8C27B3361AC"]
+			description: [
+				"{cottagewitch.twilight_forest.quests3.description0}"
+				"{cottagewitch.twilight_forest.quests3.description1}"
+			]
+			id: "0F55C73877E7FD90"
+			rewards: [{
+				count: 5
+				id: "03F8A5DF08431675"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.twilight_forest.quests3.subtitle}"
+			tasks: [{
+				id: "57C05D993313671F"
+				item: "twilightforest:magic_map_focus"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["730964D8E1FD059F"]
+			description: [
+				"{cottagewitch.twilight_forest.quests4.description0}"
+				"{cottagewitch.twilight_forest.quests4.description1}"
+			]
+			id: "03102B4CD0BE7031"
+			rewards: [
+				{
+					id: "4C02CF218E659553"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A2A5C6AA28D867A"
+					table_id: 2688518876927697228L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.twilight_forest.quests4.subtitle}"
+			tasks: [{
+				id: "2AED38B113D31F29"
+				structure: "twilightforest:hedge_maze"
+				type: "structure"
+			}]
+			title: "{cottagewitch.twilight_forest.quests4.title}"
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["730964D8E1FD059F"]
+			description: [
+				"{cottagewitch.twilight_forest.quests5.description0}"
+				"{cottagewitch.twilight_forest.quests5.description1}"
+			]
+			id: "5B5DB6950BD9BC15"
+			rewards: [
+				{
+					id: "0DF298E510FEE5B8"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14EA3BEAB0D5EB03"
+					table_id: 2688518876927697228L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.twilight_forest.quests5.subtitle}"
+			tasks: [{
+				id: "37BFCF9F22551ED3"
+				item: {
+					Count: 1b
+					id: "twilightforest:ore_magnet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{cottagewitch.twilight_forest.quests5.title}"
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["730964D8E1FD059F"]
+			description: [
+				"{cottagewitch.twilight_forest.quests6.description0}"
+				"{cottagewitch.twilight_forest.quests6.description1}"
+			]
+			id: "6A5281FA52C785C6"
+			rewards: [{
+				id: "6497B38870E2FDB2"
+				item: "twilightforest:steeleaf_block"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.twilight_forest.quests6.subtitle}"
+			tasks: [{
+				id: "15FF51EB8323D171"
+				item: "twilightforest:steeleaf_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["730964D8E1FD059F"]
+			description: ["{cottagewitch.twilight_forest.quests7.description0}"]
+			id: "2ACCE2B7760206C9"
+			rewards: [
+				{
+					id: "2AA5905FFDE223BA"
+					item: "twilightforest:ironwood_block"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "238AA074016ACCDB"
+					table_id: 2688518876927697228L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.twilight_forest.quests7.subtitle}"
+			tasks: [{
+				id: "7EC630320EED692D"
+				item: "twilightforest:liveroot"
+				type: "item"
+			}]
+			title: "{cottagewitch.twilight_forest.quests7.title}"
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["730964D8E1FD059F"]
+			description: [
+				"{cottagewitch.twilight_forest.quests8.description0}"
+				"{cottagewitch.twilight_forest.quests8.description1}"
+			]
+			id: "62A0D663EF2B58C1"
+			rewards: [
+				{
+					id: "7613E44F834D267C"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19A5F0C7617CD80D"
+					table_id: 2688518876927697228L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.twilight_forest.quests8.subtitle}"
+			tasks: [{
+				id: "6640CC33AA28C74F"
+				item: {
+					Count: 1b
+					id: "twilightforest:peacock_feather_fan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{cottagewitch.twilight_forest.quests8.title}"
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["730964D8E1FD059F"]
+			description: ["{cottagewitch.twilight_forest.quests9.description0}"]
+			id: "79B6B78157E7D32C"
+			rewards: [
+				{
+					count: 3
+					id: "112733AC98209D26"
+					item: "twilightforest:torchberries"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BA3232E56833C88"
+					table_id: 2688518876927697228L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.twilight_forest.quests9.subtitle}"
+			tasks: [{
+				id: "36DCC9327A7A9CEB"
+				item: {
+					Count: 1b
+					id: "twilightforest:moonworm_queen"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["730964D8E1FD059F"]
+			description: ["{cottagewitch.twilight_forest.quests10.description0}"]
+			id: "7D15924C5AEAC669"
+			rewards: [{
+				id: "646BB07E70488773"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.twilight_forest.quests10.subtitle}"
+			tasks: [{
+				id: "4C765C9C13A943A9"
+				item: "twilightforest:uncrafting_table"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["730964D8E1FD059F"]
+			description: [
+				"{cottagewitch.twilight_forest.quests11.description0}"
+				"{cottagewitch.twilight_forest.quests11.description1}"
+				"{cottagewitch.twilight_forest.quests11.description2}"
+			]
+			icon: "twilightforest:naga_trophy"
+			id: "00B1A6C679547AF2"
+			rewards: [{
+				id: "6F184B1C2B99949E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "{cottagewitch.twilight_forest.quests11.subtitle}"
+			tasks: [{
+				id: "5736708CDA636001"
+				structure: "twilightforest:naga_courtyard"
+				type: "structure"
+			}]
+			title: "{cottagewitch.twilight_forest.quests11.title}"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["00B1A6C679547AF2"]
+			description: ["{cottagewitch.twilight_forest.quests12.description0}"]
+			id: "14B45702F0F82689"
+			optional: true
+			rewards: [
+				{
+					id: "58DC59194FD2B38E"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+				{
+					id: "71EF3889F128E564"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{cottagewitch.twilight_forest.quests12.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "292E38425879D005"
+				item: "twilightforest:naga_scale"
+				type: "item"
+			}]
+			title: "{cottagewitch.twilight_forest.quests12.title}"
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3A0205CA0568641F"]
+			description: [
+				"{cottagewitch.twilight_forest.quests13.description0}"
+				"{cottagewitch.twilight_forest.quests13.description1}"
+				"{cottagewitch.twilight_forest.quests13.description2}"
+				"{cottagewitch.twilight_forest.quests13.description3}"
+				"{cottagewitch.twilight_forest.quests13.description4}"
+			]
+			id: "1B8E61A0872EEA1C"
+			rewards: [{
+				id: "2545DFB3D90982C3"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			subtitle: "{cottagewitch.twilight_forest.quests13.subtitle}"
+			tasks: [{
+				icon: "twilightforest:lich_tower_miniature_structure"
+				id: "7D62DCC45EBECA2C"
+				structure: "twilightforest:lich_tower"
+				title: "{cottagewitch.twilight_forest.quests13.tasks0.title}"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62F755926795DBB6"]
+			description: [
+				"{cottagewitch.twilight_forest.quests14.description0}"
+				"{cottagewitch.twilight_forest.quests14.description1}"
+			]
+			id: "6016A3D8B7FD7A14"
+			rewards: [{
+				id: "00A454F3DD11BB05"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "{cottagewitch.twilight_forest.quests14.subtitle}"
+			tasks: [{
+				icon: "twilightforest:minoshroom_trophy"
+				id: "70BEC1A7AAC7CDF0"
+				structure: "twilightforest:labyrinth"
+				title: "{cottagewitch.twilight_forest.quests14.tasks0.title}"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["169272849A588544"]
+			description: [
+				"{cottagewitch.twilight_forest.quests15.description0}"
+				"{cottagewitch.twilight_forest.quests15.description1}"
+				"{cottagewitch.twilight_forest.quests15.description2}"
+			]
+			id: "3657239C35390F17"
+			rewards: [{
+				count: 5
+				id: "0563B2194472DE74"
+				item: "twilightforest:fiery_ingot"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.twilight_forest.quests15.subtitle}"
+			tasks: [{
+				icon: "twilightforest:hydra_trophy"
+				id: "2FFCBE1976CCD735"
+				structure: "twilightforest:hydra_lair"
+				title: "{cottagewitch.twilight_forest.quests15.tasks0.title}"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6016A3D8B7FD7A14"]
+			description: [
+				"{cottagewitch.twilight_forest.quests16.description0}"
+				"{cottagewitch.twilight_forest.quests16.description1}"
+			]
+			id: "187BD92930BA8670"
+			rewards: [
+				{
+					count: 10
+					id: "7869AF04C5C8C870"
+					item: "twilightforest:decorative_mazestone"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B14E9612F4F61E6"
+					table_id: 2688518876927697228L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.twilight_forest.quests16.subtitle}"
+			tasks: [{
+				id: "43F651AEFE00109D"
+				item: {
+					Count: 1b
+					id: "twilightforest:mazebreaker_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:efficiency"
+								lvl: 4s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{cottagewitch.twilight_forest.quests16.title}"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3657239C35390F17"]
+			description: ["{cottagewitch.twilight_forest.quests17.description0}"]
+			id: "23E5790A6CC6524C"
+			optional: true
+			rewards: [
+				{
+					id: "04DA991BC07CEDE9"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+				{
+					id: "7992840F40B17A89"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{cottagewitch.twilight_forest.quests17.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "5172110E1EBECE10"
+				item: "twilightforest:fiery_blood"
+				type: "item"
+			}]
+			title: "{cottagewitch.twilight_forest.quests17.title}"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["62F755926795DBB6"]
+			description: [
+				"{cottagewitch.twilight_forest.quests18.description0}"
+				"{cottagewitch.twilight_forest.quests18.description1}"
+				"{cottagewitch.twilight_forest.quests18.description2}"
+				"{cottagewitch.twilight_forest.quests18.description3}"
+				"{cottagewitch.twilight_forest.quests18.description4}"
+			]
+			id: "10C91592DCBC6FBD"
+			rewards: [{
+				count: 5
+				id: "76B6287EE4098FC2"
+				item: "twilightforest:knightmetal_ingot"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.twilight_forest.quests18.subtitle}"
+			tasks: [{
+				icon: "twilightforest:knight_phantom_trophy"
+				id: "3A8E49C2219C6265"
+				structure: "twilightforest:knight_stronghold"
+				title: "{cottagewitch.twilight_forest.quests18.tasks0.title}"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["470A6825C49EEFAF"]
+			description: [
+				"{cottagewitch.twilight_forest.quests19.description0}"
+				"{cottagewitch.twilight_forest.quests19.description1}"
+				"{cottagewitch.twilight_forest.quests19.description2}"
+				"{cottagewitch.twilight_forest.quests19.description3}"
+			]
+			id: "5C463B10FDE8CEF2"
+			rewards: [{
+				count: 32
+				id: "3E662212CD97B0B4"
+				item: "twilightforest:reappearing_block"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.twilight_forest.quests19.subtitle}"
+			tasks: [{
+				icon: "twilightforest:ur_ghast_trophy"
+				id: "130652635D0C4E6D"
+				structure: "twilightforest:dark_tower"
+				title: "{cottagewitch.twilight_forest.quests19.tasks0.title}"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["62F755926795DBB6"]
+			description: [
+				"{cottagewitch.twilight_forest.quests20.description0}"
+				"{cottagewitch.twilight_forest.quests20.description1}"
+				"{cottagewitch.twilight_forest.quests20.description2}"
+			]
+			id: "41CBB146259DAF34"
+			rewards: [{
+				id: "27D5E4B9499E2336"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			subtitle: "{cottagewitch.twilight_forest.quests20.subtitle}"
+			tasks: [{
+				icon: "twilightforest:alpha_yeti_trophy"
+				id: "7805711EAE52723C"
+				structure: "twilightforest:yeti_cave"
+				type: "structure"
+			}]
+			title: "{cottagewitch.twilight_forest.quests20.title}"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F267ADA86FA5503"]
+			description: [
+				"{cottagewitch.twilight_forest.quests21.description0}"
+				"{cottagewitch.twilight_forest.quests21.description1}"
+				"{cottagewitch.twilight_forest.quests21.description2}"
+			]
+			id: "2C905E4DE5051CC5"
+			rewards: [
+				{
+					count: 32
+					id: "4BD102C7AA30E305"
+					item: "twilightforest:aurora_block"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "25BC2402BDA201C1"
+					item: "twilightforest:aurora_pillar"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "02205F119C04D7A7"
+					item: "twilightforest:auroralized_glass"
+					type: "item"
+				}
+			]
+			subtitle: "{cottagewitch.twilight_forest.quests21.subtitle}"
+			tasks: [{
+				icon: "twilightforest:snow_queen_trophy"
+				id: "75D978C04D89D204"
+				structure: "twilightforest:aurora_palace"
+				title: "{cottagewitch.twilight_forest.quests21.tasks0.title}"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"27AFCBF70AA24760"
+				"54A57B37E1C04785"
+				"761DD39F82235893"
+			]
+			description: [
+				"{cottagewitch.twilight_forest.quests22.description0}"
+				"{cottagewitch.twilight_forest.quests22.description1}"
+				"{cottagewitch.twilight_forest.quests22.description2}"
+				"{cottagewitch.twilight_forest.quests22.description3}"
+			]
+			id: "2A52CFAE2D88AC1D"
+			rewards: [
+				{
+					id: "01398B9B50D833E9"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28FEF8A4B3D9CF03"
+					table_id: 5036677739913042344L
+					type: "choice"
+				}
+			]
+			subtitle: "{cottagewitch.twilight_forest.quests22.subtitle}"
+			tasks: [{
+				biome: "twilightforest:highlands"
+				icon: "twilightforest:magic_beans"
+				id: "22834B81EEEA5750"
+				type: "biome"
+			}]
+			title: "{cottagewitch.twilight_forest.quests22.title}"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A52CFAE2D88AC1D"]
+			description: [
+				"{cottagewitch.twilight_forest.quests23.description0}"
+				""
+				"{cottagewitch.twilight_forest.quests23.description1}"
+			]
+			id: "2B8E1553C1487EBA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40E93A2B2452F75B"
+				table_id: 5525848455660196930L
+				type: "choice"
+			}]
+			subtitle: "{cottagewitch.twilight_forest.quests23.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0348C0E87AC1994A"
+				structure: "twilightforest:final_castle"
+				type: "structure"
+			}]
+			title: "{cottagewitch.twilight_forest.quests23.title}"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00B1A6C679547AF2"]
+			id: "3A0205CA0568641F"
+			rewards: [
+				{
+					id: "1F8FACBC9C53DC41"
+					item: "twilightforest:naga_courtyard_miniature_structure"
+					type: "item"
+				}
+				{
+					id: "67CB71361CAB1CFF"
+					item: "twilightforest:naga_trophy"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "twilightforest:progress_naga"
+				criterion: ""
+				id: "1D993E6DD7CC725A"
+				type: "advancement"
+			}]
+			title: "{cottagewitch.twilight_forest.quests24.title}"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B8E61A0872EEA1C"]
+			id: "62F755926795DBB6"
+			rewards: [
+				{
+					id: "1297B897EC9603F7"
+					item: "twilightforest:lich_tower_miniature_structure"
+					type: "item"
+				}
+				{
+					id: "1333763D4F0147B9"
+					item: "twilightforest:lich_trophy"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+				id: "7898CAECDDC6D1FA"
+				type: "advancement"
+			}]
+			title: "{cottagewitch.twilight_forest.quests25.title}"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10C91592DCBC6FBD"]
+			id: "470A6825C49EEFAF"
+			rewards: [{
+				id: "6E61129F3516D660"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_knights"
+				criterion: ""
+				id: "0BF937F4624FDA56"
+				type: "advancement"
+			}]
+			title: "{cottagewitch.twilight_forest.quests26.title}"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C463B10FDE8CEF2"]
+			id: "761DD39F82235893"
+			rewards: [{
+				id: "7A19C939ED75E268"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_ur_ghast"
+				criterion: ""
+				id: "68E22924E52442E1"
+				type: "advancement"
+			}]
+			title: "{cottagewitch.twilight_forest.quests27.title}"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6016A3D8B7FD7A14"]
+			id: "169272849A588544"
+			rewards: [{
+				id: "570E54B773C478EA"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_labyrinth"
+				criterion: ""
+				id: "1D855A5D41C7624A"
+				type: "advancement"
+			}]
+			title: "{cottagewitch.twilight_forest.quests28.title}"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3657239C35390F17"]
+			id: "54A57B37E1C04785"
+			rewards: [{
+				id: "59B149EEE3F36F50"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_hydra"
+				criterion: ""
+				id: "176B52B1E8AD95EA"
+				type: "advancement"
+			}]
+			title: "{cottagewitch.twilight_forest.quests29.title}"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41CBB146259DAF34"]
+			id: "2F267ADA86FA5503"
+			rewards: [{
+				id: "33CCF59E9F804766"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "5F68902062C5E874"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{cottagewitch.twilight_forest.quests30.title}"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C905E4DE5051CC5"]
+			id: "27AFCBF70AA24760"
+			rewards: [{
+				id: "59D69494D0E58D6B"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_glacier"
+				criterion: ""
+				id: "77AEB177007F4630"
+				type: "advancement"
+			}]
+			title: "{cottagewitch.twilight_forest.quests31.title}"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["730964D8E1FD059F"]
+			description: [
+				"{cottagewitch.twilight_forest.quests32.description0}"
+				"{cottagewitch.twilight_forest.quests32.description1}"
+			]
+			id: "4EAE4C40B444930A"
+			rewards: [
+				{
+					id: "315D065F86EA659A"
+					item: "twilightforest:quest_ram_trophy"
+					type: "item"
+				}
+				{
+					id: "7BAD2380264D5D6C"
+					item: "plushies:sheep"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				advancement: "twilightforest:quest_ram"
+				criterion: ""
+				id: "51CE926FD2497567"
+				type: "advancement"
+			}]
+			title: "{cottagewitch.twilight_forest.quests32.title}"
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2B8E1553C1487EBA"
+				"54A57B37E1C04785"
+				"761DD39F82235893"
+				"4EAE4C40B444930A"
+				"27AFCBF70AA24760"
+			]
+			description: ["{cottagewitch.twilight_forest.quests33.description0}"]
+			id: "25CB8D0869249D24"
+			rewards: [
+				{
+					id: "4C3BB3CA740BD35D"
+					item: {
+						Count: 1b
+						id: "mcsa:petra_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E820483190944E0"
+					item: {
+						Count: 1b
+						id: "mcsa:petra_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A6115BF0510BD35"
+					item: {
+						Count: 1b
+						id: "mcsa:petra_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28A8A7CB748149C8"
+					item: {
+						Count: 1b
+						id: "mcsa:petra_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				advancement: "twilightforest:progress_troll"
+				criterion: ""
+				id: "22B4D8AF2A94AC3B"
+				type: "advancement"
+			}]
+			title: "{cottagewitch.twilight_forest.quests33.title}"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			id: "723D12B934CAB46C"
+			invisible: true
+			optional: true
+			secret: true
+			tasks: [{
+				id: "599A10FC4B6BB02E"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "{cottagewitch.twilight_forest.title}"
+}

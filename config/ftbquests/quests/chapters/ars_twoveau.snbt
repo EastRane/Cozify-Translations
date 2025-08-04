@@ -1,0 +1,1820 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "ars_nouveau"
+	group: "2757402A47D6A081"
+	icon: "ars_nouveau:archmage_spell_book"
+	id: "28160AC3E2F512C6"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 15.0d
+		hover: [ ]
+		image: "cottagewitch:textures/quest_ui/bgarsnouveau.png"
+		rotation: 0.0d
+		width: 25.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{cottagewitch.ars_twoveau.quests0.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests0.description1}"
+			]
+			id: "18F9D7E52D49C89B"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{cottagewitch.ars_twoveau.quests0.subtitle}"
+			tasks: [{
+				id: "7B79454738304B83"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18F9D7E52D49C89B"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests1.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests1.description1}"
+				""
+				"{cottagewitch.ars_twoveau.quests1.description2}"
+				""
+				"{cottagewitch.ars_twoveau.quests1.description3}"
+				"{cottagewitch.ars_twoveau.quests1.description4}"
+				""
+				"{cottagewitch.ars_twoveau.quests1.description5}"
+			]
+			id: "56A2E0152608BC39"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2674EEDE4E9CFE68"
+				table_id: 2716320750821748806L
+				type: "random"
+			}]
+			subtitle: "{cottagewitch.ars_twoveau.quests1.subtitle}"
+			tasks: [{
+				id: "4E727483CD63FF20"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			title: "{cottagewitch.ars_twoveau.quests1.title}"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56A2E0152608BC39"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests2.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests2.description1}"
+				""
+				"{cottagewitch.ars_twoveau.quests2.description2}"
+			]
+			id: "129ED1C8BBF786DF"
+			rewards: [{
+				id: "2DB7A5529C4B37A5"
+				item: "ars_nouveau:earth_essence"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.ars_twoveau.quests2.subtitle}"
+			tasks: [{
+				id: "5A5F4B057B05E61C"
+				title: "{cottagewitch.ars_twoveau.quests2.tasks0.title}"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["56A2E0152608BC39"]
+			description: ["{cottagewitch.ars_twoveau.quests3.description0}"]
+			id: "276A3F8EA6F66922"
+			rewards: [{
+				id: "1F44266C647EDED8"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6A4CC90F2D67A854"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["276A3F8EA6F66922"]
+			description: ["{cottagewitch.ars_twoveau.quests4.description0}"]
+			id: "5632F590E56DD76C"
+			rewards: [{
+				id: "77641820DE7D7A26"
+				table_id: 5161092699925703455L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6F9E20247238FDC7"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["129ED1C8BBF786DF"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests5.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests5.description1}"
+			]
+			id: "2E6190A66BE57ECE"
+			rewards: [{
+				count: 5
+				id: "5F138985C5BA933D"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.ars_twoveau.quests5.subtitle}"
+			tasks: [
+				{
+					id: "6AD3FC7A0F485B2F"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:logs/archwood"
+						}
+					}
+					title: "{cottagewitch.ars_twoveau.quests5.tasks0.title}"
+					type: "item"
+				}
+				{
+					id: "288CFE208F26546D"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:dowsing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.ars_twoveau.quests5.title}"
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A1AECF9FED954C9"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests6.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests6.description1}"
+			]
+			id: "66F0429FA3DB8535"
+			rewards: [{
+				id: "1E698459A52E0127"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.ars_twoveau.quests6.subtitle}"
+			tasks: [
+				{
+					id: "2E06BD5E7EE5A1AC"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+				{
+					id: "61E4B0BE62DA89BE"
+					item: "ars_nouveau:agronomic_sourcelink"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.ars_twoveau.quests6.title}"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E6190A66BE57ECE"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests7.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests7.description1}"
+			]
+			id: "6A1AECF9FED954C9"
+			rewards: [
+				{
+					count: 5
+					id: "450D8DD61117B392"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73A28BAAAFED7577"
+					table_id: 2716320750821748806L
+					type: "random"
+				}
+			]
+			subtitle: "{cottagewitch.ars_twoveau.quests7.subtitle}"
+			tasks: [{
+				id: "4E238F3FCC34177D"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			title: "{cottagewitch.ars_twoveau.quests7.title}"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A1AECF9FED954C9"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests8.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests8.description1}"
+				""
+				"{cottagewitch.ars_twoveau.quests8.description2}"
+				""
+				"{cottagewitch.ars_twoveau.quests8.description3}"
+			]
+			id: "52E5A3E81A0CA5AE"
+			rewards: [
+				{
+					id: "13C4EEFEFDE43F28"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "1A5AB563E25E465F"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02C70289B501E467"
+					table_id: 2716320750821748806L
+					type: "choice"
+				}
+			]
+			subtitle: "{cottagewitch.ars_twoveau.quests8.subtitle}"
+			tasks: [{
+				id: "34EDCABBD2881C42"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			title: "{cottagewitch.ars_twoveau.quests8.title}"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C6AA50E808EBB9F"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests9.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests9.description1}"
+				""
+				"{cottagewitch.ars_twoveau.quests9.description2}"
+			]
+			id: "02ED5F7941A9361D"
+			rewards: [{
+				count: 3
+				id: "022D1597D25FF222"
+				item: "ars_nouveau:blank_parchment"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.ars_twoveau.quests9.subtitle}"
+			tasks: [
+				{
+					id: "5F79B7738D84E5F3"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:spell_parchment"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2430E8A18128EF12"
+					item: "ars_nouveau:blank_parchment"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.ars_twoveau.quests9.title}"
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5193B0D7E5ACC0A7"
+				"52E5A3E81A0CA5AE"
+			]
+			description: [
+				"{cottagewitch.ars_twoveau.quests10.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests10.description1}"
+				""
+				"{cottagewitch.ars_twoveau.quests10.description2}"
+			]
+			id: "57059A425BFB5179"
+			rewards: [{
+				count: 2
+				id: "4722AB062689511B"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.ars_twoveau.quests10.subtitle}"
+			tasks: [{
+				count: 4L
+				id: "48D1E7E6C3872637"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			title: "{cottagewitch.ars_twoveau.quests10.title}"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6A1AECF9FED954C9"]
+			description: ["{cottagewitch.ars_twoveau.quests11.description0}"]
+			id: "5193B0D7E5ACC0A7"
+			rewards: [
+				{
+					id: "4E91AA9DE20131AE"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C1C4896D656BA3F"
+					table_id: 2716320750821748806L
+					type: "choice"
+				}
+				{
+					count: 8
+					id: "3567FD57ED91BA31"
+					item: "ars_nouveau:sourcestone"
+					type: "item"
+				}
+			]
+			subtitle: "{cottagewitch.ars_twoveau.quests11.subtitle}"
+			tasks: [{
+				id: "7A0041D0CC377293"
+				item: "ars_nouveau:sourcestone"
+				type: "item"
+			}]
+			title: "{cottagewitch.ars_twoveau.quests11.title}"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"52E5A3E81A0CA5AE"
+				"57059A425BFB5179"
+			]
+			description: [
+				"{cottagewitch.ars_twoveau.quests12.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests12.description1}"
+				""
+				"{cottagewitch.ars_twoveau.quests12.description2}"
+				""
+				"{cottagewitch.ars_twoveau.quests12.description3}"
+			]
+			id: "1692491D59BA0527"
+			rewards: [
+				{
+					count: 5
+					id: "43171351D93E8403"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A07BFFF222A3DFB"
+					table_id: 2716320750821748806L
+					type: "choice"
+				}
+			]
+			subtitle: "{cottagewitch.ars_twoveau.quests12.subtitle}"
+			tasks: [
+				{
+					id: "7B69C6C7C98F7F5C"
+					item: "ars_nouveau:glyph_harvest"
+					type: "item"
+				}
+				{
+					id: "7205C1FFCD90F823"
+					item: "ars_nouveau:earth_essence"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.ars_twoveau.quests12.title}"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1692491D59BA0527"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests13.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests13.description1}"
+			]
+			id: "1300FBB6DF2AF01A"
+			rewards: [
+				{
+					count: 4
+					id: "219D9532C3F87BCD"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "796F95EEAEF4199B"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
+			]
+			subtitle: "{cottagewitch.ars_twoveau.quests13.subtitle}"
+			tasks: [
+				{
+					id: "08141C5AC9559E4D"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "5C7F7AAE1C0B6185"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1300FBB6DF2AF01A"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests14.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests14.description1}"
+				""
+				"{cottagewitch.ars_twoveau.quests14.description2}"
+				""
+				"{cottagewitch.ars_twoveau.quests14.description3}"
+			]
+			id: "0C6AA50E808EBB9F"
+			rewards: [{
+				id: "34C0DB789FCE8C12"
+				item: "ars_nouveau:magebloom_crop"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.ars_twoveau.quests14.subtitle}"
+			tasks: [
+				{
+					id: "32E6D536A9C830B2"
+					item: "ars_nouveau:magebloom_crop"
+					type: "item"
+				}
+				{
+					id: "38684C8948AE5808"
+					item: "ars_nouveau:magebloom_fiber"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.ars_twoveau.quests14.title}"
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C6AA50E808EBB9F"]
+			description: ["{cottagewitch.ars_twoveau.quests15.description0}"]
+			id: "7A5533BEA4D6B751"
+			optional: true
+			rewards: [
+				{
+					id: "13CEE90EBA30708F"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76A1540A5F416978"
+					table_id: 2716320750821748806L
+					type: "random"
+				}
+			]
+			subtitle: "{cottagewitch.ars_twoveau.quests15.subtitle}"
+			tasks: [
+				{
+					id: "5C9DEF3347566FEE"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:novice_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "165964466375F9DE"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:novice_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F0084521AF1B534"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:novice_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2AD9C972F122A9AD"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:novice_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.ars_twoveau.quests15.title}"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1300FBB6DF2AF01A"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests16.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests16.description1}"
+				""
+				"{cottagewitch.ars_twoveau.quests16.description2}"
+			]
+			id: "2035BB54A9444F74"
+			rewards: [{
+				count: 2
+				id: "49186D79215B0987"
+				item: "ars_nouveau:abjuration_essence"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.ars_twoveau.quests16.subtitle}"
+			tasks: [
+				{
+					id: "7DEF33D6263F0654"
+					item: "ars_nouveau:potion_jar"
+					type: "item"
+				}
+				{
+					id: "2A259CCAE83B6E06"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:potion_flask"
+						tag: {
+							Damage: 8
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.ars_twoveau.quests16.title}"
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2035BB54A9444F74"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests17.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests17.description1}"
+			]
+			id: "296E6CCDF530F5D5"
+			rewards: [
+				{
+					count: 5
+					id: "41CBD75EEB9C3ECF"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AE41ED4B755044D"
+					table_id: 2716320750821748806L
+					type: "choice"
+				}
+			]
+			subtitle: "{cottagewitch.ars_twoveau.quests17.subtitle}"
+			tasks: [{
+				id: "3E2D57F700494C1E"
+				item: "ars_nouveau:potion_melder"
+				type: "item"
+			}]
+			title: "{cottagewitch.ars_twoveau.quests17.title}"
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7A5533BEA4D6B751"]
+			description: ["{cottagewitch.ars_twoveau.quests18.description0}"]
+			id: "43BD92DEB06541F2"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "0F227A53AE001B07"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "63FC3D7E2D8181DC"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1D6B35A928BF1398"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:apprentice_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "120A8FE120F9157F"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:apprentice_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "440DDF2B8D6E889B"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:apprentice_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19EB178AEF1C11C8"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:apprentice_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.ars_twoveau.quests18.title}"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["43BD92DEB06541F2"]
+			description: ["{cottagewitch.ars_twoveau.quests19.description0}"]
+			id: "1D9FDA3FA050DBEA"
+			rewards: [
+				{
+					count: 5
+					id: "5621985A0C7A1629"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "568A841597A77A0D"
+					item: "ars_nouveau:manipulation_essence"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "28D9AF30FF0E9FF0"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:archmage_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CB59F1D9FC5F29A"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:archmage_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F0F351549896DAD"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:archmage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2511F6D618D1EFCB"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:archmage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.ars_twoveau.quests19.title}"
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1300FBB6DF2AF01A"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests20.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests20.description1}"
+			]
+			id: "7894B8900BF0BF51"
+			rewards: [
+				{
+					id: "3AF0E3FDE07DB7ED"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "026C0C70D0E783F4"
+					table_id: 2716320750821748806L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "694C92576A83087E"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1300FBB6DF2AF01A"]
+			description: ["{cottagewitch.ars_twoveau.quests21.description0}"]
+			id: "74996388CF70DE6A"
+			rewards: [
+				{
+					count: 3
+					id: "643EFE2EA3C419C2"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51395AAB9E5F059E"
+					table_id: 2716320750821748806L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.ars_twoveau.quests21.subtitle}"
+			tasks: [
+				{
+					id: "63D4B786A87258DE"
+					item: "ars_nouveau:mundane_belt"
+					type: "item"
+				}
+				{
+					id: "534324659F15BBFF"
+					item: "ars_nouveau:ring_of_potential"
+					type: "item"
+				}
+				{
+					id: "3E0FAB2C02ED3C79"
+					item: "ars_nouveau:dull_trinket"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.ars_twoveau.quests21.title}"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["74996388CF70DE6A"]
+			description: ["{cottagewitch.ars_twoveau.quests22.description0}"]
+			id: "3BF734AA814F7378"
+			rewards: [
+				{
+					id: "6772293F419B0859"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "326BE4600F8E2BBC"
+					table_id: 2716320750821748806L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "44EC94BF290E290E"
+				item: "ars_nouveau:belt_of_unstable_gifts"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["74996388CF70DE6A"]
+			description: ["{cottagewitch.ars_twoveau.quests23.description0}"]
+			id: "59BE43B1B391CC33"
+			rewards: [{
+				id: "468FD88152188727"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "424A8AB48A36DE34"
+				item: "ars_nouveau:ring_of_lesser_discount"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"74996388CF70DE6A"
+				"6D58B5D08AAAAB42"
+			]
+			description: [
+				"{cottagewitch.ars_twoveau.quests24.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests24.description1}"
+			]
+			id: "4C28B6865EDE04DD"
+			rewards: [{
+				id: "7530723A06CC7054"
+				table_id: 5161092699925703455L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1B36F01F091A267E"
+				item: "ars_nouveau:summon_focus"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1300FBB6DF2AF01A"]
+			description: ["{cottagewitch.ars_twoveau.quests25.description0}"]
+			id: "67BD14F42C133046"
+			rewards: [{
+				id: "429C0C98C93CDADA"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "55F2645FC8082E28"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1300FBB6DF2AF01A"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests26.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests26.description1}"
+				""
+				"{cottagewitch.ars_twoveau.quests26.description2}"
+			]
+			id: "17E37418AF2A9AE8"
+			rewards: [
+				{
+					id: "4402A633B28A1328"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "633B56363585C3CE"
+					table_id: 2716320750821748806L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "79E4A9342F71F1F1"
+					item: "ars_nouveau:void_jar"
+					type: "item"
+				}
+				{
+					id: "2268034543CEB836"
+					item: "ars_nouveau:jar_of_light"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.ars_twoveau.quests26.title}"
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["67BD14F42C133046"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests27.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests27.description1}"
+			]
+			id: "72CACA09D66C8B43"
+			rewards: [
+				{
+					id: "07569ED8907C3380"
+					item: "ars_nouveau:blue_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "0AAA1680EFCF2625"
+					item: "ars_nouveau:purple_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "179589EE2534C0AF"
+					item: "ars_nouveau:green_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "40B59137603C8851"
+					item: "ars_nouveau:red_archwood_sapling"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.ars_twoveau.quests27.subtitle}"
+			tasks: [
+				{
+					id: "34DCC0F881806011"
+					item: "ars_nouveau:ritual_awakening"
+					type: "item"
+				}
+				{
+					id: "5902E913F6C93906"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:dominion_wand"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.ars_twoveau.quests27.title}"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["67BD14F42C133046"]
+			description: ["{cottagewitch.ars_twoveau.quests28.description0}"]
+			id: "09C9FD92B5C2E636"
+			rewards: [{
+				id: "7842DC72D8D24AB6"
+				table_id: 5036677739913042344L
+				type: "choice"
+			}]
+			subtitle: "{cottagewitch.ars_twoveau.quests28.subtitle}"
+			tasks: [{
+				id: "1BD9267C815BB9A3"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ritual_tablets"
+					}
+				}
+				title: "{cottagewitch.ars_twoveau.quests28.tasks0.title}"
+				type: "item"
+			}]
+			title: "{cottagewitch.ars_twoveau.quests28.title}"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["09C9FD92B5C2E636"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests29.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests29.description1}"
+				""
+				"{cottagewitch.ars_twoveau.quests29.description2}"
+			]
+			id: "6D58B5D08AAAAB42"
+			rewards: [{
+				id: "11A7BFB8C841248B"
+				table_id: 5036677739913042344L
+				type: "choice"
+			}]
+			shape: "diamond"
+			subtitle: "{cottagewitch.ars_twoveau.quests29.subtitle}"
+			tasks: [
+				{
+					id: "1286D5DD728E6821"
+					item: "ars_nouveau:ritual_wilden_summon"
+					type: "item"
+				}
+				{
+					id: "6667BA27083D56D6"
+					item: "ars_nouveau:wilden_tribute"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.ars_twoveau.quests29.title}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67BD14F42C133046"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests30.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests30.description1}"
+				""
+				"{cottagewitch.ars_twoveau.quests30.description2}"
+				""
+				"{cottagewitch.ars_twoveau.quests30.description3}"
+				""
+				"{cottagewitch.ars_twoveau.quests30.description4}"
+			]
+			id: "518A08681965283A"
+			rewards: [{
+				id: "0CEFA15A98D5A67D"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			subtitle: "{cottagewitch.ars_twoveau.quests30.subtitle}"
+			tasks: [{
+				id: "3D251D863C56661A"
+				item: "ars_nouveau:ritual_binding"
+				type: "item"
+			}]
+			title: "{cottagewitch.ars_twoveau.quests30.title}"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["518A08681965283A"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests31.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests31.description1}"
+				""
+				"{cottagewitch.ars_twoveau.quests31.description2}"
+			]
+			id: "772E17A1C8332FCA"
+			rewards: [{
+				id: "0D96EF31F2E4633C"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2325E9FFE8914B96"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["518A08681965283A"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests32.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests32.description1}"
+				""
+				"{cottagewitch.ars_twoveau.quests32.description2}"
+			]
+			id: "1595CFEA592A8F90"
+			rewards: [{
+				id: "0499E41A74D8A58A"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76AEA9F984246409"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["518A08681965283A"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests33.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests33.description1}"
+				""
+				"{cottagewitch.ars_twoveau.quests33.description2}"
+			]
+			id: "393D7EE8162A2FB9"
+			rewards: [{
+				id: "5B59DBDAC268B490"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			tasks: [{
+				id: "661F9F3056F11656"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["518A08681965283A"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests34.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests34.description1}"
+				"{cottagewitch.ars_twoveau.quests34.description2}"
+				""
+				"{cottagewitch.ars_twoveau.quests34.description3}"
+			]
+			id: "4006775C2145C6CD"
+			rewards: [{
+				id: "1C33D861AAC45456"
+				item: "ars_nouveau:bookwyrm_charm"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.ars_twoveau.quests34.subtitle}"
+			tasks: [{
+				id: "01072264E0E01AF4"
+				item: "ars_nouveau:bookwyrm_charm"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["518A08681965283A"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests35.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests35.description1}"
+				""
+				"{cottagewitch.ars_twoveau.quests35.description2}"
+			]
+			id: "313B15A623A19140"
+			rewards: [{
+				id: "53394A1D2067B640"
+				item: "ars_nouveau:wixie_charm"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.ars_twoveau.quests35.subtitle}"
+			tasks: [{
+				id: "158DE1FC7F3EECFD"
+				item: "ars_nouveau:wixie_charm"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A1AECF9FED954C9"]
+			description: ["{cottagewitch.ars_twoveau.quests36.description0}"]
+			id: "106CFEEF7A039929"
+			rewards: [
+				{
+					id: "2EE093DECBE95646"
+					item: "ars_nouveau:abjuration_essence"
+					type: "item"
+				}
+				{
+					id: "11268BA9798C68F1"
+					item: "ars_nouveau:conjuration_essence"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.ars_twoveau.quests36.subtitle}"
+			tasks: [{
+				id: "6DBE085A6CAA8888"
+				item: "ars_nouveau:basic_spell_turret"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D58B5D08AAAAB42"]
+			description: ["{cottagewitch.ars_twoveau.quests37.description0}"]
+			id: "08DA497A806C3600"
+			rewards: [
+				{
+					id: "1E521BF90E8FF373"
+					table_id: 8808494820591225409L
+					type: "choice"
+				}
+				{
+					id: "1B3E54EF1012AD2D"
+					item: {
+						Count: 1b
+						id: "mcsa:olivia_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41FD118EE6B69978"
+					item: {
+						Count: 1b
+						id: "mcsa:olivia_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68D19DF0229F54EE"
+					item: {
+						Count: 1b
+						id: "mcsa:olivia_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17C1E754B6A4BCFF"
+					item: {
+						Count: 1b
+						id: "mcsa:olivia_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{cottagewitch.ars_twoveau.quests37.subtitle}"
+			tasks: [{
+				id: "0195AE282D27384D"
+				title: "{cottagewitch.ars_twoveau.quests37.tasks0.title}"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"518A08681965283A"
+				"72CACA09D66C8B43"
+			]
+			description: [
+				"{cottagewitch.ars_twoveau.quests38.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests38.description1}"
+				""
+				"{cottagewitch.ars_twoveau.quests38.description2}"
+			]
+			id: "01FF4033A5D2BCD3"
+			rewards: [{
+				id: "0C29B53660B685C1"
+				item: "ars_nouveau:amethyst_golem_charm"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54AC3AEE86B82852"
+				item: "ars_nouveau:amethyst_golem_charm"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["518A08681965283A"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests39.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests39.description1}"
+				""
+				"{cottagewitch.ars_twoveau.quests39.description2}"
+			]
+			id: "5A7582AFC194A690"
+			rewards: [{
+				id: "41D9C996B06EE23D"
+				item: "ars_elemental:siren_charm"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BA130098BD1B514"
+				item: "ars_elemental:siren_charm"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["518A08681965283A"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests40.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests40.description1}"
+				""
+				"{cottagewitch.ars_twoveau.quests40.description2}"
+			]
+			id: "1E18004CE618CAE6"
+			rewards: [{
+				id: "6D25A514C023E850"
+				item: "ars_elemental:firenando_charm"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66A4C54FBEE935C1"
+				item: "ars_elemental:firenando_charm"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2E6190A66BE57ECE"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests41.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests41.description1}"
+				""
+				"{cottagewitch.ars_twoveau.quests41.description2}"
+				""
+				"{cottagewitch.ars_twoveau.quests41.description3}"
+				""
+				"{cottagewitch.ars_twoveau.quests41.description4}"
+			]
+			id: "47B8DC917C985757"
+			rewards: [
+				{
+					id: "2C5FD4DEC05BC927"
+					item: "farmersdelight:fruit_salad"
+					type: "item"
+				}
+				{
+					id: "7DD121E3B5B44FAF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "556F6DD690406A99"
+					item: "ars_nouveau:bombegranate_pod"
+					type: "item"
+				}
+				{
+					id: "7008D3E393DC1940"
+					item: "ars_nouveau:mendosteen_pod"
+					type: "item"
+				}
+				{
+					id: "71B130EE30662AFC"
+					item: "ars_nouveau:bastion_pod"
+					type: "item"
+				}
+				{
+					id: "0B064F39159CC792"
+					item: "ars_nouveau:frostaya_pod"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.ars_twoveau.quests41.title}"
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["66F0429FA3DB8535"]
+			description: ["{cottagewitch.ars_twoveau.quests42.description0}"]
+			id: "52BA326D307DE192"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F6A813E98A1C353"
+				table_id: 2716320750821748806L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0E302B0E45889C5F"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["66F0429FA3DB8535"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests43.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests43.description1}"
+			]
+			id: "7E3F38817F8844ED"
+			rewards: [
+				{
+					id: "0CDA2AAB3DCACC51"
+					item: "duckling:holiday_fruit_cake"
+					type: "item"
+				}
+				{
+					id: "163131943C2956D5"
+					item: "minecraft:mycelium"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31243875C9646F44"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["66F0429FA3DB8535"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests44.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests44.description1}"
+			]
+			id: "4F22356C80F0C6AA"
+			rewards: [
+				{
+					id: "660EB3FA52112EB5"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4B7C7675B20BC9F9"
+					item: "ars_nouveau:lava_lily"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "371ABA829CC8A1E8"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["66F0429FA3DB8535"]
+			description: ["{cottagewitch.ars_twoveau.quests45.description0}"]
+			id: "205A56EE169E1DC0"
+			rewards: [
+				{
+					id: "06308C0693617776"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_regeneration"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E12B494D02CE82D"
+					table_id: 2716320750821748806L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3FDCBD44372C5A2E"
+				item: "ars_nouveau:alchemical_sourcelink"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			description: ["{cottagewitch.ars_twoveau.quests46.description0}"]
+			id: "1AEACEEBD42A4E1B"
+			rewards: [{
+				id: "59E05CDC96C5EAE7"
+				item: "ars_nouveau:starbuncle_shards"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "ars_nouveau:poof_mob"
+				criterion: ""
+				icon: "minecraft:gold_nugget"
+				id: "5CE951FAED55C40B"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["772E17A1C8332FCA"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests47.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests47.description1}"
+			]
+			id: "1C29A869EC894801"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "787058777C0C6747"
+					table_id: 2716320750821748806L
+					type: "random"
+				}
+				{
+					id: "5BCCDEFA1F3D8323"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:starby_gift"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78A4B1CE7764E797"
+				item: {
+					Count: 1b
+					id: "ars_instrumentum:scroll_of_save_starbuncle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7A5533BEA4D6B751"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests48.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests48.description1}"
+				""
+				"{cottagewitch.ars_twoveau.quests48.description2}"
+				""
+				"{cottagewitch.ars_twoveau.quests48.description3}"
+			]
+			id: "6166CCA185DDB9F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65F63438E276DB0C"
+				table_id: 5036677739913042344L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "39E77CA4B1740E5B"
+				item: {
+					Count: 1b
+					id: "ars_instrumentum:wizards_armarium"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{cottagewitch.ars_twoveau.quests48.title}"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["772E17A1C8332FCA"]
+			description: ["{cottagewitch.ars_twoveau.quests49.description0}"]
+			id: "0070E0B930AC3ABD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F3E3D325648191C"
+				table_id: 2716320750821748806L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "75FA73AF9DB31F22"
+					item: "starbunclemania:star_bucket"
+					type: "item"
+				}
+				{
+					id: "2782F548F3700245"
+					item: "starbunclemania:fluid_jar"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.ars_twoveau.quests49.title}"
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["772E17A1C8332FCA"]
+			description: ["{cottagewitch.ars_twoveau.quests50.description0}"]
+			id: "72E1E1A6B5BBAB5D"
+			rewards: [{
+				id: "62545F71F4A34D52"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "067E757B16C76CA7"
+				item: "starbunclemania:wyrm_degree"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["772E17A1C8332FCA"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests51.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests51.description1}"
+			]
+			id: "6870DE7CB25E9C8D"
+			rewards: [{
+				id: "77E2B17C4EF8C6D2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "05746F8F8087B4BD"
+				item: "starbunclemania:star_bin"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["772E17A1C8332FCA"]
+			description: ["{cottagewitch.ars_twoveau.quests52.description0}"]
+			id: "68F7C83A4EB11B54"
+			rewards: [{
+				id: "0903B8304EA2E6A6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "71D8A4761735A429"
+				item: "starbunclemania:star_saddle"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1300FBB6DF2AF01A"]
+			description: [
+				"{cottagewitch.ars_twoveau.quests53.description0}"
+				""
+				"{cottagewitch.ars_twoveau.quests53.description1}"
+			]
+			id: "068E6BE3B5F01460"
+			rewards: [{
+				id: "3CEFCECBECFC5E0D"
+				item: {
+					Count: 1b
+					id: "casting_crystals:casting_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2F1284F4302FDD13"
+				item: {
+					Count: 1b
+					id: "casting_crystals:casting_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			id: "5DF07C53B8BA59F4"
+			invisible: true
+			optional: true
+			secret: true
+			tasks: [{
+				id: "61F16DD0CDACA661"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["{cottagewitch.ars_twoveau.quests55.description0}"]
+			id: "1614EF9C7E462CD9"
+			rewards: [
+				{
+					count: 3
+					id: "253E68C8CB0F45F7"
+					item: "minecraft:spore_blossom"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "185E7572249B298E"
+					item: "ars_elemental:spore_blossom_up"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "ars_elemental:spore_blossom"
+				criterion: ""
+				id: "1483BD6D4B597C26"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			description: ["{cottagewitch.ars_twoveau.quests56.description0}"]
+			id: "3C9D1C2652667535"
+			rewards: [{
+				count: 5
+				id: "2CE973A6BEC0A601"
+				item: "ars_nouveau:sky_block"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1B0DC09EB80A513D"
+				item: "ars_nouveau:sky_block"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+	]
+	title: "{cottagewitch.ars_twoveau.title}"
+}

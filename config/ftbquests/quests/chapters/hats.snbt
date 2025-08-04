@@ -1,0 +1,535 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hats"
+	group: "346046A71D537172"
+	icon: "simplehats:haticon"
+	id: "50CC57559EB27F25"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"На какую из сборок Cozify не зайдёшь, одно останется неизменным — &bшляпки&r!"
+				""
+				"Их у нас сейчас 40 штук. Они бывают необычные, редкие и эпичные."
+				""
+				"Каждый твой голос на &cHotMC&r (а голосовать можно один раз в день) даёт шанс, что тебе выпадет шляпа."
+				""
+				"Если выпадет — &aполучишь сообщение от нашего бота в Discord&r."
+			]
+			id: "2527FF2EBFA4ACB6"
+			shape: "rsquare"
+			tasks: [{
+				id: "7BDCACAC70BAEB8B"
+				title: "Получение шляп"
+				type: "checkmark"
+			}]
+			title: "Получение шляп"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2527FF2EBFA4ACB6"]
+			description: [
+				"Новшество этой сборки: &aвозможность переработать шляпы&r!"
+				""
+				"Если тебе не понравилась шляпа, &6объедини её с ножницами на верстаке&r. Получится &bткань шляпы&r."
+				""
+				"Из четырёх &bтканей&r можно сделать &bмешок со случайной шляпой&r."
+				""
+				"А ещё ты можешь обменивать две &bнеобычные ткани&r на одну &bредкую&r."
+			]
+			id: "045C952DE734FB4D"
+			shape: "hexagon"
+			subtitle: "Почему бы и нет"
+			tasks: [
+				{
+					id: "6985DE5FA9312C2C"
+					item: "simplehats:hatscraps_uncommon"
+					type: "item"
+				}
+				{
+					id: "1FDE0EBCB17173E7"
+					item: "simplehats:hatbag_uncommon"
+					type: "item"
+				}
+			]
+			title: "Переработка шляп"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2527FF2EBFA4ACB6"]
+			description: [
+				"Если ты вдруг не разобрался, как голосовать, вот инструкция:"
+				""
+				"1. &6Перейди на страницу голосования на HotMC&r:"
+				"https://hotmc.ru/vote-277285"
+				""
+				"2. &6Введи свой ник в поле «Ник в Майнкрафт»&r."
+				""
+				"3. &6Пройди капчу&r."
+				""
+				"4. &6Нажми кнопку «Отдать серверу голос!»&r."
+				""
+				"5. &6Повтори на следующий день&r."
+				""
+				"В Discord сервере можно получить роль «Голосование», тогда бот будет каждый вечер &aнапоминать тебе о голосовании&r."
+			]
+			id: "36B9DC04D2CC8A6A"
+			shape: "gear"
+			subtitle: "Как голосовать-то?"
+			tasks: [{
+				id: "71793876F91B737E"
+				title: "Процесс голосования"
+				type: "checkmark"
+			}]
+			title: "Процесс голосования"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "49A515E67323E341"
+			shape: "hexagon"
+			tasks: [{
+				id: "6096B5D1D736413C"
+				item: "simplehats:pirate_hat"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			id: "52283E9E91D40EA6"
+			shape: "hexagon"
+			tasks: [{
+				id: "659D1A09D8C5CE8C"
+				item: "simplehats:cowboy_hat"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			id: "545AA3989B523AB6"
+			shape: "hexagon"
+			tasks: [{
+				id: "04305EF801997566"
+				item: "simplehats:neko_ears"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			id: "5C3D5D765A3900E3"
+			shape: "hexagon"
+			tasks: [{
+				id: "02AC0F0B6C1DD158"
+				item: "simplehats:samurai_hat"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			id: "116FA7FD7925C099"
+			shape: "hexagon"
+			tasks: [{
+				id: "2542F8DF142712A0"
+				item: "simplehats:speedwagon_hat"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			id: "376DB653C491149B"
+			shape: "hexagon"
+			tasks: [{
+				id: "14F16FD80AF39C05"
+				item: "simplehats:crown"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "410B2AD2E1184478"
+			shape: "hexagon"
+			tasks: [{
+				id: "798E7C1406101E73"
+				item: "simplehats:luffy_hat"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "3C47705CE499E242"
+			shape: "hexagon"
+			tasks: [{
+				id: "4004969B88663CED"
+				item: "simplehats:wreath"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			id: "2FBAAA022CD72E64"
+			shape: "hexagon"
+			tasks: [{
+				id: "46B91A4963C60CD2"
+				item: "simplehats:earflaps"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			id: "7B07790EF4DF9D70"
+			shape: "hexagon"
+			tasks: [{
+				id: "5EEFF5D976CBE630"
+				item: "simplehats:tiara"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			id: "57D4752BC7582528"
+			shape: "hexagon"
+			tasks: [{
+				id: "67142DEE066B5669"
+				item: "simplehats:bunny_ears"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			id: "4DA1D170B8FB1229"
+			shape: "hexagon"
+			tasks: [{
+				id: "3AC6E712E5C422D6"
+				item: "simplehats:halo"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			id: "133A19D4A53125D6"
+			shape: "hexagon"
+			tasks: [{
+				id: "310FC416913E70C9"
+				item: "simplehats:academic_hat"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "3DD80C782EA10AF4"
+			shape: "hexagon"
+			tasks: [{
+				id: "4E037B4BE3527B88"
+				item: "simplehats:cook_hat"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "3E543F9EA13544E4"
+			shape: "hexagon"
+			tasks: [{
+				id: "5A83508D72581641"
+				item: "simplehats:clown_hat"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			id: "2BC261FF36D40ED0"
+			shape: "hexagon"
+			tasks: [{
+				id: "5FAD35E6973D30BE"
+				item: "simplehats:gas_mask"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			id: "01F813AC8DAB3C9B"
+			shape: "hexagon"
+			tasks: [{
+				id: "15C05826801D638D"
+				item: "simplehats:mushroom_hat"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			id: "581EA529B77F9572"
+			shape: "hexagon"
+			tasks: [{
+				id: "329D0A0F3000D6DC"
+				item: "simplehats:panama_hat"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			id: "13CD54DF6ADA2F28"
+			shape: "hexagon"
+			tasks: [{
+				id: "28F8CFB7F06F8BB6"
+				item: "simplehats:mita_cap"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "76D97AB5593BAB21"
+			shape: "hexagon"
+			tasks: [{
+				id: "67A9FBB1B1E62AF0"
+				item: "simplehats:miku_braids"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "27BA8E0648E00533"
+			shape: "hexagon"
+			tasks: [{
+				id: "7CB9607138FC2A6D"
+				item: "simplehats:zerotwo_horns"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "77593E7783423107"
+			shape: "hexagon"
+			tasks: [{
+				id: "46745701F2278E27"
+				item: "simplehats:aqua_braids"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "77FBDDDA1482D79F"
+			shape: "hexagon"
+			tasks: [{
+				id: "612FE90A275236BC"
+				item: "simplehats:jotaro_cap"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "6CDCF8D2F0122277"
+			shape: "hexagon"
+			tasks: [{
+				id: "601170BF38E91108"
+				item: "simplehats:kanna_braids"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			id: "7C6D729194BFD634"
+			shape: "hexagon"
+			tasks: [{
+				id: "0348B049A24E7249"
+				item: "simplehats:yazawa_braids"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			hide: true
+			id: "35C40BAD2B31664B"
+			shape: "pentagon"
+			tasks: [{
+				id: "5FE7B062FC4D23E6"
+				item: "simplehats:hokage_hat"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			id: "41E0FABCB2961773"
+			shape: "hexagon"
+			tasks: [{
+				id: "50BD7E71060B89DA"
+				item: "simplehats:niko_hat"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			id: "02630D4B100CA334"
+			shape: "hexagon"
+			tasks: [{
+				id: "68A6C08A589C81A0"
+				item: "simplehats:karen_hat"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			id: "41B4B306205A5BCC"
+			shape: "hexagon"
+			tasks: [{
+				id: "3994BA3E195E406B"
+				item: "simplehats:bloodborne_hat"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			id: "4128028AF505BD12"
+			shape: "hexagon"
+			tasks: [{
+				id: "26A33EC8BC6A8A63"
+				item: "simplehats:lamb_hat"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			id: "2DB48DB6DC11DF19"
+			shape: "hexagon"
+			tasks: [{
+				id: "753D35777A6681AA"
+				item: "simplehats:repo_hat"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			id: "5B9C912EC8026430"
+			shape: "hexagon"
+			tasks: [{
+				id: "502FE69BAB95AC0C"
+				item: "simplehats:steam_hat"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "4528CA322CC5DA1F"
+			shape: "hexagon"
+			tasks: [{
+				id: "3DA70964E440447A"
+				item: "simplehats:megumin_hat"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			id: "5C23F3734C9BB5BF"
+			shape: "hexagon"
+			tasks: [{
+				id: "75E58174056A2358"
+				item: "simplehats:altair_hat"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "3EB00387A0CA4BEF"
+			shape: "hexagon"
+			tasks: [{
+				id: "3CEB835543FE3D70"
+				item: "simplehats:hutao_hat"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			id: "3B8FE13A1B87A5C9"
+			shape: "hexagon"
+			tasks: [{
+				id: "7CFCD2BDEE983EE2"
+				item: "simplehats:kamina_glasses"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			id: "314284A46D0DE40F"
+			shape: "hexagon"
+			tasks: [{
+				id: "2A5621186E586159"
+				item: "simplehats:driller_hat"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			id: "53AD2089E84585A8"
+			shape: "hexagon"
+			tasks: [{
+				id: "3504AFC3119E0E81"
+				item: "simplehats:inosuke_hat"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			id: "5EFD766EB88982A1"
+			shape: "hexagon"
+			tasks: [{
+				id: "641F627CB547C84E"
+				item: "simplehats:furina_hat"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			id: "2C5E59F26B9B2573"
+			shape: "hexagon"
+			tasks: [{
+				id: "6FB307076DCB4809"
+				item: "simplehats:nanachi_hat"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+	]
+	title: "Шляпки"
+}

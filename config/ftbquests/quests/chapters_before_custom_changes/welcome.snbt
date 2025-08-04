@@ -1,0 +1,370 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "346046A71D537172"
+	icon: {
+		Count: 1b
+		id: "hexerei:witch_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "525A3F37A27EBC86"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/modpacklogo.png"
+			rotation: 0.0d
+			width: 17.066666666666666d
+			x: 0.5d
+			y: -12.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 7.187759336099585d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/questkey.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 11.25d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/welcomebanner.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			click: "https://discord.com/invite/wnZM2T5MBN"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Click here to join our Discord!"]
+			image: "supplementaries:textures/gui/book/icon/discord.png"
+			order: 99
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			click: "https://t.me/+bzQIPdyGDzFhMzcy"
+			corner: false
+			dev: false
+			height: 0.75d
+			hover: [ ]
+			image: "cozify:textures/icons/telegram.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 5.5d
+			y: -3.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{cottagewitch.welcome.quests0.description0}"
+				""
+				"{cottagewitch.welcome.quests0.description1}"
+				""
+				"{cottagewitch.welcome.quests0.description2}"
+				""
+				"{cottagewitch.welcome.quests0.description3}"
+			]
+			id: "6C22B7717BABD4EC"
+			rewards: [{
+				id: "2F283F7FB47A65D3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{cottagewitch.welcome.quests0.subtitle}"
+			tasks: [{
+				id: "094E438FC988764A"
+				title: "{cottagewitch.welcome.quests0.tasks0.title}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{cottagewitch.welcome.quests1.description0}"
+				""
+				"{cottagewitch.welcome.quests1.description1}"
+			]
+			id: "7803AE9CE5929FC1"
+			shape: "gear"
+			subtitle: "{cottagewitch.welcome.quests1.subtitle}"
+			tasks: [{
+				id: "18B69346662B918E"
+				title: "{cottagewitch.welcome.quests1.tasks0.title}"
+				type: "checkmark"
+			}]
+			title: "{cottagewitch.welcome.quests1.title}"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{cottagewitch.welcome.quests2.description0}"
+				""
+				"{cottagewitch.welcome.quests2.description1}"
+				""
+				"{image:cottagewitch:textures/quest_images/ftbmenu.png width:200 height:150 align:1}"
+				""
+				"{cottagewitch.welcome.quests2.description2}"
+				""
+				"{image:cottagewitch:textures/quest_images/claimchunks.png width:200 height:120 align:1}"
+				""
+				"{cottagewitch.welcome.quests2.description3}"
+			]
+			id: "33176499C3C54D9C"
+			min_width: 350
+			rewards: [{
+				id: "4E08ED465F61CD36"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "gear"
+			subtitle: "{cottagewitch.welcome.quests2.subtitle}"
+			tasks: [{
+				id: "581760A3119D8A40"
+				title: "{cottagewitch.welcome.quests2.tasks0.title}"
+				type: "checkmark"
+			}]
+			title: "{cottagewitch.welcome.quests2.title}"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["33176499C3C54D9C"]
+			description: [
+				"{cottagewitch.welcome.quests3.description0}"
+				""
+				"{cottagewitch.welcome.quests3.description1}"
+				""
+				"{image:cottagewitch:textures/quest_images/ftbmenu.png width:200 height:150 align:1}"
+				""
+				"{image:cottagewitch:textures/quest_images/createaparty.png width:100 height:75 align:1 fit:true}"
+				""
+				"{image:cottagewitch:textures/quest_images/manageallies.png width:200 height:150 align:1}"
+				""
+				"{cottagewitch.welcome.quests3.description2}"
+				""
+				"{image:cottagewitch:textures/quest_images/fakeplayers.png width:871 height:342 align:1 fit:true}"
+				""
+				"{cottagewitch.welcome.quests3.description3}"
+			]
+			id: "09A30D11730DA3E8"
+			rewards: [{
+				id: "3E7FB8C50D1FD713"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "197377634DD67EB7"
+				title: "{cottagewitch.welcome.quests3.tasks0.title}"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{cottagewitch.welcome.quests4.description0}"
+				""
+				"{image:cottagewitch:textures/quest_images/questmenu.png width:300 height:200 align:1}"
+				""
+				"{cottagewitch.welcome.quests4.description1}"
+				""
+				"{image:cottagewitch:textures/quest_images/questmenu2.png width:300 height:200 align:1}"
+				""
+				"{cottagewitch.welcome.quests4.description2}"
+			]
+			id: "45AAAB127DE386A4"
+			min_width: 350
+			rewards: [{
+				id: "7537C1A214D18796"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "71213A4C883E0709"
+				title: "{cottagewitch.welcome.quests4.tasks0.title}"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["45AAAB127DE386A4"]
+			description: [
+				"{cottagewitch.welcome.quests5.description0}"
+				""
+				"{cottagewitch.welcome.quests5.description1}"
+				""
+				"{cottagewitch.welcome.quests5.description2}"
+			]
+			id: "68364C5AB4BA1E96"
+			rewards: [{
+				id: "6B1BD943F575A4CB"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "581B4431894BEC6F"
+				title: "{cottagewitch.welcome.quests5.tasks0.title}"
+				type: "checkmark"
+			}]
+			title: "{cottagewitch.welcome.quests5.title}"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{cottagewitch.welcome.quests6.description0}"
+				""
+				"{cottagewitch.welcome.quests6.description1}"
+				""
+				"{cottagewitch.welcome.quests6.description2}"
+				""
+				"{cottagewitch.welcome.quests6.description3}"
+			]
+			id: "3034730B996C61FA"
+			rewards: [{
+				id: "6F5B391B0B42DB89"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "3BAE247B98A4AE67"
+				title: "{cottagewitch.welcome.quests6.tasks0.title}"
+				type: "checkmark"
+			}]
+			title: "{cottagewitch.welcome.quests6.title}"
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			disable_toast: true
+			id: "504E46F5A1DCF256"
+			invisible: true
+			optional: true
+			secret: true
+			tasks: [{
+				id: "3155708C4E3D8956"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{cottagewitch.welcome.quests8.description0}"
+				""
+				"{cottagewitch.welcome.quests8.description1}"
+				""
+				"{image:cottagewitch:textures/quest_images/findme3.png width:100 height:10 align:1 fit:true}"
+				"{image:cottagewitch:textures/quest_images/findme1.png width:220 height:150 align:1}"
+				""
+				"{cottagewitch.welcome.quests8.description2}"
+				""
+				"{image:cottagewitch:textures/quest_images/findme2.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "5763626E3E3E440B"
+			rewards: [{
+				id: "2CF6D804BF74D6B0"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "4D969F11A701F8AA"
+				title: "{cottagewitch.welcome.quests8.tasks0.title}"
+				type: "checkmark"
+			}]
+			title: "{cottagewitch.welcome.quests8.title}"
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{cottagewitch.welcome.quests9.description0}"
+				""
+				"{cottagewitch.welcome.quests9.description1}"
+				"{cottagewitch.welcome.quests9.description2}"
+				"{cottagewitch.welcome.quests9.description3}"
+				"{cottagewitch.welcome.quests9.description4}"
+				"{cottagewitch.welcome.quests9.description5}"
+				"{cottagewitch.welcome.quests9.description6}"
+				"{cottagewitch.welcome.quests9.description7}"
+				"{cottagewitch.welcome.quests9.description8}"
+				"{cottagewitch.welcome.quests9.description9}"
+				"{cottagewitch.welcome.quests9.description10}"
+				"{cottagewitch.welcome.quests9.description11}"
+				""
+				"{cottagewitch.welcome.quests9.description12}"
+			]
+			id: "4B09C2508E25AD2B"
+			rewards: [{
+				id: "1A85B933DFDA69B5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "2E65F74FAED6B7CD"
+				title: "{cottagewitch.welcome.quests9.tasks0.title}"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{cottagewitch.welcome.quests10.description0}"
+				""
+				"{cottagewitch.welcome.quests10.description1}"
+			]
+			id: "32E10222527B1BB1"
+			rewards: [{
+				id: "1F60258D023536A7"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "2F817755D430EEC8"
+				title: "{cottagewitch.welcome.quests10.tasks0.title}"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+	]
+	title: "{cottagewitch.welcome.title}"
+}

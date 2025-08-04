@@ -1,0 +1,602 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "deeper_and_darker"
+	group: "5FB460EFA0A2567E"
+	icon: "deeperdarker:heart_of_the_deep"
+	id: "41296202479D0531"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 10.0d
+		hover: [ ]
+		image: "cottagewitch:textures/quest_ui/bgdeeperdarker.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{cottagewitch.deeper_and_darker.quests0.description0}"
+				"{cottagewitch.deeper_and_darker.quests0.description1}"
+			]
+			id: "4C2DDEC05C13A3FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0031AF7FD8F1D235"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{cottagewitch.deeper_and_darker.quests0.subtitle}"
+			tasks: [{
+				icon: "minecraft:sculk"
+				id: "0789C9B2C27437FD"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:sculk"
+				type: "observation"
+			}]
+			title: "{cottagewitch.deeper_and_darker.quests0.title}"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4C2DDEC05C13A3FB"]
+			description: [
+				"{cottagewitch.deeper_and_darker.quests1.description0}"
+				""
+				"{cottagewitch.deeper_and_darker.quests1.description1}"
+			]
+			id: "001E117581BE05D5"
+			rewards: [{
+				count: 4
+				id: "726C1FBD6907C3A9"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D6833DA8607A66A"
+				item: "minecraft:sculk"
+				type: "item"
+			}]
+			title: "{cottagewitch.deeper_and_darker.quests1.title}"
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["001E117581BE05D5"]
+			description: ["{cottagewitch.deeper_and_darker.quests2.description0}"]
+			id: "767A4A04E0D72FBE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4686C91C60D13FC4"
+				table_id: 5036677739913042344L
+				type: "choice"
+			}]
+			subtitle: "{cottagewitch.deeper_and_darker.quests2.subtitle}"
+			tasks: [{
+				id: "0A1EDEAC75343862"
+				item: "minecraft:sculk_catalyst"
+				type: "item"
+			}]
+			title: "{cottagewitch.deeper_and_darker.quests2.title}"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["767A4A04E0D72FBE"]
+			description: [
+				"{cottagewitch.deeper_and_darker.quests3.description0}"
+				""
+				"{cottagewitch.deeper_and_darker.quests3.description1}"
+			]
+			id: "22929AEECAF3B467"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DC0CB0243A44FAE"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			subtitle: "{cottagewitch.deeper_and_darker.quests3.subtitle}"
+			tasks: [{
+				id: "5490EAF572C61B6A"
+				item: "minecraft:sculk_sensor"
+				type: "item"
+			}]
+			title: "{cottagewitch.deeper_and_darker.quests3.title}"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2384853DE131A8A7"]
+			description: [
+				"{cottagewitch.deeper_and_darker.quests4.description0}"
+				""
+				"{cottagewitch.deeper_and_darker.quests4.description1}"
+			]
+			id: "386BBE6DCF3DAB78"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0CED9339CCA7D950"
+					table_id: 5525848455660196930L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51BF318F203675E3"
+					table_id: 8891211325592123080L
+					type: "choice"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "710D37620D1E3299"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{cottagewitch.deeper_and_darker.quests4.title}"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["386BBE6DCF3DAB78"]
+			description: ["{cottagewitch.deeper_and_darker.quests5.description0}"]
+			id: "450F3E6A4A93E2AA"
+			rewards: [
+				{
+					id: "257D53FD2FA431B8"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-647750768
+									466960818
+									-1894687672
+									-1823489811
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNmYWJkZGRlZDQ0ZDBmYTE2YTQ4NmRkNTQwODY5Nzc5ZWY0MmY5YzNkODgyMDA1MDllYTAwMmM5ZWYxZWQ0MCJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Warden\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DB05FB0DA05A025"
+					item: {
+						Count: 1b
+						id: "mcsa:gabriel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "276C18C55EC37054"
+					item: {
+						Count: 1b
+						id: "mcsa:gabriel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "168D9A02FFF3BE31"
+					item: {
+						Count: 1b
+						id: "mcsa:gabriel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B40707D5E412FC1"
+					item: {
+						Count: 1b
+						id: "mcsa:gabriel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "636194976A45108A"
+					table_id: 5525848455660196930L
+					type: "choice"
+				}
+				{
+					id: "36FA088D44048D78"
+					item: "plushies:warden"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{cottagewitch.deeper_and_darker.quests5.subtitle}"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "38248E59E664A922"
+				type: "kill"
+				value: 100L
+			}]
+			title: "{cottagewitch.deeper_and_darker.quests5.title}"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6CB7050DA080301E"]
+			description: [
+				"{cottagewitch.deeper_and_darker.quests6.description0}"
+				"{cottagewitch.deeper_and_darker.quests6.description1}"
+				"{cottagewitch.deeper_and_darker.quests6.description2}"
+			]
+			id: "5F0CA7A2F5C478F0"
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: "deeperdarker:heart_of_the_deep"
+				id: "2497633125368050"
+				type: "dimension"
+			}]
+			title: "{cottagewitch.deeper_and_darker.quests6.title}"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["77C585EDABB88B3E"]
+			description: [
+				"{cottagewitch.deeper_and_darker.quests7.description0}"
+				""
+				"{cottagewitch.deeper_and_darker.quests7.description1}"
+			]
+			id: "6CB7050DA080301E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "594005C455FC1DE9"
+				table_id: 5161092699925703455L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "67CE3D92E102FE5B"
+				item: {
+					Count: 1b
+					id: "deeperdarker:warden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{cottagewitch.deeper_and_darker.quests7.title}"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4C2DDEC05C13A3FB"]
+			description: ["{cottagewitch.deeper_and_darker.quests8.description0}"]
+			id: "2384853DE131A8A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EB9B1725AEF032B"
+				table_id: 7062805133306069640L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "deeperdarker:main/find_ancient_city"
+				criterion: ""
+				icon: "minecraft:reinforced_deepslate"
+				id: "47007A2CC7CD820F"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2384853DE131A8A7"]
+			description: [
+				"{cottagewitch.deeper_and_darker.quests9.description0}"
+				""
+				"{cottagewitch.deeper_and_darker.quests9.description1}"
+			]
+			id: "352E14C80B863AF3"
+			rewards: [{
+				id: "19017034A85E9D4F"
+				item: "deeperdarker:warden_carapace"
+				type: "item"
+			}]
+			tasks: [{
+				block: "deeperdarker:ancient_vase"
+				block_type: 0
+				checkItem: false
+				id: "72F3473498B917FB"
+				type: "questsadditions:break"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["386BBE6DCF3DAB78"]
+			description: [
+				"{cottagewitch.deeper_and_darker.quests10.description0}"
+				""
+				"{cottagewitch.deeper_and_darker.quests10.description1}"
+			]
+			id: "77C585EDABB88B3E"
+			tasks: [{
+				block: "minecraft:sculk_vein"
+				block_type: 0
+				checkItem: false
+				id: "25C516803865C303"
+				type: "questsadditions:break"
+				value: 1L
+			}]
+			title: "{cottagewitch.deeper_and_darker.quests10.title}"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3BED9B52B38D87AC"]
+			description: ["{cottagewitch.deeper_and_darker.quests11.description0}"]
+			id: "27223492884E5638"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36928C0C797ED580"
+				table_id: 5161092699925703455L
+				type: "loot"
+			}]
+			subtitle: "{cottagewitch.deeper_and_darker.quests11.subtitle}"
+			tasks: [{
+				icon: "deeperdarker:gloomy_geyser"
+				id: "70D76BE360099AF1"
+				observe_type: 0
+				timer: 0L
+				to_observe: "deeperdarker:gloomy_geyser"
+				type: "observation"
+			}]
+			title: "{cottagewitch.deeper_and_darker.quests11.title}"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["766AE03208AE8F4B"]
+			description: [
+				"{cottagewitch.deeper_and_darker.quests12.description0}"
+				""
+				"{cottagewitch.deeper_and_darker.quests12.description1}"
+				""
+				"{cottagewitch.deeper_and_darker.quests12.description2}"
+			]
+			id: "292410101F374A38"
+			rewards: [{
+				id: "4A5E1F1A7CF8F332"
+				item: "fantasyfurniture:decorations/bone_skeleton_pile"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.deeper_and_darker.quests12.subtitle}"
+			tasks: [{
+				id: "6656F9B1F1635666"
+				item: "deeperdarker:sculk_bone"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["292410101F374A38"]
+			description: [
+				"{cottagewitch.deeper_and_darker.quests13.description0}"
+				""
+				"{cottagewitch.deeper_and_darker.quests13.description1}"
+			]
+			id: "5998F88F411634AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A81ECB1706412E0"
+				table_id: 5525848455660196930L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "78DCBDC7E04BA66A"
+				item: {
+					Count: 1b
+					id: "deeperdarker:soul_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F0CA7A2F5C478F0"]
+			description: [
+				"{cottagewitch.deeper_and_darker.quests14.description0}"
+				""
+				"{cottagewitch.deeper_and_darker.quests14.description1}"
+				""
+				"{cottagewitch.deeper_and_darker.quests14.description2}"
+			]
+			id: "3A279B0A5E1E6805"
+			rewards: [
+				{
+					id: "619BE759CBA940F3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "396A6CA8D1E70AD7"
+					table_id: 7062805133306069640L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				biome: "deeperdarker:echoing_forest"
+				icon: "deeperdarker:echo_soil"
+				id: "017FE61F8E149DEA"
+				type: "biome"
+			}]
+			title: "{cottagewitch.deeper_and_darker.quests14.title}"
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F0CA7A2F5C478F0"]
+			description: [
+				"{cottagewitch.deeper_and_darker.quests15.description0}"
+				""
+				"{cottagewitch.deeper_and_darker.quests15.description1}"
+			]
+			id: "3BED9B52B38D87AC"
+			rewards: [
+				{
+					id: "551A0D1A2FDBB3EB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59AD3B2CEC179D1F"
+					table_id: 7062805133306069640L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25E102D74077C7B9"
+					table_id: 8035711958862449784L
+					type: "random"
+				}
+			]
+			tasks: [{
+				biome: "deeperdarker:overcast_columns"
+				icon: "deeperdarker:crystallized_amber"
+				id: "48CE45BC84A3B5C3"
+				type: "biome"
+			}]
+			title: "{cottagewitch.deeper_and_darker.quests15.title}"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F0CA7A2F5C478F0"]
+			description: [
+				"{cottagewitch.deeper_and_darker.quests16.description0}"
+				""
+				"{cottagewitch.deeper_and_darker.quests16.description1}"
+				""
+				"{cottagewitch.deeper_and_darker.quests16.description2}"
+			]
+			id: "766AE03208AE8F4B"
+			rewards: [
+				{
+					id: "0EE9B187EC87288A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74BD6B3D76A8195E"
+					table_id: 7062805133306069640L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				biome: "deeperdarker:deeplands"
+				icon: "minecraft:sculk"
+				id: "5E1E3DC987B09351"
+				type: "biome"
+			}]
+			title: "{cottagewitch.deeper_and_darker.quests16.title}"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["766AE03208AE8F4B"]
+			description: [
+				"{cottagewitch.deeper_and_darker.quests17.description0}"
+				""
+				"{cottagewitch.deeper_and_darker.quests17.description1}"
+			]
+			id: "010F9401493DDB2B"
+			rewards: [
+				{
+					id: "2F2E2DC23CF31689"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18BDD7B8E334E2EE"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "deeperdarker:sculk_stone_bricks"
+				id: "4BF7396D5FA09AEF"
+				structure: "deeperdarker:ancient_temple"
+				type: "structure"
+			}]
+			title: "{cottagewitch.deeper_and_darker.quests17.title}"
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["386BBE6DCF3DAB78"]
+			description: ["{cottagewitch.deeper_and_darker.quests18.description0}"]
+			id: "5AA23C847AD13B06"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "30EB6B842A36C3F2"
+					table_id: 7062805133306069640L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "321C8316CF3135E9"
+					table_id: 8844042123582301969L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				consume_items: true
+				id: "0D268135EB5A0C2B"
+				item: "deeperdarker:heart_of_the_deep"
+				type: "item"
+			}]
+			title: "{cottagewitch.deeper_and_darker.quests18.title}"
+			x: 0.5d
+			y: -2.0d
+		}
+	]
+	title: "{cottagewitch.deeper_and_darker.title}"
+}

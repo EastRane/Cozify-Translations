@@ -1,0 +1,2394 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "storage"
+	group: "1E0017DE6773EF00"
+	icon: "minecraft:chest"
+	id: "20C131FAFAF3F980"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 20.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/bgstoragenetwork.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: -0.5d
+			y: -18.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/bgitemstransport.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/bgdrawers.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/bgmiscpurple.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/backpacksbg.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -0.5d
+			y: -5.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{cottagewitch.storage.quests0.description0}"
+				""
+				"{cottagewitch.storage.quests0.description1}"
+				""
+				"{cottagewitch.storage.quests0.description2}"
+			]
+			icon: "functionalstorage:oak_1"
+			id: "1838DE5E92C9C03F"
+			rewards: [
+				{
+					id: "10B66423B15FF35C"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "443D7D8BEF7A970E"
+					item: "functionalstorage:spruce_4"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{cottagewitch.storage.quests0.subtitle}"
+			tasks: [{
+				id: "4B1A10444317E77B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				title: "{cottagewitch.storage.quests0.tasks0.title}"
+				type: "item"
+			}]
+			title: "{cottagewitch.storage.quests0.title}"
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["40EDCF93A4E5B1AA"]
+			description: [
+				"{cottagewitch.storage.quests1.description0}"
+				""
+				"{cottagewitch.storage.quests1.description1}"
+				""
+				"{cottagewitch.storage.quests1.description2}"
+			]
+			id: "643038A9E2CA7D59"
+			rewards: [{
+				count: 3
+				id: "376B07CA67A66A33"
+				item: "functionalstorage:copper_upgrade"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.storage.quests1.subtitle}"
+			tasks: [{
+				id: "7206A74D127A4316"
+				item: "functionalstorage:copper_upgrade"
+				type: "item"
+			}]
+			title: "{cottagewitch.storage.quests1.title}"
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["643038A9E2CA7D59"]
+			description: ["{cottagewitch.storage.quests2.description0}"]
+			id: "313DFFDB063483B7"
+			rewards: [
+				{
+					id: "292FCC80A297F6BB"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					id: "1365D107453B0401"
+					item: "functionalstorage:void_upgrade"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "18308CF23F25BABA"
+				item: "functionalstorage:void_upgrade"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1838DE5E92C9C03F"]
+			description: [
+				"{cottagewitch.storage.quests3.description0}"
+				""
+				"{cottagewitch.storage.quests3.description1}"
+				""
+				"{cottagewitch.storage.quests3.description2}"
+				""
+				"{cottagewitch.storage.quests3.description3}"
+			]
+			id: "1F6CE1B236003A84"
+			rewards: [
+				{
+					id: "2EF9A992AA775DC7"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "6B34333AE81917CE"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "02DB6DD885080ABE"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2BEADE1949F60C20"
+					item: "functionalstorage:compacting_drawer"
+					type: "item"
+				}
+				{
+					id: "01A271C59091140F"
+					item: "functionalstorage:simple_compacting_drawer"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1838DE5E92C9C03F"]
+			description: [
+				"{cottagewitch.storage.quests4.description0}"
+				""
+				"{cottagewitch.storage.quests4.description1}"
+				""
+				"{cottagewitch.storage.quests4.description2}"
+			]
+			id: "40EDCF93A4E5B1AA"
+			rewards: [{
+				id: "37F735C8A95A8B8E"
+				item: {
+					Count: 1b
+					id: "functionalstorage:linking_tool"
+					tag: {
+						Action: "ADD"
+						Mode: "SINGLE"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "35682075481226F2"
+				item: "functionalstorage:storage_controller"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1838DE5E92C9C03F"]
+			description: [
+				"{cottagewitch.storage.quests5.description0}"
+				""
+				"{cottagewitch.storage.quests5.description1}"
+				"{cottagewitch.storage.quests5.description2}"
+				""
+				"{cottagewitch.storage.quests5.description3}"
+				""
+				"{cottagewitch.storage.quests5.description4}"
+			]
+			id: "0204D145FC5C3008"
+			rewards: [{
+				id: "465128D4C75677B0"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "40968CE9BA792258"
+				item: {
+					Count: 1b
+					id: "functionalstorage:configuration_tool"
+					tag: {
+						Mode: "LOCKING"
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			description: ["{cottagewitch.storage.quests6.description0}"]
+			id: "58C6D8E0422110BC"
+			rewards: [
+				{
+					id: "377889882D9DFF5F"
+					item: "overweight_farming:overweight_golden_apple_block"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "34FDE83E40FA45F1"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.storage.quests6.subtitle}"
+			tasks: [{
+				count: 5L
+				id: "36726B34E435877E"
+				item: "quark:golden_apple_crate"
+				type: "item"
+			}]
+			title: "{cottagewitch.storage.quests6.title}"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{cottagewitch.storage.quests7.description0}"
+				"{cottagewitch.storage.quests7.description1}"
+				""
+				"{cottagewitch.storage.quests7.description2}"
+				""
+				"{cottagewitch.storage.quests7.description3}"
+				""
+				"{cottagewitch.storage.quests7.description4}"
+			]
+			id: "62D95F91881F228C"
+			rewards: [{
+				id: "48464721C342CFBF"
+				item: "supplementaries:jar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "463FB873FA5E8629"
+				item: "supplementaries:jar"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"{cottagewitch.storage.quests8.description0}"
+				""
+				"{cottagewitch.storage.quests8.description1}"
+				""
+				"{image:cottagewitch:textures/basket.png width:100 height:80 align:1 fit:true}"
+			]
+			id: "5E3D0655F0A08890"
+			rewards: [
+				{
+					id: "2421BCEC9EF7B9BE"
+					item: "farmersdelight:basket"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "204DB26B0498DCB3"
+					table_id: 6951594928314176539L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.storage.quests8.subtitle}"
+			tasks: [{
+				id: "31A89834BA4A5521"
+				item: "farmersdelight:basket"
+				type: "item"
+			}]
+			title: "{cottagewitch.storage.quests8.title}"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"{cottagewitch.storage.quests9.description0}"
+				""
+				"{cottagewitch.storage.quests9.description1}"
+			]
+			id: "0B1646339D14D055"
+			rewards: [{
+				id: "3767778C22F62A3A"
+				item: "minecraft:white_shulker_box"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "56E9DAF2277FF804"
+				item: "minecraft:ender_chest"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0B1646339D14D055"]
+			description: [
+				"{cottagewitch.storage.quests10.description0}"
+				""
+				"{cottagewitch.storage.quests10.description1}"
+			]
+			id: "1EEB4AA9131B98DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F7ABEE64C5D9E9F"
+				table_id: 5161092699925703455L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2741D617D6F0700F"
+				item: "ring_of_enderchest:ring_of_enderchest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{cottagewitch.storage.quests11.description0}"
+				""
+				"{cottagewitch.storage.quests11.description1}"
+				"{cottagewitch.storage.quests11.description2}"
+				""
+				"{cottagewitch.storage.quests11.description3}"
+				""
+				"{image:cottagewitch:textures/depositextract.png width:300 height:150 align:1}"
+				"{cottagewitch.storage.quests11.description4}"
+			]
+			id: "0A76B3D9CF688878"
+			min_width: 300
+			rewards: [
+				{
+					count: 10
+					id: "10E7DC7C7F53B457"
+					item: "pipez:item_pipe"
+					type: "item"
+				}
+				{
+					id: "63D4D09CF18BAD6B"
+					item: "pipez:wrench"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{cottagewitch.storage.quests11.subtitle}"
+			tasks: [{
+				id: "7153E46F9B5C723A"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A76B3D9CF688878"]
+			description: ["{cottagewitch.storage.quests12.description0}"]
+			id: "327660E1DFE7C9A0"
+			rewards: [{
+				id: "2D980A1EB5CBDC3E"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1196EDFF583F21D3"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["327660E1DFE7C9A0"]
+			description: ["{cottagewitch.storage.quests13.description0}"]
+			id: "125AC0EEF7096532"
+			rewards: [{
+				id: "69DBCB99857B5AA6"
+				item: "pipez:improved_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35E4C52DC0192E00"
+				item: "pipez:improved_upgrade"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["125AC0EEF7096532"]
+			description: [
+				"{image:cottagewitch:textures/pipezscreen.png width:200 height:200 align:1}"
+				"{cottagewitch.storage.quests14.description0}"
+			]
+			id: "5E0E4D3BFE9A205F"
+			rewards: [{
+				id: "7A488241F19C3AB4"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "085ADE6062A763B8"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E0E4D3BFE9A205F"]
+			description: [
+				"{cottagewitch.storage.quests15.description0}"
+				""
+				"{cottagewitch.storage.quests15.description1}"
+			]
+			id: "2B73F9B609ABE980"
+			rewards: [{
+				id: "235AA9488102A61C"
+				item: "pipez:ultimate_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7038BA77EA75696E"
+				item: "pipez:ultimate_upgrade"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1838DE5E92C9C03F"]
+			description: ["{cottagewitch.storage.quests16.description0}"]
+			id: "08DC47F76CA50E40"
+			rewards: [{
+				count: 3
+				id: "415FF48AEA1DA9CD"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "49DC0CF8944CB20E"
+				item: "functionalstorage:ender_drawer"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40EDCF93A4E5B1AA"]
+			description: [
+				"{cottagewitch.storage.quests17.description0}"
+				"{cottagewitch.storage.quests17.description1}"
+				"{cottagewitch.storage.quests17.description2}"
+			]
+			id: "2600D0609823A031"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69ECBA42F234DFB9"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "3F4C42E0D699F5B1"
+					item: {
+						Count: 1b
+						id: "functionalstorage:collector_upgrade"
+						tag: {
+							Direction: "down"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E2C6EDAFD6AEF06"
+					item: {
+						Count: 1b
+						id: "functionalstorage:puller_upgrade"
+						tag: {
+							Direction: "down"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2359F4FB9AD3B64B"
+					item: {
+						Count: 1b
+						id: "functionalstorage:pusher_upgrade"
+						tag: {
+							Direction: "down"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.storage.quests17.title}"
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{cottagewitch.storage.quests18.description0}"
+				""
+				"{cottagewitch.storage.quests18.description1}"
+				""
+				"{cottagewitch.storage.quests18.description2}"
+			]
+			id: "0AC47FF8FD45B289"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F14E912D0E1ACBF"
+				table_id: 2068679807827730220L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.storage.quests18.subtitle}"
+			tasks: [{
+				id: "37E8405F8CFB4AB9"
+				item: {
+					Count: 1b
+					id: "luggage:luggage"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{cottagewitch.storage.quests18.title}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AC47FF8FD45B289"]
+			description: [
+				"{cottagewitch.storage.quests19.description0}"
+				""
+				"{cottagewitch.storage.quests19.description1}"
+			]
+			id: "27A6A7ADD9B0A8AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4ABC1FE4801E166B"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65E3D009EAD6B7C8"
+				item: "ars_elemental:ritual_tesla_coil"
+				type: "item"
+			}]
+			title: "{cottagewitch.storage.quests19.title}"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{cottagewitch.storage.quests20.description0}"
+				""
+				"{cottagewitch.storage.quests20.description1}"
+				""
+				"{cottagewitch.storage.quests20.description2}"
+			]
+			id: "4C75E1320C84AD2E"
+			rewards: [{
+				id: "4B78A58555F678E1"
+				item: {
+					Count: 1b
+					id: "minecraft:golden_hoe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:silk_touch"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:efficiency"
+								lvl: 4s
+							}
+						]
+						RepairCost: 2
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "6710599134EF4787"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "sculktransporting:guide"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C75E1320C84AD2E"]
+			description: [
+				"{cottagewitch.storage.quests21.description0}"
+				""
+				"{cottagewitch.storage.quests21.description1}"
+			]
+			id: "6A2A797F0DACFD76"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0745515755F89F03"
+				table_id: 7062805133306069640L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "55B5278ACFC9C780"
+					item: "sculktransporting:sculk_emitter"
+					type: "item"
+				}
+				{
+					id: "474EA9C110EACF85"
+					item: "sculktransporting:sculk_receiver"
+					type: "item"
+				}
+				{
+					id: "7F59620DF81D4669"
+					item: "sculktransporting:sculk_barrel"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.storage.quests21.title}"
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A2A797F0DACFD76"]
+			description: [
+				"{cottagewitch.storage.quests22.description0}"
+				"{cottagewitch.storage.quests22.description1}"
+			]
+			id: "748DCD79DE0DA182"
+			rewards: [
+				{
+					id: "62FCB1BAB3CCC701"
+					item: "sculktransporting:sculk_transmitter"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25EBCD7217D7A968"
+					table_id: 7062805133306069640L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "45E10E97F3BFD348"
+				item: "sculktransporting:sculk_transmitter"
+				type: "item"
+			}]
+			title: "{cottagewitch.storage.quests22.title}"
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A2A797F0DACFD76"]
+			description: [
+				"{cottagewitch.storage.quests23.description0}"
+				"{cottagewitch.storage.quests23.description1}"
+			]
+			id: "4CC2BF8A5B188CB6"
+			rewards: [{
+				id: "7812A0D29CD2542E"
+				item: "sculktransporting:quantity_modifier_tier_1"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3349E7D872224343"
+				item: "sculktransporting:quantity_modifier_tier_1"
+				type: "item"
+			}]
+			title: "{cottagewitch.storage.quests23.title}"
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A2A797F0DACFD76"]
+			description: ["{cottagewitch.storage.quests24.description0}"]
+			id: "1857993F9598F28C"
+			rewards: [{
+				id: "2DB3160BA9DBCFEC"
+				item: "sculktransporting:speed_modifier_tier_1"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3EACBA80934E1DA2"
+				item: "sculktransporting:speed_modifier_tier_1"
+				type: "item"
+			}]
+			title: "{cottagewitch.storage.quests24.title}"
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			id: "1836D76FCA8240F3"
+			invisible: true
+			optional: true
+			secret: true
+			tasks: [{
+				id: "052CF2A30ED68875"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0A76B3D9CF688878"]
+			description: [
+				"{cottagewitch.storage.quests26.description0}"
+				"{cottagewitch.storage.quests26.description1}"
+			]
+			id: "329CC0CC1B48C600"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "337B73B6EAD72E39"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "149EDF51A1614C54"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4200E7C6D9AC5F1F"
+				item: "pipez:filter_destination_tool"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AC47FF8FD45B289"]
+			description: [
+				"{cottagewitch.storage.quests27.description0}"
+				""
+				"{cottagewitch.storage.quests27.description1}"
+			]
+			id: "6E8FC5FFD17FF281"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4074776ACC485743"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A7DBDE13635F86F"
+					table_id: 8035711958862449784L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.storage.quests27.subtitle}"
+			tasks: [{
+				id: "5FD4184741B4D6F3"
+				item: "luggage:ender_luggage"
+				type: "item"
+			}]
+			title: "{cottagewitch.storage.quests27.title}"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"{cottagewitch.storage.quests28.description0}"
+				""
+				"{cottagewitch.storage.quests28.description1}"
+				""
+				"{cottagewitch.storage.quests28.description2}"
+				""
+				"{cottagewitch.storage.quests28.description3}"
+				""
+				"{cottagewitch.storage.quests28.description4}"
+				"{image:cottagewitch:textures/sophstorage.png width:100 height:80 align:1 fit:true}"
+			]
+			id: "2AC77B6EF8DA00EA"
+			rewards: [{
+				id: "0322C82302C0368C"
+				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{cottagewitch.storage.quests28.subtitle}"
+			tasks: [
+				{
+					id: "05E47966FD087BED"
+					item: "sophisticatedstorage:basic_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "0BDEEDCF35454286"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.storage.quests28.title}"
+			x: -0.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"{cottagewitch.storage.quests29.description0}"
+				""
+				"{image:cottagewitch:textures/sophsettings.png width:100 height:70 align:1 fit:true}"
+				""
+				"{cottagewitch.storage.quests29.description1}"
+				""
+				"{cottagewitch.storage.quests29.description2}"
+				""
+				"{cottagewitch.storage.quests29.description3}"
+				""
+				"{cottagewitch.storage.quests29.description4}"
+				""
+				""
+				"{image:cottagewitch:textures/sophbarreldisplayy.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "027E158B22DE20CF"
+			rewards: [{
+				id: "7BF6C158342F0CD0"
+				type: "xp"
+				xp: 900
+			}]
+			tasks: [{
+				id: "4D83884D8C097AC2"
+				title: "{cottagewitch.storage.quests29.tasks0.title}"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"{cottagewitch.storage.quests30.description0}"
+				""
+				"{cottagewitch.storage.quests30.description1}"
+				""
+				"{cottagewitch.storage.quests30.description2}"
+				""
+				"{cottagewitch.storage.quests30.description3}"
+				"{image:cottagewitch:textures/sophgold.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "7DD199B329192C67"
+			rewards: [{
+				id: "331D07BB2D1BA4BF"
+				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.storage.quests30.subtitle}"
+			tasks: [
+				{
+					id: "24049AE6D6301809"
+					item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "561152B3AA7139CF"
+					item: "sophisticatedstorage:basic_to_gold_tier_upgrade"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.storage.quests30.title}"
+			x: -3.0d
+			y: -20.5d
+		}
+		{
+			dependencies: [
+				"7DD199B329192C67"
+				"2AC77B6EF8DA00EA"
+			]
+			description: [
+				"{cottagewitch.storage.quests31.description0}"
+				""
+				"{cottagewitch.storage.quests31.description1}"
+				""
+				"{cottagewitch.storage.quests31.description2}"
+			]
+			id: "5795F032CB47389E"
+			rewards: [{
+				id: "4E0256A4F24F2BF0"
+				item: "sophisticatedstorage:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.storage.quests31.subtitle}"
+			tasks: [{
+				id: "19424B20004EB2DA"
+				item: "sophisticatedstorage:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			title: "{cottagewitch.storage.quests31.title}"
+			x: -4.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"{cottagewitch.storage.quests32.description0}"
+				""
+				"{cottagewitch.storage.quests32.description1}"
+			]
+			id: "04580014FE5705F2"
+			rewards: [{
+				id: "579B95EBBCA65FAC"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:packing_tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.storage.quests32.subtitle}"
+			tasks: [{
+				id: "5D16A56E7E0AB5DE"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:packing_tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"{cottagewitch.storage.quests33.description0}"
+				""
+				"{cottagewitch.storage.quests33.description1}"
+				""
+				"{image:cottagewitch:textures/voidoverflow.png width:100 height:30 align:1 fit:true}"
+				""
+				"{cottagewitch.storage.quests33.description2}"
+			]
+			id: "58E3A0A274BAB9B9"
+			rewards: [{
+				id: "20A569CCAD8BC4AF"
+				item: "sophisticatedstorage:void_upgrade"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.storage.quests33.subtitle}"
+			tasks: [{
+				id: "3799A96F56496C61"
+				item: "sophisticatedstorage:void_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: ["{cottagewitch.storage.quests34.description0}"]
+			id: "25777083FCF81F3C"
+			rewards: [{
+				id: "22ED4C90306B89EC"
+				item: "sophisticatedstorage:auto_smoking_upgrade"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.storage.quests34.subtitle}"
+			tasks: [{
+				id: "42D27C96AC638A6A"
+				item: "sophisticatedstorage:smelting_upgrade"
+				type: "item"
+			}]
+			title: "{cottagewitch.storage.quests34.title}"
+			x: 1.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"{cottagewitch.storage.quests35.description0}"
+				""
+				"{cottagewitch.storage.quests35.description1}"
+			]
+			id: "51774D15356C5ADC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "659F470CF780B9A5"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "49F07E0B8DFDA184"
+				item: "sophisticatedstorage:filter_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -23.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: ["{cottagewitch.storage.quests36.description0}"]
+			id: "3801FF70470C2994"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44FCB8025F89352A"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0D54F10EE3D90E47"
+					item: "sophisticatedstorage:stonecutter_upgrade"
+					type: "item"
+				}
+				{
+					id: "5F171EA1AA534811"
+					item: "sophisticatedstorage:crafting_upgrade"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.storage.quests36.title}"
+			x: -2.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"{cottagewitch.storage.quests37.description0}"
+				"{image:cottagewitch:textures/linkedstorage.png width:100 height:80 align:1 fit:true}"
+			]
+			id: "204A015685DB4726"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B231070E8BC75D1"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "774785B108908F07"
+				item: "sophisticatedstorage:storage_tool"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -23.5d
+		}
+		{
+			description: [
+				"{cottagewitch.storage.quests38.description0}"
+				""
+				"{cottagewitch.storage.quests38.description1}"
+				""
+				"{cottagewitch.storage.quests38.description2}"
+				""
+				"{cottagewitch.storage.quests38.description3}"
+			]
+			id: "09D1FD5320857872"
+			rewards: [{
+				id: "47B5D155DB0F6B64"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{cottagewitch.storage.quests38.subtitle}"
+			tasks: [{
+				id: "599CD822D620424A"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						contentsUuid: [I;
+							-492794381
+							-947040337
+							-1137181004
+							-976664855
+						]
+						inventorySlots: 27
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			title: "{cottagewitch.storage.quests38.title}"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["09D1FD5320857872"]
+			description: [
+				"{cottagewitch.storage.quests39.description0}"
+				""
+				"{cottagewitch.storage.quests39.description1}"
+				""
+				"{cottagewitch.storage.quests39.description2}"
+				""
+				"{cottagewitch.storage.quests39.description3}"
+			]
+			id: "68CA96592DA978BC"
+			rewards: [{
+				id: "0ED4A3D875FC9F75"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.storage.quests39.subtitle}"
+			tasks: [{
+				id: "69ADA8A42F3B1210"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:sophb_fluid"
+					}
+				}
+				title: "{cottagewitch.storage.quests39.tasks0.title}"
+				type: "item"
+			}]
+			title: "{cottagewitch.storage.quests39.title}"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["09D1FD5320857872"]
+			description: ["{cottagewitch.storage.quests40.description0}"]
+			id: "53CE2F944DFC7725"
+			rewards: [{
+				id: "2DC0F623F7B249B5"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.storage.quests40.subtitle}"
+			tasks: [{
+				id: "17561BF6F61D5C41"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:sophb_inventory"
+					}
+				}
+				title: "{cottagewitch.storage.quests40.tasks0.title}"
+				type: "item"
+			}]
+			title: "{cottagewitch.storage.quests40.title}"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["09D1FD5320857872"]
+			description: [
+				"{cottagewitch.storage.quests41.description0}"
+				""
+				"{cottagewitch.storage.quests41.description1}"
+				""
+				"{cottagewitch.storage.quests41.description2}"
+			]
+			id: "5449147F0A9D80C9"
+			rewards: [{
+				id: "13F15B460C5564B8"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.storage.quests41.subtitle}"
+			tasks: [{
+				id: "5B47695F4C669BC7"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:sophb_utility"
+					}
+				}
+				title: "{cottagewitch.storage.quests41.tasks0.title}"
+				type: "item"
+			}]
+			title: "{cottagewitch.storage.quests41.title}"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["09D1FD5320857872"]
+			description: [
+				"{cottagewitch.storage.quests42.description0}"
+				""
+				"{cottagewitch.storage.quests42.description1}"
+				""
+				"{cottagewitch.storage.quests42.description2}"
+				""
+				"{cottagewitch.storage.quests42.description3}"
+			]
+			id: "4BA960F4630EFF4C"
+			rewards: [{
+				id: "20D7B8069A0060D2"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.storage.quests42.subtitle}"
+			tasks: [{
+				id: "0C0AC49F5C800257"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:sophb_quick"
+					}
+				}
+				title: "{cottagewitch.storage.quests42.tasks0.title}"
+				type: "item"
+			}]
+			title: "{cottagewitch.storage.quests42.title}"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["09D1FD5320857872"]
+			description: [
+				"{cottagewitch.storage.quests43.description0}"
+				""
+				"{cottagewitch.storage.quests43.description1}"
+			]
+			id: "3C6CA784B036DD53"
+			rewards: [{
+				id: "37E9E0BCBA06A5D2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.storage.quests43.subtitle}"
+			tasks: [{
+				id: "2188019138E0AB5B"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["09D1FD5320857872"]
+			description: [
+				"{cottagewitch.storage.quests44.description0}"
+				""
+				"{cottagewitch.storage.quests44.description1}"
+				"{cottagewitch.storage.quests44.description2}"
+				"{cottagewitch.storage.quests44.description3}"
+				""
+				"{cottagewitch.storage.quests44.description4}"
+				""
+				"{cottagewitch.storage.quests44.description5}"
+			]
+			id: "2363831930C80C6A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43245BE1D97FF650"
+				table_id: 1739670786502713488L
+				type: "choice"
+			}]
+			subtitle: "{cottagewitch.storage.quests44.subtitle}"
+			tasks: [{
+				id: "3AF886787A580E00"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:sophb_environmental"
+					}
+				}
+				title: "{cottagewitch.storage.quests44.tasks0.title}"
+				type: "item"
+			}]
+			title: "{cottagewitch.storage.quests44.title}"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"{cottagewitch.storage.quests45.description0}"
+				""
+				"{cottagewitch.storage.quests45.description1}"
+				""
+				"{cottagewitch.storage.quests45.description2}"
+			]
+			id: "50076E9CA12182E6"
+			rewards: [
+				{
+					id: "3DFB3227B24E3322"
+					item: "ars_creo:starbuncle_wheel"
+					type: "item"
+				}
+				{
+					id: "458CCCEA1FF79816"
+					item: "spelunkery:magnetite_chunk"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{cottagewitch.storage.quests45.subtitle}"
+			tasks: [{
+				id: "01F74FC03DF6879D"
+				title: "{cottagewitch.storage.quests45.tasks0.title}"
+				type: "checkmark"
+			}]
+			title: "{cottagewitch.storage.quests45.title}"
+			x: -0.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["50076E9CA12182E6"]
+			description: [
+				"{cottagewitch.storage.quests46.description0}"
+				""
+				"{cottagewitch.storage.quests46.description1}"
+				""
+				"{cottagewitch.storage.quests46.description2}"
+				""
+				"{cottagewitch.storage.quests46.description3}"
+				""
+				"{cottagewitch.storage.quests46.description4}"
+				""
+				"{cottagewitch.storage.quests46.description5}"
+			]
+			id: "7918FC1D268C6E62"
+			rewards: [{
+				id: "7BCF9FCC5D9BC689"
+				item: "create_central_kitchen:tomato_sauce_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A84E9C9E7F2799E"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["6BC872292BF0914C"]
+			description: [
+				"{cottagewitch.storage.quests47.description0}"
+				""
+				"{cottagewitch.storage.quests47.description1}"
+				""
+				"{image:cottagewitch:textures/quest_images/fluix_tomato_water.png width:250 height:250 align:1}"
+			]
+			id: "2D271ADDC566B408"
+			rewards: [{
+				count: 5
+				id: "288A21CA6B0C699F"
+				item: "ae2:fluix_dust"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0777EC2F62223EFB"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					id: "50540F2DFE8A6D0D"
+					item: "ae2:fluix_dust"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["4F50B0FDBED86AF2"]
+			description: [
+				"{cottagewitch.storage.quests48.description0}"
+				""
+				"{cottagewitch.storage.quests48.description1}"
+				""
+				"{cottagewitch.storage.quests48.description2}"
+				""
+				"{cottagewitch.storage.quests48.description3}"
+			]
+			id: "36117361546D1D22"
+			rewards: [{
+				count: 8
+				id: "2587173022790E85"
+				item: "ae2:fluix_covered_cable"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.storage.quests48.subtitle}"
+			tasks: [
+				{
+					id: "24A1D6A4D858718E"
+					item: "ae2:fluix_covered_cable"
+					type: "item"
+				}
+				{
+					id: "165101ED0EEBA87B"
+					item: "ae2:quartz_fiber"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["36117361546D1D22"]
+			description: [
+				"{cottagewitch.storage.quests49.description0}"
+				""
+				"{cottagewitch.storage.quests49.description1}"
+				""
+				""
+				"{image:cottagewitch:textures/quest_images/ae2_interface.png width:250 height:250 align:1}"
+			]
+			id: "076207522E95E96B"
+			rewards: [{
+				count: 8
+				id: "425E7503CB386E3B"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FBB6DEBD887E291"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:interface"
+							}
+							{
+								Count: 1b
+								id: "ae2:cable_interface"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{cottagewitch.storage.quests49.title}"
+			x: -4.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2D271ADDC566B408"]
+			description: [
+				"{cottagewitch.storage.quests50.description0}"
+				""
+				"{cottagewitch.storage.quests50.description1}"
+			]
+			id: "44542FC524E3E9AF"
+			rewards: [{
+				count: 10
+				id: "402222DDC41DB9CE"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.storage.quests50.subtitle}"
+			tasks: [{
+				id: "62C0F002851E9632"
+				item: "ae2:creative_energy_cell"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["44542FC524E3E9AF"]
+			description: [
+				"{cottagewitch.storage.quests51.description0}"
+				""
+				"{cottagewitch.storage.quests51.description1}"
+				""
+				"{cottagewitch.storage.quests51.description2}"
+				"{@pagebreak}"
+				"{cottagewitch.storage.quests51.description3}"
+				""
+				"{cottagewitch.storage.quests51.description4}"
+				"{image:cottagewitch:textures/quest_ui/nonbtstorage.png width:200 height:200 align:1}"
+				"{cottagewitch.storage.quests51.description5}"
+				""
+				"{cottagewitch.storage.quests51.description6}"
+			]
+			icon: "ae2:drive"
+			id: "4B3896CA30384F99"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03C1DEB78B45AA36"
+				table_id: 8335827452404632652L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "30E068652B4291F2"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "077955D9E892D7E5"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:item_storage_cell_1k"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "ae2:item_storage_cell_4k"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "ae2:item_storage_cell_16k"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "ae2:item_storage_cell_64k"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "ae2:item_storage_cell_256k"
+									tag: { }
+								}
+							]
+						}
+					}
+					title: "{cottagewitch.storage.quests51.tasks1.title}"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["2C8735C0B1C9431D"]
+			description: [
+				"{cottagewitch.storage.quests52.description0}"
+				""
+				"{cottagewitch.storage.quests52.description1}"
+				""
+				"{cottagewitch.storage.quests52.description2}"
+			]
+			id: "68BCE0298503D8C8"
+			rewards: [{
+				count: 4
+				id: "5E574FB88A20C33B"
+				item: "ae2:quartz_glass"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.storage.quests52.subtitle}"
+			tasks: [
+				{
+					id: "4B176C7CFD7C210C"
+					item: "ae2:singularity"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "525B5B5B2C6C62E9"
+					item: "ae2:quantum_entangled_singularity"
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			x: 5.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["68BCE0298503D8C8"]
+			description: [
+				"{cottagewitch.storage.quests53.description0}"
+				""
+				"{cottagewitch.storage.quests53.description1}"
+				""
+				"{cottagewitch.storage.quests53.description2}"
+				""
+				"{cottagewitch.storage.quests53.description3}"
+				""
+				"{image:cottagewitch:textures/quest_images/ae2_wireless.png width:1000 height:600 align:1 fit:true}"
+			]
+			id: "2692A1D717795116"
+			rewards: [{
+				id: "5C5686CF375C7E43"
+				item: "ae2:wireless_receiver"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "347F1353D62DDCD8"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					id: "12A6C1D650E610A1"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"2692A1D717795116"
+				"3BCEBB5E08B49230"
+			]
+			description: [
+				"{cottagewitch.storage.quests54.description0}"
+				""
+				"{cottagewitch.storage.quests54.description1}"
+				"{image:cottagewitch:textures/quest_images/ae2_aperture.png width:250 height:350 align:1}"
+			]
+			id: "3BA25DBF8AD8C159"
+			rewards: [{
+				id: "20577649627497F4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "64B4005B77FA2A8B"
+				item: "ae2wtlib:quantum_bridge_card"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"1F7DD0EA78B3C25C"
+				"30EA2E54AACE1D40"
+			]
+			description: [
+				"{cottagewitch.storage.quests55.description0}"
+				""
+				"{cottagewitch.storage.quests55.description1}"
+				"{image:cottagewitch:textures/quest_images/ae2_guardian_ward_wireless.png width:250 height:250 align:1}"
+				"{cottagewitch.storage.quests55.description2}"
+				""
+				"{cottagewitch.storage.quests55.description3}"
+				""
+				"{cottagewitch.storage.quests55.description4}"
+			]
+			id: "3BCEBB5E08B49230"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D991D06C016B961"
+				table_id: 8335827452404632652L
+				type: "loot"
+			}]
+			subtitle: "{cottagewitch.storage.quests55.subtitle}"
+			tasks: [{
+				id: "45EF8283B4A96E89"
+				item: "ae2:wireless_crafting_terminal"
+				match_nbt: false
+				type: "item"
+			}]
+			x: 2.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["4F50B0FDBED86AF2"]
+			description: [
+				"{cottagewitch.storage.quests56.description0}"
+				""
+				"{cottagewitch.storage.quests56.description1}"
+				""
+				"{cottagewitch.storage.quests56.description2}"
+				""
+				"{image:cottagewitch:textures/quest_images/ae2_guardian_ward.png width:250 height:250 align:1}"
+				""
+				"{cottagewitch.storage.quests56.description3}"
+				""
+				"{cottagewitch.storage.quests56.description4}"
+				""
+				"{cottagewitch.storage.quests56.description5}"
+			]
+			id: "1F7DD0EA78B3C25C"
+			rewards: [{
+				id: "560235B874ADC5A0"
+				item: "ae2:biometric_card"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.storage.quests56.subtitle}"
+			tasks: [
+				{
+					id: "38F4928F26855584"
+					item: "ae2:security_station"
+					type: "item"
+				}
+				{
+					id: "661BA143149B834B"
+					item: "ae2:biometric_card"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["4B3896CA30384F99"]
+			description: [
+				"{cottagewitch.storage.quests57.description0}"
+				""
+				"{cottagewitch.storage.quests57.description1}"
+				""
+				"{cottagewitch.storage.quests57.description2}"
+			]
+			id: "4F50B0FDBED86AF2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DD160B83B3E32E4"
+				table_id: 8335827452404632652L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "6282F58FD4FC8E4F"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "0B2F10A7C8545CC4"
+					item: "ae2:terminal"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["36117361546D1D22"]
+			description: [
+				"{cottagewitch.storage.quests58.description0}"
+				""
+				"{cottagewitch.storage.quests58.description1}"
+				""
+				"{cottagewitch.storage.quests58.description2}"
+				""
+				"{cottagewitch.storage.quests58.description3}"
+				""
+				"{image:cottagewitch:textures/quest_images/level_emitter_ui.png width:250 height:230 align:1}"
+			]
+			id: "3F1F2BDD0C6D0E0F"
+			rewards: [{
+				count: 10
+				id: "7720CB5ED2CE6FEE"
+				item: "ae2:cable_anchor"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.storage.quests58.subtitle}"
+			tasks: [
+				{
+					id: "745A4460DB0B0953"
+					item: "ae2:cable_anchor"
+					type: "item"
+				}
+				{
+					id: "24B6D88206073618"
+					item: "ae2:inverted_toggle_bus"
+					type: "item"
+				}
+				{
+					id: "58ACFB0D78B042F8"
+					item: "ae2:toggle_bus"
+					type: "item"
+				}
+				{
+					id: "37D0B4F69B92F4F6"
+					item: "ae2:level_emitter"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.storage.quests58.title}"
+			x: -2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["50076E9CA12182E6"]
+			description: [
+				"{cottagewitch.storage.quests59.description0}"
+				""
+				"{cottagewitch.storage.quests59.description1}"
+				""
+				"{cottagewitch.storage.quests59.description2}"
+			]
+			id: "28DB3AEB3FDC5BA3"
+			rewards: [
+				{
+					id: "731CF84A5CBD7D8C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "570203FD7A8B428B"
+					item: "ae2:cable_anchor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6BF6ABDC10302B9C"
+				title: "{cottagewitch.storage.quests59.tasks0.title}"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["36117361546D1D22"]
+			description: [
+				"{cottagewitch.storage.quests60.description0}"
+				""
+				"{image:cottagewitch:textures/quest_images/ae2_storage_anchor.png width:130 height:70 align:1}"
+				""
+				"{cottagewitch.storage.quests60.description1}"
+				""
+				"{cottagewitch.storage.quests60.description2}"
+				""
+				""
+				"{cottagewitch.storage.quests60.description3}"
+				""
+				""
+				"{@pagebreak}"
+				""
+				"{cottagewitch.storage.quests60.description4}"
+				""
+				"{image:cottagewitch:textures/quest_images/ae2_priority.png width:200 height:125 align:1}"
+				""
+				""
+				"{cottagewitch.storage.quests60.description5}"
+				""
+				"{cottagewitch.storage.quests60.description6}"
+			]
+			id: "78551B3677A74B70"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "111A8A307A0F8E77"
+					table_id: 8035711958862449784L
+					type: "loot"
+				}
+				{
+					id: "4DAC39F19701EAED"
+					item: "ae2:formation_core"
+					type: "item"
+				}
+				{
+					id: "6F59FCDF168024E5"
+					item: "ae2:annihilation_core"
+					type: "item"
+				}
+			]
+			subtitle: "{cottagewitch.storage.quests60.subtitle}"
+			tasks: [{
+				id: "62134D4FCAAAF43A"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["1F7DD0EA78B3C25C"]
+			description: [
+				"{cottagewitch.storage.quests61.description0}"
+				""
+				"{cottagewitch.storage.quests61.description1}"
+			]
+			id: "30EA2E54AACE1D40"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E6C78631DF06453"
+				table_id: 8335827452404632652L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "52F8BE308E3B2D96"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["30EA2E54AACE1D40"]
+			description: [
+				"{cottagewitch.storage.quests62.description0}"
+				""
+				"{cottagewitch.storage.quests62.description1}"
+			]
+			id: "109BED3B10E05304"
+			optional: true
+			rewards: [{
+				id: "75A50216ED16FA3B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{cottagewitch.storage.quests62.subtitle}"
+			tasks: [{
+				id: "12F0A5B38C0BB8A2"
+				item: "ae2:wireless_booster"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -12.0d
+		}
+		{
+			description: [
+				"{cottagewitch.storage.quests63.description0}"
+				"{image:cottagewitch:textures/fairycircle.png width:250 height:189 align:1}"
+			]
+			id: "2C8735C0B1C9431D"
+			rewards: [{
+				id: "669FEDA4A9063F59"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{cottagewitch.storage.quests63.subtitle}"
+			tasks: [
+				{
+					count: 8L
+					id: "0D7276F7FE72EC3A"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:mushrooms"
+						}
+					}
+					title: "{cottagewitch.storage.quests63.tasks0.title}"
+					type: "item"
+				}
+				{
+					id: "795F6E5BE161AEDF"
+					title: "{cottagewitch.storage.quests63.tasks1.title}"
+					type: "checkmark"
+				}
+			]
+			x: 6.5d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"74BCFBABCBF4448F"
+				"4F50B0FDBED86AF2"
+			]
+			description: [
+				"{cottagewitch.storage.quests64.description0}"
+				""
+				"{cottagewitch.storage.quests64.description1}"
+				""
+				"{cottagewitch.storage.quests64.description2}"
+				""
+				"{image:cottagewitch:textures/quest_images/glyph_workbench.png width:250 height:260 align:1}"
+			]
+			id: "1C49435F96C7CB2C"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D41D26EA4376177"
+				table_id: 8335827452404632652L
+				type: "random"
+			}]
+			subtitle: "{cottagewitch.storage.quests64.subtitle}"
+			tasks: [{
+				id: "3429479C837F5D5E"
+				item: "ae2:view_cell"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["36117361546D1D22"]
+			description: [
+				"{cottagewitch.storage.quests65.description0}"
+				""
+				"{cottagewitch.storage.quests65.description1}"
+				""
+				"{cottagewitch.storage.quests65.description2}"
+				""
+				"{cottagewitch.storage.quests65.description3}"
+				""
+				"{image:cottagewitch:textures/quest_images/ae2_vibrant_communicator_1.png width:532 height:193 align:1 fit:true}"
+			]
+			id: "5F9A382EAC8D4D8C"
+			rewards: [{
+				count: 16
+				id: "78625A55432A730D"
+				item: "ae2:fluix_covered_cable"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "603D368E02A00789"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+				{
+					id: "5213565F57A7B15E"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+				{
+					id: "174180D9D5AE469A"
+					item: "ae2:io_port"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.storage.quests65.title}"
+			x: -4.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["36117361546D1D22"]
+			description: [
+				"{cottagewitch.storage.quests66.description0}"
+				""
+				"{cottagewitch.storage.quests66.description1}"
+			]
+			id: "3F1D38652FC48C86"
+			rewards: [{
+				id: "005E2BFC56087129"
+				item: "ae2:basic_card"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D6F70F12CFBD56F"
+				item: "ae2:basic_card"
+				type: "item"
+			}]
+			title: "{cottagewitch.storage.quests66.title}"
+			x: -3.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["36117361546D1D22"]
+			description: [
+				"{cottagewitch.storage.quests67.description0}"
+				""
+				"{cottagewitch.storage.quests67.description1}"
+			]
+			id: "01CC3364F60EC931"
+			rewards: [{
+				id: "1A4BA690C81DA7A7"
+				item: "ae2:advanced_card"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12C87A2E882B24FE"
+				item: "ae2:advanced_card"
+				type: "item"
+			}]
+			title: "{cottagewitch.storage.quests67.title}"
+			x: -5.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["3F1D38652FC48C86"]
+			description: ["{cottagewitch.storage.quests68.description0}"]
+			id: "69EAA78A6DBA5AC0"
+			rewards: [{
+				id: "0B9F2F8D93E6149F"
+				item: "ae2:basic_card"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.storage.quests68.subtitle}"
+			tasks: [{
+				id: "47AEA49E9E37872E"
+				item: "ae2:redstone_card"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["3F1D38652FC48C86"]
+			description: ["{cottagewitch.storage.quests69.description0}"]
+			id: "3ECFE3FF21AE3739"
+			rewards: [{
+				id: "3F218250BE0CDBAE"
+				item: "ae2:basic_card"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.storage.quests69.subtitle}"
+			tasks: [{
+				id: "30B1B7491385203E"
+				item: "ae2:capacity_card"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["3F1D38652FC48C86"]
+			description: ["{cottagewitch.storage.quests70.description0}"]
+			id: "0D7EBE7CED793C07"
+			rewards: [{
+				id: "2C5C788DFD8DC7C6"
+				item: "ae2:void_card"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37CE219CB5BA98FF"
+				item: "ae2:void_card"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["01CC3364F60EC931"]
+			description: ["{cottagewitch.storage.quests71.description0}"]
+			id: "60797B6909DC89B5"
+			rewards: [{
+				id: "0538E92CEF3EBE99"
+				item: "ae2:advanced_card"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7235EEC0E0D8D71E"
+				item: "ae2:fuzzy_card"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["01CC3364F60EC931"]
+			description: ["{cottagewitch.storage.quests72.description0}"]
+			id: "0110849857095FFB"
+			rewards: [{
+				id: "6B52F0169A98AFA3"
+				item: "ae2:speed_card"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76E69E721DFC9976"
+				item: "ae2:speed_card"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["01CC3364F60EC931"]
+			description: ["{cottagewitch.storage.quests73.description0}"]
+			id: "3E3FCBE9EF845336"
+			rewards: [{
+				id: "37388FE1B8FF7122"
+				item: "ae2:advanced_card"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70E7EB084A1EF58F"
+				item: "ae2:inverter_card"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["01CC3364F60EC931"]
+			description: ["{cottagewitch.storage.quests74.description0}"]
+			id: "663451A83E577E13"
+			rewards: [{
+				id: "3A11D5394E0C4B67"
+				item: "ae2:advanced_card"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B3CD32D0848B3D4"
+				item: "ae2:equal_distribution_card"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["01CC3364F60EC931"]
+			description: ["{cottagewitch.storage.quests75.description0}"]
+			id: "097F68B45F2B4BE5"
+			rewards: [{
+				id: "4FADBAE26696E029"
+				item: "ae2:advanced_card"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4786AA6D65014FF2"
+				item: "ae2:energy_card"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["4B3896CA30384F99"]
+			description: [
+				"{cottagewitch.storage.quests76.description0}"
+				""
+				"{cottagewitch.storage.quests76.description1}"
+				""
+				"{cottagewitch.storage.quests76.description2}"
+			]
+			id: "74BCFBABCBF4448F"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "5E5AE4DA517F8513"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.storage.quests76.subtitle}"
+			tasks: [{
+				id: "31C718D57EA38B86"
+				item: "ae2:cell_workbench"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["7918FC1D268C6E62"]
+			description: [
+				"{cottagewitch.storage.quests77.description0}"
+				""
+				"{cottagewitch.storage.quests77.description1}"
+				""
+				"{cottagewitch.storage.quests77.description2}"
+			]
+			id: "6BC872292BF0914C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33C1DF6A1755483B"
+				table_id: 8335827452404632652L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6819D932BC39AAFE"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["36117361546D1D22"]
+			description: [
+				"{cottagewitch.storage.quests78.description0}"
+				""
+				"{cottagewitch.storage.quests78.description1}"
+			]
+			id: "46107FFCDC947BB1"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "47BF48D518B60E64"
+				item: "ae2:damaged_budding_quartz"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74FB8A999AB8F1DB"
+				item: "ae2:quartz_growth_accelerator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -14.0d
+		}
+	]
+	title: "{cottagewitch.storage.title}"
+}

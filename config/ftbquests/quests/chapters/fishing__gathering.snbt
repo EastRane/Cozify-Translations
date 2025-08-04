@@ -1,0 +1,1135 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "fishing__gathering"
+	group: "1E0017DE6773EF00"
+	icon: {
+		Count: 1b
+		id: "minecraft:fishing_rod"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "4E0024DA8E387270"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 14.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/bgfishing.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/bgbakery.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -5.5d
+			y: 0.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: ["{cottagewitch.fishing__gathering.quests0.description0}"]
+			id: "104D0C28773A1DD4"
+			rewards: [{
+				id: "74ED4837B530E7B0"
+				item: "netherdepthsupgrade:lava_sponge"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.fishing__gathering.quests0.subtitle}"
+			tasks: [{
+				id: "4B09404FC3251283"
+				item: {
+					Count: 1b
+					id: "netherdepthsupgrade:lava_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{cottagewitch.fishing__gathering.quests0.title}"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{cottagewitch.fishing__gathering.quests1.description0}"
+				""
+				"{cottagewitch.fishing__gathering.quests1.description1}"
+				""
+				"{cottagewitch.fishing__gathering.quests1.description2}"
+			]
+			id: "2E4D1699E2A7876B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "53084827437F5C3A"
+					table_id: 1279979498352596350L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18A2E48F0E5B1B1B"
+					table_id: 5667576494518007025L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{cottagewitch.fishing__gathering.quests1.subtitle}"
+			tasks: [{
+				id: "48F4CD59425BC257"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:fishing_rods"
+					}
+				}
+				title: "{cottagewitch.fishing__gathering.quests1.tasks0.title}"
+				type: "item"
+			}]
+			title: "{cottagewitch.fishing__gathering.quests1.title}"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2093240CD42882CF"]
+			description: [
+				"{cottagewitch.fishing__gathering.quests2.description0}"
+				"{cottagewitch.fishing__gathering.quests2.description1}"
+			]
+			id: "015EA4B35A947259"
+			rewards: [{
+				count: 5
+				id: "03531A0CBDA0CA3A"
+				item: "collectorsreap:pomegranate"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.fishing__gathering.quests2.subtitle}"
+			tasks: [{
+				id: "7972CB0F2E61BE94"
+				item: "collectorsreap:pomegranate"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2093240CD42882CF"]
+			description: ["{cottagewitch.fishing__gathering.quests3.description0}"]
+			id: "0E2CC89B895C9494"
+			rewards: [{
+				count: 5
+				id: "7ABFB9AD7A6C8569"
+				item: "caupona:fig"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.fishing__gathering.quests3.subtitle}"
+			tasks: [{
+				id: "2ED2CB812D6410F0"
+				item: "caupona:fig"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2093240CD42882CF"]
+			description: ["{cottagewitch.fishing__gathering.quests4.description0}"]
+			id: "0D61BF5085BCEF31"
+			rewards: [{
+				count: 5
+				id: "09996C7EF0181006"
+				item: "collectorsreap:lime"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.fishing__gathering.quests4.subtitle}"
+			tasks: [{
+				id: "7F37A8C84BE53B25"
+				item: "collectorsreap:lime"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2093240CD42882CF"]
+			description: ["{cottagewitch.fishing__gathering.quests5.description0}"]
+			id: "56DF02D06E0FD715"
+			rewards: [{
+				count: 5
+				id: "0753904EFE9F57BF"
+				item: "collectorsreap:portobello"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.fishing__gathering.quests5.subtitle}"
+			tasks: [{
+				id: "7E9558C833E4342B"
+				item: "collectorsreap:portobello"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2093240CD42882CF"]
+			description: ["{cottagewitch.fishing__gathering.quests6.description0}"]
+			id: "5C5DF640A2605954"
+			rewards: [{
+				count: 5
+				id: "26544ED98FC8DD1A"
+				item: "caupona:walnut"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.fishing__gathering.quests6.subtitle}"
+			tasks: [{
+				id: "1F753784516464C0"
+				item: "caupona:walnut"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2093240CD42882CF"]
+			description: ["{cottagewitch.fishing__gathering.quests7.description0}"]
+			id: "5A18AB9A4B6370A2"
+			rewards: [{
+				count: 5
+				id: "058A1E765E08A4C8"
+				item: "caupona:wolfberries"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.fishing__gathering.quests7.subtitle}"
+			tasks: [{
+				id: "746220A32EE8AA8E"
+				item: "caupona:wolfberries"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{cottagewitch.fishing__gathering.quests8.description0}"
+				"{cottagewitch.fishing__gathering.quests8.description1}"
+				"{cottagewitch.fishing__gathering.quests8.description2}"
+				"{cottagewitch.fishing__gathering.quests8.description3}"
+				"{cottagewitch.fishing__gathering.quests8.description4}"
+				"{cottagewitch.fishing__gathering.quests8.description5}"
+			]
+			icon: "farmersdelight:wild_carrots"
+			id: "2093240CD42882CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20C2ED31F2632341"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					block: "farmersdelight:wild_cabbages"
+					block_type: 0
+					checkItem: false
+					icon: "farmersdelight:wild_cabbages"
+					id: "6EDA315759D3800F"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "farmersdelight:wild_potatoes"
+					block_type: 0
+					checkItem: false
+					icon: "farmersdelight:wild_potatoes"
+					id: "2A2B8DA40D8637A9"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "farmersdelight:wild_carrots"
+					block_type: 0
+					checkItem: false
+					icon: "farmersdelight:wild_carrots"
+					id: "608A8CD9B92FE737"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "farmersdelight:wild_rice"
+					block_type: 0
+					checkItem: false
+					icon: "farmersdelight:wild_rice"
+					id: "1F855CF180E60103"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "farmersdelight:wild_onions"
+					block_type: 0
+					checkItem: false
+					icon: "farmersdelight:wild_onions"
+					id: "1A6CF9C2538C64F9"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "culturaldelights:wild_cucumbers"
+					block_type: 0
+					checkItem: false
+					icon: "culturaldelights:wild_cucumbers"
+					id: "44DB742314C20457"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "culturaldelights:wild_corn"
+					block_type: 0
+					checkItem: false
+					icon: "culturaldelights:wild_corn"
+					id: "44BBC1579C173631"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "culturaldelights:wild_eggplants"
+					block_type: 0
+					checkItem: false
+					icon: "culturaldelights:wild_eggplants"
+					id: "1B2A4C08C5746E55"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "farmersdelight:wild_tomatoes"
+					block_type: 0
+					checkItem: false
+					id: "2C5F1B4B6FC9842D"
+					type: "questsadditions:break"
+					value: 1L
+				}
+			]
+			title: "{cottagewitch.fishing__gathering.quests8.title}"
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			id: "60BA7A551EC7DC60"
+			invisible: true
+			optional: true
+			secret: true
+			tasks: [{
+				id: "14D15094BF4C4D63"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: ["{cottagewitch.fishing__gathering.quests10.description0}"]
+			id: "2CB6A1B10F4A6FAD"
+			rewards: [
+				{
+					id: "5D186EA1176A65E7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 28
+							}
+						}
+						id: "snailmail:envelope_open"
+					}
+					type: "item"
+				}
+				{
+					id: "2174642661992281"
+					item: "snailmail:stamp"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.fishing__gathering.quests10.subtitle}"
+			tasks: [{
+				id: "0A5D1053C0B55403"
+				item: "aquaculture:message_in_a_bottle"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["104D0C28773A1DD4"]
+			dependency_requirement: "one_completed"
+			description: [
+				"{cottagewitch.fishing__gathering.quests11.description0}"
+				"{cottagewitch.fishing__gathering.quests11.description1}"
+			]
+			id: "0F5E5A0B0C05ACD2"
+			rewards: [
+				{
+					count: 3
+					id: "1814749C8605B014"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36A27638B101E7BE"
+					table_id: 1279979498352596350L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "798C459CD61F966A"
+					item: "netherdepthsupgrade:blazefish"
+					type: "item"
+				}
+				{
+					id: "6C782B0CFA8D3DEE"
+					item: "netherdepthsupgrade:magmacubefish"
+					type: "item"
+				}
+				{
+					id: "5F2C45F299657EFB"
+					item: "netherdepthsupgrade:glowdine"
+					type: "item"
+				}
+				{
+					id: "2F6245F84764D7B2"
+					item: "netherdepthsupgrade:soulsucker"
+					type: "item"
+				}
+				{
+					id: "5D30B99EE265108E"
+					item: "netherdepthsupgrade:lava_pufferfish"
+					type: "item"
+				}
+				{
+					id: "261478743CC10159"
+					item: "netherdepthsupgrade:searing_cod"
+					type: "item"
+				}
+				{
+					id: "5D981D87542D1FD9"
+					item: "netherdepthsupgrade:obsidianfish"
+					type: "item"
+				}
+				{
+					id: "143742BA7EEEE35E"
+					item: "netherdepthsupgrade:wither_bonefish"
+					type: "item"
+				}
+				{
+					id: "0606924590758073"
+					item: "netherdepthsupgrade:bonefish"
+					type: "item"
+				}
+				{
+					id: "1E320AD1AA089E88"
+					item: "netherdepthsupgrade:fortress_grouper"
+					type: "item"
+				}
+				{
+					id: "2A137736FB18DEF6"
+					item: "netherdepthsupgrade:eyeball_fish"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.fishing__gathering.quests11.title}"
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: ["{cottagewitch.fishing__gathering.quests12.description0}"]
+			id: "587057082557AAFB"
+			rewards: [{
+				id: "7D78657C032650A7"
+				item: "aquaculturedelight:catfish_barbecue"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.fishing__gathering.quests12.subtitle}"
+			tasks: [
+				{
+					id: "1B3AA6BFD29D0F74"
+					item: "aquaculture:smallmouth_bass"
+					type: "item"
+				}
+				{
+					id: "212CD172982070D7"
+					item: "aquaculture:bluegill"
+					type: "item"
+				}
+				{
+					id: "3187145D22D589F8"
+					item: "aquaculture:brown_trout"
+					type: "item"
+				}
+				{
+					id: "62D4CADD76E8E86F"
+					item: "aquaculture:carp"
+					type: "item"
+				}
+				{
+					id: "30321270901C782A"
+					item: "aquaculture:catfish"
+					type: "item"
+				}
+				{
+					id: "5B8274EEABB354C4"
+					item: "aquaculture:muskellunge"
+					type: "item"
+				}
+				{
+					id: "592B4EBC181B507A"
+					item: "aquaculture:gar"
+					type: "item"
+				}
+				{
+					id: "0300F75689D43207"
+					item: {
+						Count: 1b
+						id: "aquaculture:minnow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C0DA5F1FB8E0F86"
+					item: "aquaculture:perch"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.fishing__gathering.quests12.title}"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: ["{cottagewitch.fishing__gathering.quests13.description0}"]
+			id: "4F417203FC109BEA"
+			rewards: [{
+				id: "58AF0D0DC042F49F"
+				item: "aquaculturedelight:baked_pollock_with_carrots"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.fishing__gathering.quests13.subtitle}"
+			tasks: [
+				{
+					id: "0351C799674E1C39"
+					item: "aquaculture:atlantic_cod"
+					type: "item"
+				}
+				{
+					id: "3F7735FA4E7DC510"
+					item: "aquaculture:blackfish"
+					type: "item"
+				}
+				{
+					id: "41A59ADB39848C32"
+					item: "aquaculture:atlantic_halibut"
+					type: "item"
+				}
+				{
+					id: "090BEB6D898DFBB2"
+					item: "aquaculture:pacific_halibut"
+					type: "item"
+				}
+				{
+					id: "4C51C874CA5CCB8D"
+					item: "aquaculture:atlantic_herring"
+					type: "item"
+				}
+				{
+					id: "453EB138267DE1C7"
+					item: "aquaculture:pink_salmon"
+					type: "item"
+				}
+				{
+					id: "0BE94B5BE75EDADE"
+					item: "aquaculture:pollock"
+					type: "item"
+				}
+				{
+					id: "733F2EFF01C0A221"
+					item: "aquaculture:rainbow_trout"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.fishing__gathering.quests13.title}"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: ["{cottagewitch.fishing__gathering.quests14.description0}"]
+			id: "035D2CEA29C1E96C"
+			rewards: [{
+				id: "3202A3B7896B48E1"
+				item: "aquaculturedelight:jellyfish_jelly"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.fishing__gathering.quests14.subtitle}"
+			tasks: [
+				{
+					id: "4C696880905B5BC1"
+					item: "aquaculture:jellyfish"
+					type: "item"
+				}
+				{
+					id: "45F254A032ECD276"
+					item: "aquaculture:red_grouper"
+					type: "item"
+				}
+				{
+					id: "77A4735C40A1C967"
+					item: "aquaculture:tuna"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.fishing__gathering.quests14.title}"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: ["{cottagewitch.fishing__gathering.quests15.description0}"]
+			id: "444410F7447B1317"
+			rewards: [{
+				id: "74EAFC576474FDCB"
+				item: "minecraft:glow_item_frame"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.fishing__gathering.quests15.subtitle}"
+			tasks: [{
+				id: "0BAD6FAF3881FFB1"
+				item: "aquaculture:goldfish"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: [
+				"{cottagewitch.fishing__gathering.quests16.description0}"
+				""
+				"{cottagewitch.fishing__gathering.quests16.description1}"
+				""
+				"{cottagewitch.fishing__gathering.quests16.description2}"
+			]
+			id: "21DC6690C774EAAA"
+			rewards: [{
+				id: "64BB8A896641B932"
+				item: "aquaculturedelight:unusual_fish_soup"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0849276B51790376"
+					item: "aquaculture:red_shrooma"
+					type: "item"
+				}
+				{
+					id: "3D94BB8DEAAB5A5F"
+					item: "aquaculture:brown_shrooma"
+					type: "item"
+				}
+				{
+					id: "2D7CB13B2C191072"
+					item: "aquaculture:box_turtle"
+					type: "item"
+				}
+				{
+					id: "1AE626543E4F6D3C"
+					item: "aquaculture:starshell_turtle"
+					type: "item"
+				}
+				{
+					id: "4BB55FF96F9CDB8B"
+					item: {
+						Count: 1b
+						id: "aquaculture:leech"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.fishing__gathering.quests16.title}"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: ["{cottagewitch.fishing__gathering.quests17.description0}"]
+			id: "59ADDCF245D059EF"
+			rewards: [{
+				id: "4820D86718C59FDB"
+				item: "aquaculturedelight:poor_fisher_chowder"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.fishing__gathering.quests17.subtitle}"
+			tasks: [
+				{
+					id: "19F21E9E3F78886D"
+					item: "aquaculture:bayad"
+					type: "item"
+				}
+				{
+					id: "1E47B9D7F01AB872"
+					item: "aquaculture:boulti"
+					type: "item"
+				}
+				{
+					id: "47B44A10545E34A5"
+					item: "aquaculture:capitaine"
+					type: "item"
+				}
+				{
+					id: "0B4DA76EA49CDDDD"
+					item: "aquaculture:synodontis"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.fishing__gathering.quests17.title}"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: ["{cottagewitch.fishing__gathering.quests18.description0}"]
+			id: "314A3108FC061BC1"
+			rewards: [{
+				id: "199A265D9B6CA527"
+				item: "aquaculturedelight:turtle_meat_dish"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.fishing__gathering.quests18.subtitle}"
+			tasks: [
+				{
+					id: "223B3A8F68BE53FF"
+					item: "aquaculture:arapaima"
+					type: "item"
+				}
+				{
+					id: "6AB102343C02CAE5"
+					item: "aquaculture:arrau_turtle"
+					type: "item"
+				}
+				{
+					id: "7019AB2A8C5AEEE7"
+					item: "aquaculture:piranha"
+					type: "item"
+				}
+				{
+					id: "195D533C8968A6C9"
+					item: "aquaculture:tambaqui"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.fishing__gathering.quests18.title}"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: [
+				"{cottagewitch.fishing__gathering.quests19.description0}"
+				""
+				"{cottagewitch.fishing__gathering.quests19.description1}"
+				""
+				"{cottagewitch.fishing__gathering.quests19.description2}"
+			]
+			id: "482A73F6470C9F3D"
+			rewards: [
+				{
+					id: "5E7FB841FB3924F0"
+					item: {
+						Count: 1b
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32088996B59152F2"
+					table_id: 5667576494518007025L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.fishing__gathering.quests19.subtitle}"
+			tasks: [{
+				id: "459DF0E74535B7A5"
+				item: "aquaculture:tackle_box"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["482A73F6470C9F3D"]
+			description: [
+				"{cottagewitch.fishing__gathering.quests20.description0}"
+				""
+				"{cottagewitch.fishing__gathering.quests20.description1}"
+				""
+				"{cottagewitch.fishing__gathering.quests20.description2}"
+			]
+			id: "5D90F92A9A2E5061"
+			rewards: [
+				{
+					count: 5
+					id: "24B46AD2FFBD893A"
+					item: "farmersdelight:rotten_tomato"
+					type: "item"
+				}
+				{
+					id: "5E224A4154C2B7DC"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									252518891
+									-439532983
+									-1228136753
+									1868595290
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2EyNTczOTZmODlhM2YyM2RjNzA1OTUxZWJiMzM5ZmQ3YzY2OTA1OTJkZjc1NWVmYzQ4YjBkODEyMjllMDg0ZSJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Bucket Of Worms\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.fishing__gathering.quests20.subtitle}"
+			tasks: [{
+				id: "7FD4882318FF3EC4"
+				item: "aquaculture:worm_farm"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["482A73F6470C9F3D"]
+			description: [
+				"{cottagewitch.fishing__gathering.quests21.description0}"
+				""
+				"{cottagewitch.fishing__gathering.quests21.description1}"
+			]
+			id: "59237CB30CC6F4E3"
+			rewards: [{
+				count: 3
+				id: "4610A7699F5DF859"
+				item: {
+					Count: 1b
+					id: "aquaculture:leech"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.fishing__gathering.quests21.subtitle}"
+			tasks: [
+				{
+					id: "13511C33620DF9FA"
+					item: "aquaculture:bobber"
+					type: "item"
+				}
+				{
+					id: "10355F5390AAFDD9"
+					item: "aquaculture:fishing_line"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.fishing__gathering.quests21.title}"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["482A73F6470C9F3D"]
+			description: ["{cottagewitch.fishing__gathering.quests22.description0}"]
+			id: "64BD120520A00D3D"
+			rewards: [{
+				id: "17185BEE2B0390A3"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.fishing__gathering.quests22.subtitle}"
+			tasks: [{
+				id: "7E7555C4B40A5BD2"
+				item: "aquaculture:iron_hook"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["64BD120520A00D3D"]
+			description: [
+				"{cottagewitch.fishing__gathering.quests23.description0}"
+				""
+				"{cottagewitch.fishing__gathering.quests23.description1}"
+				""
+				"{cottagewitch.fishing__gathering.quests23.description2}"
+				""
+				"{cottagewitch.fishing__gathering.quests23.description3}"
+			]
+			id: "72AF06325F252A3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B5802B3DFE88F09"
+				table_id: 1279979498352596350L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "556F09A01C652CBC"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:upgraded_hooks"
+					}
+				}
+				title: "{cottagewitch.fishing__gathering.quests23.tasks0.title}"
+				type: "item"
+			}]
+			title: "{cottagewitch.fishing__gathering.quests23.title}"
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["64BD120520A00D3D"]
+			description: [
+				"{cottagewitch.fishing__gathering.quests24.description0}"
+				""
+				"{cottagewitch.fishing__gathering.quests24.description1}"
+				""
+				"{cottagewitch.fishing__gathering.quests24.description2}"
+				""
+				"{cottagewitch.fishing__gathering.quests24.description3}"
+				""
+				"{cottagewitch.fishing__gathering.quests24.description4}"
+			]
+			id: "5D6CB31C1C98CFD5"
+			rewards: [{
+				id: "476718BEFFDDC9A3"
+				item: "artifacts:golden_hook"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D0CC3025DE5972F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:niche_hooks"
+					}
+				}
+				title: "{cottagewitch.fishing__gathering.quests24.tasks0.title}"
+				type: "item"
+			}]
+			title: "{cottagewitch.fishing__gathering.quests24.title}"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["64BD120520A00D3D"]
+			description: ["{cottagewitch.fishing__gathering.quests25.description0}"]
+			id: "4FFFF3951DA04102"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3EAEE2CF22AED240"
+					table_id: 5525848455660196930L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B41161F41D904B2"
+					table_id: 5667576494518007025L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "51FA04462213DA60"
+				item: "aquaculture:nether_star_hook"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["482A73F6470C9F3D"]
+			description: [
+				"{cottagewitch.fishing__gathering.quests26.description0}"
+				""
+				"{cottagewitch.fishing__gathering.quests26.description1}"
+				""
+				"{cottagewitch.fishing__gathering.quests26.description2}"
+				""
+				"{cottagewitch.fishing__gathering.quests26.description3}"
+				""
+				"{cottagewitch.fishing__gathering.quests26.description4}"
+			]
+			id: "67815A6259CBD8E0"
+			rewards: [
+				{
+					id: "048CC42BAB9D61BB"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64BB1ED09A9722FD"
+					table_id: 5667576494518007025L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.fishing__gathering.quests26.subtitle}"
+			tasks: [
+				{
+					id: "62564168D9B33E6B"
+					item: "aquaculture:box"
+					type: "item"
+				}
+				{
+					id: "75FE208AC8D0AF83"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					id: "48D926392506F25B"
+					item: "aquaculture:treasure_chest"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.fishing__gathering.quests26.title}"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["67815A6259CBD8E0"]
+			description: ["{cottagewitch.fishing__gathering.quests27.description0}"]
+			id: "463B179F5C15F929"
+			rewards: [
+				{
+					id: "6BE469F291953D98"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FEA2DDA228CF08C"
+					table_id: 5667576494518007025L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.fishing__gathering.quests27.subtitle}"
+			tasks: [{
+				id: "5D527D3F5A2CD037"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: [
+				"{cottagewitch.fishing__gathering.quests28.description0}"
+				""
+				"{cottagewitch.fishing__gathering.quests28.description1}"
+				""
+				"{cottagewitch.fishing__gathering.quests28.description2}"
+			]
+			id: "4C992CD3177839C9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26671245DE4930C5"
+				table_id: 5667576494518007025L
+				type: "choice"
+			}]
+			subtitle: "{cottagewitch.fishing__gathering.quests28.subtitle}"
+			tasks: [{
+				id: "78AAD73436389F71"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:aquafish"
+					}
+				}
+				title: "{cottagewitch.fishing__gathering.quests28.tasks0.title}"
+				type: "item"
+			}]
+			title: "{cottagewitch.fishing__gathering.quests28.title}"
+			x: 0.5d
+			y: 0.5d
+		}
+	]
+	title: "{cottagewitch.fishing__gathering.title}"
+}

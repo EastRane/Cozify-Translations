@@ -1,0 +1,2559 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "culinary_arts"
+	group: "1E0017DE6773EF00"
+	icon: "nethersdelight:stuffed_hoglin"
+	id: "305A3D4D3A205E4A"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/bgnetherdelight.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/bgteaandsundry.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/bgspiceoflife.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/bgmiscfood.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/bgcookingpot.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/bgbrewing.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/bgenddelight.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/bgcaupona.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -4.5d
+			y: 13.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6EFFB8ED37DC8A47"]
+			description: ["{cottagewitch.culinary_arts.quests0.description0}"]
+			id: "5A2B514B4EB8EF23"
+			rewards: [{
+				id: "44013D6975BFD304"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests0.subtitle}"
+			tasks: [{
+				id: "166AA75156D284E6"
+				item: "ecologics:tropical_stew"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests0.title}"
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"{cottagewitch.culinary_arts.quests1.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests1.description1}"
+				""
+				"{cottagewitch.culinary_arts.quests1.description2}"
+			]
+			id: "6EFFB8ED37DC8A47"
+			optional: true
+			rewards: [
+				{
+					id: "675B825FA1C002F3"
+					item: "farmersdelight:fish_stew"
+					type: "item"
+				}
+				{
+					id: "756ACB295D3277F7"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 2.5d
+			subtitle: "{cottagewitch.culinary_arts.quests1.subtitle}"
+			tasks: [{
+				id: "257597C327C3C41E"
+				item: "solsweetpotato:food_book"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests1.title}"
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["644439D23D454629"]
+			description: [
+				"{cottagewitch.culinary_arts.quests2.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests2.description1}"
+				""
+				"{cottagewitch.culinary_arts.quests2.description2}"
+				""
+				"{cottagewitch.culinary_arts.quests2.description3}"
+			]
+			id: "1266B799DAB9CCC7"
+			rewards: [
+				{
+					id: "61583E166F84CB9B"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					id: "7A33DD93AECBC30C"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			subtitle: "{cottagewitch.culinary_arts.quests2.subtitle}"
+			tasks: [{
+				id: "47CC68B6AFC0A820"
+				item: "farmersrespite:tea_seeds"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests2.title}"
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1266B799DAB9CCC7"]
+			description: [
+				"{cottagewitch.culinary_arts.quests3.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests3.description1}"
+			]
+			id: "057B67AD7B2265D2"
+			rewards: [
+				{
+					id: "206BB757EAFA30AB"
+					item: "farmersrespite:coffee"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "161C3C3226B4FBA4"
+					table_id: 6951594928314176539L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests3.subtitle}"
+			tasks: [{
+				id: "3F4D9EABFDAF7C4D"
+				item: "farmersrespite:coffee_beans"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests3.title}"
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1266B799DAB9CCC7"]
+			description: ["{cottagewitch.culinary_arts.quests4.description0}"]
+			id: "678A9A223F78E44A"
+			rewards: [
+				{
+					id: "254DF51819A8D6EC"
+					item: "byg:winter_rose"
+					type: "item"
+				}
+				{
+					id: "33246C70F6B27415"
+					item: "create:rose_quartz"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests4.subtitle}"
+			tasks: [{
+				id: "137E5F78BD0D4BD5"
+				item: "farmersrespite:rose_hip_tea"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"{cottagewitch.culinary_arts.quests5.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests5.description1}"
+			]
+			id: "644439D23D454629"
+			rewards: [{
+				count: 5
+				id: "094D9A28C779AFF3"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{cottagewitch.culinary_arts.quests5.subtitle}"
+			tasks: [{
+				id: "0AF70C91FA3DAF6E"
+				item: "farmersrespite:kettle"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests5.title}"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1266B799DAB9CCC7"]
+			description: [
+				"{cottagewitch.culinary_arts.quests6.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests6.description1}"
+			]
+			id: "016F0B2B8A127F3F"
+			rewards: [{
+				count: 3
+				id: "5E9F180F46F7F36D"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests6.subtitle}"
+			tasks: [{
+				id: "6E1AD95B6C735FC3"
+				item: "farmersrespite:black_tea"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1266B799DAB9CCC7"]
+			description: ["{cottagewitch.culinary_arts.quests7.description0}"]
+			id: "65ADB03870DFBDAC"
+			rewards: [{
+				id: "12593935A24401B9"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests7.subtitle}"
+			tasks: [{
+				id: "3EC32AB3C0AB3AC9"
+				item: "farmersrespite:yellow_tea"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1266B799DAB9CCC7"]
+			description: ["{cottagewitch.culinary_arts.quests8.description0}"]
+			id: "55D8EDF7F7770CB8"
+			rewards: [{
+				id: "76C1553E722EE9A3"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests8.subtitle}"
+			tasks: [{
+				id: "433BC0AE1F0F4F4D"
+				item: "farmersrespite:green_tea"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1266B799DAB9CCC7"]
+			description: ["{cottagewitch.culinary_arts.quests9.description0}"]
+			id: "57AED567481E56A9"
+			rewards: [{
+				id: "638B885196196EB0"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests9.subtitle}"
+			tasks: [{
+				id: "493FEF3F3EEFFBB1"
+				item: "farmersrespite:dandelion_tea"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1266B799DAB9CCC7"]
+			description: ["{cottagewitch.culinary_arts.quests10.description0}"]
+			id: "2FC8613FDF6B824F"
+			rewards: [
+				{
+					id: "3BA4C868D71F518D"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "422FD06857C62DDA"
+					table_id: 6951594928314176539L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests10.subtitle}"
+			tasks: [{
+				id: "6BCF2EC47CE3F092"
+				item: "farmersrespite:purulent_tea"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["40C1DBE20E401EF9"]
+			description: ["{cottagewitch.culinary_arts.quests11.description0}"]
+			id: "57742DD8F99DBAF1"
+			rewards: [
+				{
+					count: 3
+					id: "3569C56E9635386B"
+					item: "nethersdelight:crimson_fungus_colony"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "188DDA735D8E26FD"
+					item: "nethersdelight:warped_fungus_colony"
+					type: "item"
+				}
+			]
+			subtitle: "{cottagewitch.culinary_arts.quests11.subtitle}"
+			tasks: [{
+				id: "1CEF4F2B55F8948D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:funguscolony"
+					}
+				}
+				title: "{cottagewitch.culinary_arts.quests11.tasks0.title}"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests11.title}"
+			x: 7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["507ACD6D650DECA2"]
+			description: ["{cottagewitch.culinary_arts.quests12.description0}"]
+			id: "41CEA7DC3EEF0F49"
+			rewards: [{
+				id: "75DA4475B34FE0C4"
+				item: "advancementframes:advancement_frame"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests12.subtitle}"
+			tasks: [{
+				id: "01F081161A9DD7EC"
+				item: "nethersdelight:hoglin_mount"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests12.title}"
+			x: 11.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["507ACD6D650DECA2"]
+			description: ["{cottagewitch.culinary_arts.quests13.description0}"]
+			id: "40C1DBE20E401EF9"
+			rewards: [{
+				id: "02B50B11ACF8B13D"
+				item: "nethersdelight:soul_compost"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.culinary_arts.quests13.subtitle}"
+			tasks: [{
+				id: "6C186627FBFF9BF6"
+				item: "nethersdelight:soul_compost"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["773834D44C436587"]
+			description: ["{cottagewitch.culinary_arts.quests14.description0}"]
+			id: "507ACD6D650DECA2"
+			rewards: [{
+				count: 5
+				id: "01A7EF2C0A686D43"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.culinary_arts.quests14.subtitle}"
+			tasks: [{
+				id: "3469C9CCEC7F9270"
+				item: "nethersdelight:hoglin_hide"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["773834D44C436587"]
+			description: ["{cottagewitch.culinary_arts.quests15.description0}"]
+			id: "21DDAC7010761BB0"
+			rewards: [{
+				id: "5569F980E496EAF8"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests15.subtitle}"
+			tasks: [{
+				id: "30C86F641D8F4E4E"
+				item: "nethersdelight:warped_moldy_meat"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			description: ["{cottagewitch.culinary_arts.quests16.description0}"]
+			id: "773834D44C436587"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "5A69AEA5171C7940"
+				item: "farmersdelight:nether_salad"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{cottagewitch.culinary_arts.quests16.subtitle}"
+			tasks: [{
+				id: "695DBF55095C94CE"
+				item: "nethersdelight:hoglin_loin"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["773834D44C436587"]
+			description: ["{cottagewitch.culinary_arts.quests17.description0}"]
+			id: "21A12DEE3432EF7F"
+			rewards: [{
+				count: 5
+				id: "76FF3A3CF66E25AD"
+				item: "nethersdelight:ground_strider"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests17.subtitle}"
+			tasks: [{
+				id: "402DC0AD3D35C05F"
+				item: "nethersdelight:strider_slice"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["773834D44C436587"]
+			description: ["{cottagewitch.culinary_arts.quests18.description0}"]
+			id: "236484A484723F55"
+			rewards: [{
+				id: "238817E1F80D8DF2"
+				item: "fantasyfurniture:decorations/nordic_mead_bottles"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25DFEAB995A93CFF"
+				item: "nethersdelight:stuffed_hoglin"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests18.title}"
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			description: ["{cottagewitch.culinary_arts.quests19.description0}"]
+			id: "76BB908C21246B36"
+			rewards: [{
+				count: 5
+				id: "31CE1B6A8A1B36C7"
+				item: "nethersdelight:propelpearl"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.culinary_arts.quests19.subtitle}"
+			tasks: [{
+				id: "6750441E49D21045"
+				item: "nethersdelight:propelpearl"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests19.title}"
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["76BB908C21246B36"]
+			description: ["{cottagewitch.culinary_arts.quests20.description0}"]
+			id: "0B8ABF32A9C31887"
+			rewards: [{
+				id: "4AC914984A9E3499"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexsmobs:long_lava_vision"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests20.subtitle}"
+			tasks: [{
+				id: "14E3F3C39D06D3BC"
+				item: "nethersdelight:magma_gelatin"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["76BB908C21246B36"]
+			description: [
+				"{cottagewitch.culinary_arts.quests21.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests21.description1}"
+			]
+			id: "3975B8BC61249AF4"
+			rewards: [{
+				id: "04563981AA1F1159"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			subtitle: "{cottagewitch.culinary_arts.quests21.subtitle}"
+			tasks: [{
+				id: "19F2200461C2C9E8"
+				item: "nethersdelight:propelplant_cane"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["236484A484723F55"]
+			description: [
+				"{cottagewitch.culinary_arts.quests22.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests22.description1}"
+			]
+			id: "4FEE0688A44D8421"
+			rewards: [{
+				id: "5D1ADE3B08FA95A9"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			subtitle: "{cottagewitch.culinary_arts.quests22.subtitle}"
+			tasks: [
+				{
+					id: "5A8775E9AF7F69FD"
+					item: "nethersdelight:hoglin_ear"
+					type: "item"
+				}
+				{
+					id: "76E7EB8BEFBE6DFE"
+					item: "nethersdelight:plate_of_stuffed_hoglin_snout"
+					type: "item"
+				}
+				{
+					id: "4329B164D057D28C"
+					item: "nethersdelight:plate_of_stuffed_hoglin_roast"
+					type: "item"
+				}
+				{
+					id: "675DE303318A5C19"
+					item: "nethersdelight:plate_of_stuffed_hoglin_ham"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.culinary_arts.quests22.title}"
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2615CD06E32EC741"]
+			dependency_requirement: "one_completed"
+			description: ["{cottagewitch.culinary_arts.quests23.description0}"]
+			id: "4F8BE51C9D3C16A2"
+			rewards: [
+				{
+					count: 5
+					id: "297E4B1871DB3C75"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "25ECA617F549B5AF"
+					item: "farmersrespite:tea_seeds"
+					type: "item"
+				}
+			]
+			subtitle: "{cottagewitch.culinary_arts.quests23.subtitle}"
+			tasks: [{
+				id: "1013400BF2BCA148"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "farmersdelight:tools/knives"
+					}
+				}
+				title: "{cottagewitch.culinary_arts.quests23.tasks0.title}"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests23.title}"
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{cottagewitch.culinary_arts.quests24.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests24.description1}"
+				""
+				"{cottagewitch.culinary_arts.quests24.description2}"
+				""
+				"{cottagewitch.culinary_arts.quests24.description3}"
+			]
+			id: "2615CD06E32EC741"
+			rewards: [
+				{
+					count: 5
+					id: "3ABD251C45CEB3DB"
+					item: "minecraft:bowl"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4E00071CF998F118"
+					item: "minecraft:pumpkin"
+					type: "item"
+				}
+				{
+					id: "5DC14F4D16E09573"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{cottagewitch.culinary_arts.quests24.subtitle}"
+			tasks: [{
+				id: "3745E18A47EF78E3"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests24.title}"
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2615CD06E32EC741"]
+			description: [
+				"{cottagewitch.culinary_arts.quests25.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests25.description1}"
+			]
+			id: "492DDC880E65C534"
+			rewards: [{
+				count: 6
+				id: "5598696BF6CA42B2"
+				item: "farmersdelight:minced_beef"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.culinary_arts.quests25.subtitle}"
+			tasks: [{
+				id: "4449EF43300452B9"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests25.title}"
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7557E8749BF869DF"]
+			description: [
+				"{cottagewitch.culinary_arts.quests26.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests26.description1}"
+			]
+			id: "1984CA53390BA48B"
+			rewards: [{
+				id: "0D0A7987CBA65F84"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests26.subtitle}"
+			tasks: [{
+				id: "6D57AF047F1836C3"
+				item: "farmersdelight:tree_bark"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4F8BE51C9D3C16A2"]
+			description: [
+				"{cottagewitch.culinary_arts.quests27.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests27.description1}"
+			]
+			id: "7557E8749BF869DF"
+			rewards: [{
+				count: 3
+				id: "0EA1D35A9F04C243"
+				item: "farmersdelight:ham"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.culinary_arts.quests27.subtitle}"
+			tasks: [{
+				id: "4F456D411C163AA8"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests27.title}"
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2615CD06E32EC741"]
+			description: ["{cottagewitch.culinary_arts.quests28.description0}"]
+			id: "3A6AAE50897DE597"
+			rewards: [{
+				id: "126BF295D5636A39"
+				item: "minecraft:lead"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests28.subtitle}"
+			tasks: [{
+				id: "394855991D625C6F"
+				item: "farmersdelight:dog_food"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2615CD06E32EC741"]
+			description: ["{cottagewitch.culinary_arts.quests29.description0}"]
+			id: "0E2749D8FEEF0D49"
+			rewards: [
+				{
+					id: "640367BC0F0D8742"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "43D7D0DF5EF78A79"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests29.subtitle}"
+			tasks: [{
+				id: "172CAB10518E2360"
+				item: "farmersdelight:pasta_with_meatballs"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests29.title}"
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2615CD06E32EC741"]
+			description: ["{cottagewitch.culinary_arts.quests30.description0}"]
+			id: "6A71E1C275F02732"
+			rewards: [{
+				count: 2
+				id: "221F119891D4666B"
+				item: "farmersdelight:hot_cocoa"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests30.subtitle}"
+			tasks: [{
+				id: "65057C003DB715B6"
+				item: "farmersdelight:hot_cocoa"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests30.title}"
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2615CD06E32EC741"]
+			description: [
+				"{cottagewitch.culinary_arts.quests31.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests31.description1}"
+			]
+			id: "5F2C26D1C6302016"
+			rewards: [
+				{
+					id: "06A907B51E284D8A"
+					item: "minecraft:bowl"
+					type: "item"
+				}
+				{
+					id: "3E29B984F05E6A0B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "6EC2D8A548A17C8B"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									1127684054
+									-722645539
+									-1341546007
+									1251447259
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q3Njk2N2QyYWI3NGI3ZWJjZTVhODEzZWYwMDViMzZlNzY5NWM2Nzg3NzQ3ZDRlODBkYTJiMjRlM2RmMjlhNyJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Jelly Pumpkins\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests31.subtitle}"
+			tasks: [{
+				id: "3A9D9E271D952C74"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests31.title}"
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6EFFB8ED37DC8A47"]
+			description: ["{cottagewitch.culinary_arts.quests32.description0}"]
+			id: "1F80DCFD23DD5592"
+			rewards: [{
+				id: "4C46D6CF204B11E6"
+				item: "farmersdelight:milk_bottle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests32.subtitle}"
+			tasks: [
+				{
+					id: "51F7EE88D16F9C6F"
+					item: "delightful:nut_butter_bottle"
+					type: "item"
+				}
+				{
+					id: "1C26293084C4E414"
+					item: "delightful:jelly_bottle"
+					type: "item"
+				}
+				{
+					id: "54114F5631B5F895"
+					item: "delightful:nut_butter_and_jelly_sandwich"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.culinary_arts.quests32.title}"
+			x: -8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1556BE457F25FA9F"]
+			description: ["{cottagewitch.culinary_arts.quests33.description0}"]
+			id: "0C69D56AA7884F5B"
+			rewards: [
+				{
+					id: "3195D1AE38C213AB"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+				{
+					id: "4AE2DC7A33F8D33D"
+					item: "delightful:deluxe_cheeseburger"
+					type: "item"
+				}
+				{
+					id: "428C119B85669349"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1938192516
+									1201750113
+									-1682175958
+									-1065810520
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNThiYWQyYzJkNDgzNzQxYWUwYTdiNGE0YmY0MzQyMTI3MGIwZTVkZWI0NjRkNGY4NWZkNzY4OGIxYTYwYjRlOSJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Burger\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D79193E3DB22B8E"
+				item: "delightful:deluxe_cheeseburger"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6EFFB8ED37DC8A47"]
+			description: ["{cottagewitch.culinary_arts.quests34.description0}"]
+			id: "63A2968E78D4A9A7"
+			rewards: [{
+				id: "3E1EA7E6D9D6C3F7"
+				item: "delightful:smore"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests34.subtitle}"
+			tasks: [{
+				id: "18B430FC14DF3E99"
+				item: "delightful:smore"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6EFFB8ED37DC8A47"]
+			description: ["{cottagewitch.culinary_arts.quests35.description0}"]
+			id: "1A9E6F1B730A4F17"
+			rewards: [{
+				id: "2B2675CDE782F15B"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests35.subtitle}"
+			tasks: [{
+				id: "1255A03F5F6FFD32"
+				item: "delightful:ender_nectar"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6EFFB8ED37DC8A47"]
+			description: [
+				"{cottagewitch.culinary_arts.quests36.description0}"
+				"{cottagewitch.culinary_arts.quests36.description1}"
+			]
+			id: "118197B7B107DB7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "309D8CC70326452A"
+				table_id: 6951594928314176539L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests36.subtitle}"
+			tasks: [{
+				id: "6850101F53C46A4F"
+				item: "delightful:berry_matcha_latte"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6EFFB8ED37DC8A47"]
+			description: [
+				"{cottagewitch.culinary_arts.quests37.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests37.description1}"
+			]
+			id: "717B733896BBB2AA"
+			rewards: [{
+				id: "2B1743C30515E8AF"
+				item: "minecraft:cow_spawn_egg"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests37.subtitle}"
+			tasks: [{
+				id: "462DF8DCBA008581"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["717B733896BBB2AA"]
+			description: ["{cottagewitch.culinary_arts.quests38.description0}"]
+			id: "1556BE457F25FA9F"
+			rewards: [{
+				id: "195EAE0E53DF5B7A"
+				item: "delightful:cheeseburger"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests38.subtitle}"
+			tasks: [{
+				id: "093DC4B94272690F"
+				item: "delightful:cheeseburger"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			description: ["{cottagewitch.culinary_arts.quests39.description0}"]
+			icon: "minecraft:cake"
+			id: "78A59A17FEDDE305"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1DEE4BA4AB4802DC"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					id: "4349E09114B69DB5"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									843234447
+									-1704705483
+									-1304221926
+									751006699
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTFhZjQ4ZGNhNDQ5NGMzNDEzYjk5MTc1OThlOWFmNWRjZjc4ODAwYTIxOGI1ZTg4NTY5Njk1ZDAyMjQyMjNkOSJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Cake\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "23C5964D9AF61295"
+				stat: "minecraft:eat_cake_slice"
+				title: "{cottagewitch.culinary_arts.quests39.tasks0.title}"
+				type: "stat"
+				value: 70
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0E2749D8FEEF0D49"]
+			description: ["{cottagewitch.culinary_arts.quests40.description0}"]
+			id: "706D91D3C11487E5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4550277EDDDDD722"
+					table_id: 5036677739913042344L
+					type: "choice"
+				}
+				{
+					id: "0864491DE278B8C2"
+					item: {
+						Count: 1b
+						id: "mcsa:redstone_riot_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C8E8899B222530E"
+					item: {
+						Count: 1b
+						id: "mcsa:redstone_riot_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4687F8F5B5504FA0"
+					item: {
+						Count: 1b
+						id: "mcsa:redstone_riot_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25B4227970D29731"
+					item: {
+						Count: 1b
+						id: "mcsa:redstone_riot_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "farmersdelight:main/master_chef"
+				criterion: ""
+				id: "0D13DAED0731D633"
+				type: "advancement"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2615CD06E32EC741"]
+			description: ["{cottagewitch.culinary_arts.quests41.description0}"]
+			id: "7E532A89B21B20D1"
+			rewards: [{
+				id: "62A1E505361F41BF"
+				item: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-228580091
+								-1028111819
+								-1318891776
+								1652123010
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjMyNTQ1YTk4OTdjNGYwODA5ZDdlOWQ3ZGU0YjQ5OWNhZmQ4ZDZhNDJhMGVhY2Y0Y2FhYmYzNDg4YWRjYTIxMSJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Name: "{\"text\":\"Bread\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "farmersdelight:main/use_skillet"
+				criterion: ""
+				id: "0E783661822CB045"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6EFFB8ED37DC8A47"]
+			description: ["{cottagewitch.culinary_arts.quests42.description0}"]
+			id: "181F5C00C8DE417B"
+			rewards: [
+				{
+					id: "00BB229E93D094FB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5001AB54E4EC8D8C"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5D3DF311714321D3"
+					item: "farmersdelight:vegetable_noodles"
+					type: "item"
+				}
+				{
+					id: "716132555178F121"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+				{
+					id: "295B2142CC888888"
+					item: {
+						Count: 1b
+						id: "caupona:vegetable_chowder"
+						tag: {
+							display: {
+								Lore: [
+									"{\"translate\":\"tooltip.caupona.display_only\"}"
+									"{\"translate\":\"tooltip.caupona.cook_required\"}"
+								]
+							}
+							type: "caupona:vegetable_chowder"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04FC7AA2C7AB0F74"
+					item: {
+						Count: 1b
+						id: "caupona:vegetable_soup"
+						tag: {
+							display: {
+								Lore: [
+									"{\"translate\":\"tooltip.caupona.display_only\"}"
+									"{\"translate\":\"tooltip.caupona.cook_required\"}"
+								]
+							}
+							type: "caupona:vegetable_soup"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44A9688466EA1177"
+					item: {
+						Count: 1b
+						id: "caupona:sauteed_vegetables"
+						tag: {
+							display: {
+								Lore: [
+									"{\"translate\":\"tooltip.caupona.display_only\"}"
+									"{\"translate\":\"tooltip.caupona.cook_required\"}"
+								]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F2C26D1C6302016"]
+			description: ["{cottagewitch.culinary_arts.quests43.description0}"]
+			id: "6C75BE906A574DAE"
+			rewards: [
+				{
+					id: "1DD5D71DB7044A04"
+					item: {
+						Count: 1b
+						id: "mcsa:tim_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B93FC65F55D5B73"
+					item: {
+						Count: 1b
+						id: "mcsa:tim_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05904B0D1549DCA6"
+					item: {
+						Count: 1b
+						id: "mcsa:tim_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "544302211811C6DB"
+					item: {
+						Count: 1b
+						id: "mcsa:tim_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6076E0AA73CD466C"
+					item: "farmersdelight:roast_chicken_block"
+					type: "item"
+				}
+				{
+					id: "0BE2678DD596C4AF"
+					item: "farmersdelight:rice_roll_medley_block"
+					type: "item"
+				}
+				{
+					id: "11A0BCBAB6A55DFD"
+					item: "farmersdelight:shepherds_pie_block"
+					type: "item"
+				}
+				{
+					id: "1F42924543742DA2"
+					item: "farmersdelight:honey_glazed_ham_block"
+					type: "item"
+				}
+				{
+					id: "53F113D4CC1C56AB"
+					item: "farmersdelight:stuffed_pumpkin_block"
+					type: "item"
+				}
+				{
+					id: "01D7BC66C57C941E"
+					item: "nethersdelight:raw_stuffed_hoglin"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.culinary_arts.quests43.title}"
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2615CD06E32EC741"]
+			description: ["{cottagewitch.culinary_arts.quests44.description0}"]
+			id: "42DD1CCF09065C51"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "632C8E7969A30427"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BC771B1971C882C"
+					table_id: 6951594928314176539L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "56FC6B60D7C50A4E"
+					item: "minecraft:pumpkin_pie"
+					type: "item"
+				}
+				{
+					id: "26B1289683AE4B78"
+					item: "byg:crimson_berry_pie"
+					type: "item"
+				}
+				{
+					id: "508C1043B7205894"
+					item: "byg:nightshade_berry_pie"
+					type: "item"
+				}
+				{
+					id: "3944DBB64CD839A9"
+					item: "byg:blueberry_pie"
+					type: "item"
+				}
+				{
+					id: "47E4DA730223CE7E"
+					item: "farmersrespite:rose_hip_pie"
+					type: "item"
+				}
+				{
+					id: "3222F024982DC1F9"
+					item: "farmersrespite:coffee_cake"
+					type: "item"
+				}
+				{
+					id: "1CEE381C0B1AD8E0"
+					item: "farmersdelight:apple_pie"
+					type: "item"
+				}
+				{
+					id: "489A81906FA3EF49"
+					item: "farmersdelight:sweet_berry_cheesecake"
+					type: "item"
+				}
+				{
+					id: "0D27FC7CA377C378"
+					item: "farmersdelight:chocolate_pie"
+					type: "item"
+				}
+				{
+					id: "13D668C071965F9F"
+					item: "byg:green_apple_pie"
+					type: "item"
+				}
+				{
+					id: "7AF9D90E01315010"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "09BF00E5034B1907"
+					item: "duckling:holiday_fruit_cake"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.culinary_arts.quests44.title}"
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1266B799DAB9CCC7"]
+			description: ["{cottagewitch.culinary_arts.quests45.description0}"]
+			id: "43936FB55988472C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0332EB9DA634009A"
+				table_id: 6951594928314176539L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests45.subtitle}"
+			tasks: [{
+				id: "2C0EC7F97028F2F7"
+				item: "delightful:azalea_tea"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			id: "1649B81C8A139731"
+			invisible: true
+			optional: true
+			secret: true
+			tasks: [{
+				id: "6E68F6AC6065621F"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{cottagewitch.culinary_arts.quests47.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests47.description1}"
+				""
+				"{cottagewitch.culinary_arts.quests47.description2}"
+				""
+				"{cottagewitch.culinary_arts.quests47.description3}"
+			]
+			id: "1C7D5C2C8C201E83"
+			rewards: [{
+				id: "6A0AE4E69D14B683"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3A0EBB76C04A0C8A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_central_kitchen:cooking_guide"
+				}
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests47.title}"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6347F33BF36A112E"]
+			description: [
+				"{cottagewitch.culinary_arts.quests48.description0}"
+				"{cottagewitch.culinary_arts.quests48.description1}"
+			]
+			id: "6DF8D73EB3A4C0B6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "09F81A50FCC395DC"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EDC7CD5F0EB4938"
+					table_id: 1739670786502713488L
+					type: "choice"
+				}
+			]
+			subtitle: "{cottagewitch.culinary_arts.quests48.subtitle}"
+			tasks: [
+				{
+					id: "433D4EB8693BD179"
+					item: "brewinandchewin:mead"
+					type: "item"
+				}
+				{
+					id: "02E42A39C5F5F67B"
+					item: "brewinandchewin:rice_wine"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.culinary_arts.quests48.title}"
+			x: 12.5d
+			y: 6.5d
+		}
+		{
+			description: ["{cottagewitch.culinary_arts.quests49.description0}"]
+			id: "166F53EED3372358"
+			rewards: [
+				{
+					count: 5
+					id: "48ED13802D196F7B"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2202874F92B1BC7C"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "17094E829617176D"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					id: "29306B1442FA29F0"
+					item: "brewinandchewin:keg"
+					type: "item"
+				}
+				{
+					id: "2D17F5FF72E0E07E"
+					item: "brewinandchewin:tankard"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.culinary_arts.quests49.title}"
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["166F53EED3372358"]
+			description: [
+				"{cottagewitch.culinary_arts.quests50.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests50.description1}"
+				""
+				"{cottagewitch.culinary_arts.quests50.description2}"
+			]
+			id: "6347F33BF36A112E"
+			rewards: [{
+				count: 4
+				id: "6C100CB15AA30F6B"
+				item: "minecraft:packed_ice"
+				type: "item"
+			}]
+			subtitle: "{cottagewitch.culinary_arts.quests50.subtitle}"
+			tasks: [{
+				count: 4L
+				id: "77682E446D5BB282"
+				item: "minecraft:magma_block"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests50.title}"
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6347F33BF36A112E"]
+			description: [
+				"{cottagewitch.culinary_arts.quests51.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests51.description1}"
+				"{cottagewitch.culinary_arts.quests51.description2}"
+				""
+				"{cottagewitch.culinary_arts.quests51.description3}"
+			]
+			icon: "brewinandchewin:scarlet_cheese_wheel"
+			id: "0593C1D467DB38E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38348E2ABC89F5F0"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			subtitle: "{cottagewitch.culinary_arts.quests51.subtitle}"
+			tasks: [
+				{
+					id: "03C6E2D0B6499D1B"
+					item: "brewinandchewin:scarlet_cheese_wheel"
+					type: "item"
+				}
+				{
+					id: "2F262CD8014DDB26"
+					item: "brewinandchewin:flaxen_cheese_wheel"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.culinary_arts.quests51.title}"
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0593C1D467DB38E3"]
+			description: ["{cottagewitch.culinary_arts.quests52.description0}"]
+			id: "72DD11780E330689"
+			rewards: [
+				{
+					id: "377852F9CF25023C"
+					item: "farmersdelight:mixed_salad"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D8A3C2726EF309D"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4E0ABBE6E62D68BF"
+				item: "brewinandchewin:horror_lasagna"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0593C1D467DB38E3"]
+			description: ["{cottagewitch.culinary_arts.quests53.description0}"]
+			id: "20AE2593886C2EE5"
+			rewards: [{
+				id: "693738686EF4421A"
+				item: "brewinandchewin:pale_jane"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests53.subtitle}"
+			tasks: [{
+				id: "219D5144E677F616"
+				item: "brewinandchewin:fiery_fondue_pot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6347F33BF36A112E"]
+			description: ["{cottagewitch.culinary_arts.quests54.description0}"]
+			id: "263A248387E583B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "656AB04E0309D179"
+				table_id: 2068679807827730220L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests54.subtitle}"
+			tasks: [{
+				id: "2F00523C9A20A8D1"
+				item: "brewinandchewin:cocoa_fudge"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests54.title}"
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6347F33BF36A112E"]
+			description: ["{cottagewitch.culinary_arts.quests55.description0}"]
+			id: "0672E8DC36A5BFFA"
+			rewards: [
+				{
+					id: "5581E72718340703"
+					item: {
+						Count: 1b
+						id: "caupona:vinegar_spice_jar"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "763C68AF6474D1B6"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									674725540
+									512641857
+									-1355274027
+									1969636290
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODIyMjkyZDkxODNlMzhmM2JlOWYwNmY5NjYzOTRlMmRhZmYzNjJmNzBhZTQ1Y2RlNDEyYjg3YmNkYjg5YzE1OCJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Jar of Pickles\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6972414BB445CA25"
+				item: "brewinandchewin:pickled_pickles"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests55.title}"
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{cottagewitch.culinary_arts.quests56.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests56.description1}"
+			]
+			id: "4264920573ADC879"
+			rewards: [{
+				count: 3
+				id: "6F1E8B8693D366E2"
+				item: "ends_delight:half_dragon_egg_shell"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "533CE3A0F90D92E6"
+				item: "ends_delight:non_hatchable_dragon_egg"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests56.title}"
+			x: 5.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["4264920573ADC879"]
+			description: [
+				"{cottagewitch.culinary_arts.quests57.description0}"
+				"{cottagewitch.culinary_arts.quests57.description1}"
+			]
+			id: "16ECF08D421359AC"
+			rewards: [
+				{
+					count: 3
+					id: "73BDB58110F0E9A8"
+					item: "ends_delight:chorus_succulent"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50A025BAEC58D43F"
+					table_id: 5161092699925703455L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1EDE66F2AA094083"
+				item: "ends_delight:half_dragon_egg_shell"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests57.title}"
+			x: 5.5d
+			y: 12.75d
+		}
+		{
+			dependencies: ["16ECF08D421359AC"]
+			description: [
+				"{cottagewitch.culinary_arts.quests58.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests58.description1}"
+			]
+			id: "10BD344DE9BF9D75"
+			rewards: [{
+				id: "7C9B1229AA7B77AB"
+				item: "ends_delight:dragon_meat_stew"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "344338EB1EF089CD"
+				item: "ends_delight:dragon_meat_stew_block"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.75d
+		}
+		{
+			dependencies: ["16ECF08D421359AC"]
+			description: ["{cottagewitch.culinary_arts.quests59.description0}"]
+			id: "43110B76D590F312"
+			rewards: [{
+				id: "10AA0AA0B0C4005F"
+				item: "ends_delight:steamed_dragon_egg"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5A19395E94557321"
+				item: "ends_delight:steamed_dragon_egg_block"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["16ECF08D421359AC"]
+			description: ["{cottagewitch.culinary_arts.quests60.description0}"]
+			id: "25C3A6BEFE246C3A"
+			rewards: [
+				{
+					id: "39B5615A2FD2DC12"
+					item: "ends_delight:assorted_salad"
+					type: "item"
+				}
+				{
+					id: "6A8F38155FA4D447"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									2032202894
+									-1286453322
+									-1382874841
+									1386387422
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU2MmEzMTdmMmU4ZjM0OWEyN2UyOTZjZTIyNWI5ZThiMTI3ZDg4YmU2MWFhZWJmMTY2MDRiZmEyYWQ4MTMwOCJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Eye of Ender\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "ends_delight:get_assorted_salad"
+				criterion: ""
+				id: "5A3136C711223B37"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 12.75d
+		}
+		{
+			dependencies: [
+				"43110B76D590F312"
+				"10BD344DE9BF9D75"
+			]
+			description: ["{cottagewitch.culinary_arts.quests61.description0}"]
+			id: "224C1B2D30B8E7DF"
+			rewards: [{
+				id: "093972A8B8FC8B91"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "ends_delight:dragon_egg_shell_feast"
+				criterion: ""
+				id: "05A7CA3D3CBCBE10"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 14.5d
+		}
+		{
+			description: ["{cottagewitch.culinary_arts.quests62.description0}"]
+			id: "7CDFDA310DE2A4E4"
+			rewards: [{
+				id: "0165EAD200F02FA0"
+				item: "ends_delight:chorus_flower_tea"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests62.subtitle}"
+			tasks: [{
+				id: "6A0AFA1484FD16DD"
+				item: "ends_delight:chorus_flower_tea"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 16.0d
+		}
+		{
+			description: ["{cottagewitch.culinary_arts.quests63.description0}"]
+			id: "456D45D35A596109"
+			rewards: [{
+				id: "291FE13121613BC8"
+				item: "ends_delight:stuffed_rice_cake"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "407BDB60875F34F5"
+				item: "ends_delight:stuffed_rice_cake"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 15.0d
+		}
+		{
+			description: ["{cottagewitch.culinary_arts.quests64.description0}"]
+			id: "6CA036FC470C17EA"
+			rewards: [{
+				id: "4754115A15498F8C"
+				item: "ends_delight:grilled_shulker_block"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "63995D2F0B5FC3F1"
+				item: "ends_delight:grilled_shulker_block"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 16.0d
+		}
+		{
+			description: ["{cottagewitch.culinary_arts.quests65.description0}"]
+			id: "482A2BB52514C35B"
+			rewards: [{
+				id: "7CD023621DC3250A"
+				item: "ends_delight:dragon_breath_and_chorus_soup"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6F26534C78596D5F"
+				item: "ends_delight:dragon_breath_and_chorus_soup"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			description: ["{cottagewitch.culinary_arts.quests66.description0}"]
+			id: "28D201EE3AA699C2"
+			rewards: [{
+				id: "1B8581D84149BDFB"
+				item: "ends_delight:fried_dragon_egg"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "30E139E7631FCE09"
+				item: "ends_delight:liquid_dragon_egg"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0AB07DA9AF0FB294"]
+			description: [
+				"{cottagewitch.culinary_arts.quests67.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests67.description1}"
+			]
+			id: "6FB77462CDE121E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6482B9A414C2F51D"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "77CED17C872CD141"
+				item: {
+					Count: 1b
+					id: "caupona:vinegar_spice_jar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1C80130EFE5C2FFC"]
+			description: [
+				"{cottagewitch.culinary_arts.quests68.description0}"
+				"{cottagewitch.culinary_arts.quests68.description1}"
+				"{cottagewitch.culinary_arts.quests68.description2}"
+			]
+			id: "0AB07DA9AF0FB294"
+			rewards: [
+				{
+					id: "185280CA37E4EE83"
+					item: "minecraft:flower_pot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0EC15D91B0841254"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+			]
+			subtitle: "{cottagewitch.culinary_arts.quests68.subtitle}"
+			tasks: [{
+				id: "125177A658995C81"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dolium"
+					}
+				}
+				title: "{cottagewitch.culinary_arts.quests68.tasks0.title}"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests68.title}"
+			x: -5.5d
+			y: 13.0d
+		}
+		{
+			description: [
+				"{cottagewitch.culinary_arts.quests69.description0}"
+				"{cottagewitch.culinary_arts.quests69.description1}"
+				"{cottagewitch.culinary_arts.quests69.description2}"
+				"{image:cottagewitch:textures/cauponajei.png width:100 height:80 align:1 fit:true}"
+				"{cottagewitch.culinary_arts.quests69.description3}"
+				""
+				"{image:cottagewitch:textures/cauponarecipe.png width:100 height:90 align:1 fit:true}"
+				"{cottagewitch.culinary_arts.quests69.description4}"
+				"{cottagewitch.culinary_arts.quests69.description5}"
+				"{cottagewitch.culinary_arts.quests69.description6}"
+				"{cottagewitch.culinary_arts.quests69.description7}"
+				"{cottagewitch.culinary_arts.quests69.description8}"
+				""
+				"{cottagewitch.culinary_arts.quests69.description9}"
+			]
+			id: "1C80130EFE5C2FFC"
+			rewards: [
+				{
+					count: 5
+					id: "0F977FCE0DC2C342"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "218BF142EC10208A"
+					item: "minecraft:brick"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "62F668FBB95DA821"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "caupona:book"
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1C80130EFE5C2FFC"]
+			description: [
+				"{cottagewitch.culinary_arts.quests70.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests70.description1}"
+			]
+			id: "50C95EB7CBDC346C"
+			rewards: [
+				{
+					count: 15
+					id: "20C950EB18CF3B54"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "68C4DADB681A65A3"
+					item: "minecraft:bowl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "222DF6FB2BDBE753"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "caupona:stoves"
+					}
+				}
+				title: "{cottagewitch.culinary_arts.quests70.tasks0.title}"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests70.title}"
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["50C95EB7CBDC346C"]
+			description: [
+				"{cottagewitch.culinary_arts.quests71.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests71.description1}"
+			]
+			id: "71C8716D1914B882"
+			rewards: [{
+				count: 8
+				id: "6B7C1D25705EEE00"
+				item: "caupona:walnut"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27B0D9BDF67BB815"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:cookingpans"
+					}
+				}
+				title: "{cottagewitch.culinary_arts.quests71.tasks0.title}"
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests71.title}"
+			x: -3.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["71C8716D1914B882"]
+			description: [
+				"{cottagewitch.culinary_arts.quests72.description0}"
+				"{image:cottagewitch:textures/gravyboat.png width:100 height:100 align:1 fit:true}"
+				"{cottagewitch.culinary_arts.quests72.description1}"
+				""
+				"{cottagewitch.culinary_arts.quests72.description2}"
+			]
+			id: "2DFE677856208F14"
+			rewards: [{
+				id: "1FE4DD30ABD1C102"
+				item: {
+					Count: 1b
+					id: "caupona:gravy_boat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3013E83825BE3012"
+				item: {
+					Count: 1b
+					id: "caupona:gravy_boat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["50C95EB7CBDC346C"]
+			description: [
+				"{cottagewitch.culinary_arts.quests73.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests73.description1}"
+			]
+			id: "3502E25C90113657"
+			rewards: [{
+				id: "6A32F2E793A1F940"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4D056C50983F3A3A"
+					item: "caupona:clay_cistern"
+					type: "item"
+				}
+				{
+					id: "533DE80660D97571"
+					item: "caupona:stew_pot"
+					type: "item"
+				}
+			]
+			title: "{cottagewitch.culinary_arts.quests73.title}"
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3502E25C90113657"]
+			description: [
+				"{cottagewitch.culinary_arts.quests74.description0}"
+				""
+				"{image:cottagewitch:textures/borscht.png width:100 height:55 align:1 fit:true}"
+				"{cottagewitch.culinary_arts.quests74.description1}"
+				""
+				"{cottagewitch.culinary_arts.quests74.description2}"
+				""
+				"{cottagewitch.culinary_arts.quests74.description3}"
+				""
+				"{cottagewitch.culinary_arts.quests74.description4}"
+				""
+				"{cottagewitch.culinary_arts.quests74.description5}"
+				""
+				"{cottagewitch.culinary_arts.quests74.description6}"
+			]
+			id: "1A24E1B112A913B5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A03646F4272C219"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A1CFFFD5A572CE2"
+					table_id: 6951594928314176539L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3FDAECE6DCA50478"
+				item: {
+					Count: 1b
+					id: "caupona:borscht"
+					tag: {
+						display: {
+							Lore: [
+								"{\"translate\":\"tooltip.caupona.display_only\"}"
+								"{\"translate\":\"tooltip.caupona.cook_required\"}"
+							]
+						}
+						type: "caupona:borscht"
+					}
+				}
+				type: "item"
+			}]
+			title: "{cottagewitch.culinary_arts.quests74.title}"
+			x: -2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1A24E1B112A913B5"]
+			description: ["{cottagewitch.culinary_arts.quests75.description0}"]
+			id: "2B95A3784844A835"
+			rewards: [{
+				id: "685A465100AE8BF1"
+				item: "caupona:mushroom_soup_aspic"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "390D095EFFB0452D"
+				item: "caupona:borscht_aspic"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["2B95A3784844A835"]
+			description: [
+				"{cottagewitch.culinary_arts.quests76.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests76.description1}"
+			]
+			id: "17005FF934CF893E"
+			rewards: [
+				{
+					id: "063721E083CD0092"
+					item: "caupona:vivid_charcoal"
+					type: "item"
+				}
+				{
+					id: "5EE98E840E0DA2F8"
+					item: {
+						Count: 1b
+						id: "caupona:water"
+						tag: {
+							display: {
+								Lore: [
+									"{\"translate\":\"tooltip.caupona.display_only\"}"
+									"{\"translate\":\"tooltip.caupona.cook_required\"}"
+								]
+							}
+							type: "minecraft:water"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7FAB652F6F66B8B2"
+				item: "caupona:portable_brazier"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["2DFE677856208F14"]
+			description: ["{cottagewitch.culinary_arts.quests77.description0}"]
+			id: "07EB926AC767EEEE"
+			rewards: [{
+				id: "6DB1CA10880F4886"
+				item: {
+					Count: 1b
+					id: "caupona:sauteed_roots"
+					tag: {
+						display: {
+							Lore: [
+								"{\"translate\":\"tooltip.caupona.display_only\"}"
+								"{\"translate\":\"tooltip.caupona.cook_required\"}"
+							]
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4EB57E2010CEE329"
+				item: {
+					Count: 1b
+					id: "caupona:sauteed_roots"
+					tag: {
+						display: {
+							Lore: [
+								"{\"translate\":\"tooltip.caupona.display_only\"}"
+								"{\"translate\":\"tooltip.caupona.cook_required\"}"
+							]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 14.5d
+		}
+		{
+			description: ["{cottagewitch.culinary_arts.quests78.description0}"]
+			id: "7E256574E63296C9"
+			rewards: [{
+				id: "73BA3E043B4ADCF4"
+				item: "ends_delight:dragon_tooth"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "11717C3E575F3C33"
+				item: "ends_delight:dragon_tooth"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 15.0d
+		}
+		{
+			description: [
+				"{cottagewitch.culinary_arts.quests79.description0}"
+				""
+				"{cottagewitch.culinary_arts.quests79.description1}"
+				""
+				"{cottagewitch.culinary_arts.quests79.description2}"
+			]
+			id: "6525629D7A4C5CB7"
+			rewards: [{
+				id: "2FD851E12DBD8E32"
+				item: "delightful:deluxe_cheeseburger"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{cottagewitch.culinary_arts.quests79.subtitle}"
+			tasks: [{
+				id: "53F66B4C628290B7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 5
+						}
+					}
+					id: "solsweetpotato:lunchbag"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+	]
+	title: "{cottagewitch.culinary_arts.title}"
+}
