@@ -1,0 +1,9 @@
+{
+  "block.snad.snad": "Снад",
+  "block.snad.red_snad": "Красный снад",
+  "block.snad.soul_snad": "Душёвый снад",
+
+  "config.title": "Настройки Snad",
+  "config.general": "Основные настройки",
+  "config.speed": "Ускорение роста при посадке на Снад или Красный снад"
+}

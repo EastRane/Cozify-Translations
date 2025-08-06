@@ -1,0 +1,29 @@
+{
+  "itemGroup.culturalTab": "Cultural Delights",
+
+  "item.alexsdelight.cooked_bison": "Жареный бизон",
+  "item.alexsdelight.raw_bison": "Сырой бизон",
+  "item.alexsdelight.cooked_bunfungus": "Жареный грибобул",
+  "item.alexsdelight.raw_bunfungus": "Сырой грибобул",
+  "item.alexsdelight.cooked_centipede_leg": "Жареная ножка сороконожки",
+
+  "item.alexsdelight.kangaroo_shank": "Голяшка кенгуру",
+  "item.alexsdelight.cooked_kangaroo_shank": "Жареная голяшка кенгуру",
+  "item.alexsdelight.loose_moose_rib": "Ребро лося",
+  "item.alexsdelight.cooked_loose_moose_rib": "Жареное ребро лося",
+  "item.alexsdelight.bison_mince": "Фарш из бизона",
+  "item.alexsdelight.bison_patty": "Котлета из бизона",
+  "item.alexsdelight.raw_bunfungus_drumstick": "Сырая ножка грибобула",
+  "item.alexsdelight.cooked_bunfungus_drumstick": "Жареная ножка грибобула",
+  "item.alexsdelight.raw_catfish_slice": "Сырой кусок сома",
+  "item.alexsdelight.cooked_catfish_slice": "Жареный кусок сома",
+
+  "item.alexsdelight.gongylidia_bruschetta": "Брускетта с гонгилидией",
+  "item.alexsdelight.maggot_salad": "Салат с личинками",
+  "item.alexsdelight.kangaroo_stew": "Рагу из кенгуру",
+  "item.alexsdelight.acacia_blossom_soup": "Суп из цветов акации",
+  "item.alexsdelight.lobster_pasta": "Паста с омаром",
+  "item.alexsdelight.bison_burger": "Бургер с бизоном",
+  "item.alexsdelight.bunfungus_sandwich": "Сэндвич с грибобулом",
+  "item.alexsdelight.kangaroo_pasta": "Паста с кенгуру"
+}

@@ -1,0 +1,71 @@
+{
+  "itemGroup.copperandtuffbackport": "Copper & Tuff Backport",
+
+  "subtitles.block.copper_bulb.turn_off": "Медная лампа гаснет",
+  "subtitles.block.copper_bulb.turn_on": "Медная лампа загорается",
+  "subtitles.block.copper_trapdoor.close": "Люк закрывается",
+  "subtitles.block.copper_trapdoor.open": "Люк открывается",
+
+  "block.copperandtuffbackport.chiseled_copper": "Резная медь",
+  "block.copperandtuffbackport.copper_bulb": "Медная лампа",
+  "block.copperandtuffbackport.copper_door": "Медная дверь",
+  "block.copperandtuffbackport.copper_grate": "Медная решётка",
+  "block.copperandtuffbackport.copper_trapdoor": "Медный люк",
+
+  "block.copperandtuffbackport.waxed_chiseled_copper": "Вощёная резная медь",
+  "block.copperandtuffbackport.waxed_copper_bulb": "Вощёная медная лампа",
+  "block.copperandtuffbackport.waxed_copper_door": "Вощёная медная дверь",
+  "block.copperandtuffbackport.waxed_copper_grate": "Вощёная медная решётка",
+  "block.copperandtuffbackport.waxed_copper_trapdoor": "Вощёный медный люк",
+
+  "block.copperandtuffbackport.exposed_chiseled_copper": "Потемневшая резная медь",
+  "block.copperandtuffbackport.exposed_copper_bulb": "Потемневшая медная лампа",
+  "block.copperandtuffbackport.exposed_copper_door": "Потемневшая медная дверь",
+  "block.copperandtuffbackport.exposed_copper_grate": "Потемневшая медная решётка",
+  "block.copperandtuffbackport.exposed_copper_trapdoor": "Потемневший медный люк",
+
+  "block.copperandtuffbackport.waxed_exposed_chiseled_copper": "Вощёная потемневшая резная медь",
+  "block.copperandtuffbackport.waxed_exposed_copper_bulb": "Вощёная потемневшая медная лампа",
+  "block.copperandtuffbackport.waxed_exposed_copper_door": "Вощёная потемневшая медная дверь",
+  "block.copperandtuffbackport.waxed_exposed_copper_grate": "Вощёная потемневшая медная решётка",
+  "block.copperandtuffbackport.waxed_exposed_copper_trapdoor": "Вощёный потемневший медный люк",
+
+  "block.copperandtuffbackport.oxidized_chiseled_copper": "Окисленная резная медь",
+  "block.copperandtuffbackport.oxidized_copper_bulb": "Окисленная медная лампа",
+  "block.copperandtuffbackport.oxidized_copper_door": "Окисленная медная дверь",
+  "block.copperandtuffbackport.oxidized_copper_grate": "Окисленная медная решётка",
+  "block.copperandtuffbackport.oxidized_copper_trapdoor": "Окисленный медный люк",
+
+  "block.copperandtuffbackport.waxed_oxidized_chiseled_copper": "Вощёная окисленная резная медь",
+  "block.copperandtuffbackport.waxed_oxidized_copper_bulb": "Вощёная окисленная медная лампа",
+  "block.copperandtuffbackport.waxed_oxidized_copper_door": "Вощёная окисленная медная дверь",
+  "block.copperandtuffbackport.waxed_oxidized_copper_grate": "Вощёная окисленная медная решётка",
+  "block.copperandtuffbackport.waxed_oxidized_copper_trapdoor": "Вощёный окисленный медный люк",
+
+  "block.copperandtuffbackport.weathered_chiseled_copper": "Состаренная резная медь",
+  "block.copperandtuffbackport.weathered_copper_bulb": "Состаренная медная лампа",
+  "block.copperandtuffbackport.weathered_copper_door": "Состаренная медная дверь",
+  "block.copperandtuffbackport.weathered_copper_grate": "Состаренная медная решётка",
+  "block.copperandtuffbackport.weathered_copper_trapdoor": "Состаренный медный люк",
+
+  "block.copperandtuffbackport.waxed_weathered_chiseled_copper": "Вощёная состаренная резная медь",
+  "block.copperandtuffbackport.waxed_weathered_copper_bulb": "Вощёная состаренная медная лампа",
+  "block.copperandtuffbackport.waxed_weathered_copper_door": "Вощёная состаренная медная дверь",
+  "block.copperandtuffbackport.waxed_weathered_copper_grate": "Вощёная состаренная медная решётка",
+  "block.copperandtuffbackport.waxed_weathered_copper_trapdoor": "Вощёный состаренный медный люк",
+
+  "block.copperandtuffbackport.chiseled_stone_bricks": "Резные каменные кирпичи",
+  "block.copperandtuffbackport.chiseled_tuff": "Резной туф",
+  "block.copperandtuffbackport.chiseled_tuff_bricks": "Резные туфовые кирпичи",
+  "block.copperandtuffbackport.polished_tuff": "Полированный туф",
+  "block.copperandtuffbackport.polished_tuff_slab": "Плита из полированного туфа",
+  "block.copperandtuffbackport.polished_tuff_stairs": "Ступеньки из полированного туфа",
+  "block.copperandtuffbackport.polished_tuff_wall": "Ограда из полированного туфа",
+  "block.copperandtuffbackport.tuff_brick_slab": "Плита из туфовых кирпичей",
+  "block.copperandtuffbackport.tuff_brick_stairs": "Ступеньки из туфовых кирпичей",
+  "block.copperandtuffbackport.tuff_brick_wall": "Ограда из туфовых кирпичей",
+  "block.copperandtuffbackport.tuff_bricks": "Туфовые кирпичи",
+  "block.copperandtuffbackport.tuff_slab": "Плита из туфа",
+  "block.copperandtuffbackport.tuff_stairs": "Ступеньки из туфа",
+  "block.copperandtuffbackport.tuff_wall": "Ограда из туфа"
+}

@@ -1,0 +1,35 @@
+{
+  "itemGroup.paint_tab": "Paint",
+
+  "item.xercapaint.item_palette": "Палитра",
+  "item.xercapaint.item_canvas": "Холст",
+  "item.xercapaint.item_canvas_large": "Большой холст",
+  "item.xercapaint.item_canvas_long": "Длинный холст",
+  "item.xercapaint.item_canvas_tall": "Высокий холст",
+  "item.xercapaint.item_easel": "Мольберт",
+
+  "palette.basic_count": "%1$s базовых цветов",
+  "palette.custom_count": "%1$s пользовательских цветов",
+  "palette.empty": "Пустая палитра",
+
+  "canvas.empty": "Пустой холст",
+  "canvas.byAuthor": "автор: %1$s",
+  "canvas.signButton": "Подписать",
+  "canvas.finalizeButton": "Подписать и закрыть",
+  "canvas.finalizeWarning": "Внимание! После подписания картину нельзя будет изменить.",
+  "canvas.generation.0": "Оригинал",
+  "canvas.generation.1": "Копия оригинала",
+  "canvas.generation.2": "Копия копии",
+  "canvas.editTitle": "Введите название картины:",
+
+  "xercapaint.export.success": "Картина экспортирована в %1$s",
+  "xercapaint.export.fail": "Не удалось экспортировать картину",
+  "xercapaint.import.success": "Картина импортирована",
+  "xercapaint.import.fail.1": "Для импорта картины в режиме выживания у вас должен быть пустой холст в основной руке",
+  "xercapaint.import.fail.2": "Для импорта этой картины в режиме выживания нужен холст правильного размера (%1$s)",
+  "xercapaint.import.fail.3": "Для импорта картины в режиме выживания в дополнительной руке должна быть палитра со всеми базовыми цветами",
+  "xercapaint.import.fail.4": "Не удалось обработать команду или прочитать файл картины (%1$s)",
+  "xercapaint.import.fail.5": "Файл картины повреждён",
+
+  "easel.deny": "Кто-то другой сейчас работает над этой картиной"
+}

@@ -1,0 +1,25 @@
+{
+    "_comment": "Настройки клавиш",
+    "key.itemzoom.toggle": "Вкл/Выкл увеличение предметов",
+    "key.itemzoom.hold": "Удерживать для отображения",
+    "key.itemzoom.zoom.in": "Увеличить",
+    "key.itemzoom.zoom.out": "Уменьшить",
+
+    "_comment": "Конфигурация",
+    "config.itemzoom.title": "Настройки %MODNAME",
+
+    "config.itemzoom.toggle.enabled": "Включить увеличение предметов",
+    "config.itemzoom.toggle.enabled.comment": "Если установлено \"false\", увеличение предметов будет отключено.",
+    "config.itemzoom.zoom.amount": "Уровень увеличения",
+    "config.itemzoom.zoom.amount.comment": "Установите меньшее значение для уменьшения степени увеличения.",
+    "config.itemzoom.jei.only": "Только для JEI",
+    "config.itemzoom.jei.only.comment": "Увеличивать только предметы из списков JEI и закладок.",
+    "config.itemzoom.show.help.text": "Показывать подсказку",
+    "config.itemzoom.show.help.text.comment": "Отображать название \"Item Zoom\" и горячую клавишу под увеличенным предметом.",
+    "config.itemzoom.show.damage.bar": "Показывать прочность",
+    "config.itemzoom.show.damage.bar.comment": "Отображать шкалу прочности предмета при увеличении.",
+    "config.itemzoom.show.stack.size": "Показывать размер стопки",
+    "config.itemzoom.show.stack.size.comment": "Отображать размер стопки предмета при увеличении.",
+    "config.itemzoom.show.cooldown": "Показывать перезарядку",
+    "config.itemzoom.show.cooldown.comment": "Отображать анимацию перезарядки предмета при увеличении."
+}

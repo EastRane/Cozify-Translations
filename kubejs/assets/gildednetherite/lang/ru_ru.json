@@ -1,0 +1,21 @@
+{
+  "item.gildednetherite.golden_core": "Золотое ядро",
+  "item.gildednetherite.gilded_netherite_helmet": "Позолоченный незеритовый шлем",
+  "item.gildednetherite.gilded_netherite_chestplate": "Позолоченный незеритовый нагрудник",
+  "item.gildednetherite.gilded_netherite_leggings": "Позолоченные незеритовые поножи",
+  "item.gildednetherite.gilded_netherite_boots": "Позолоченные незеритовые ботинки",
+  "item.gildednetherite.gilded_netherite_sword": "Позолоченный незеритовый меч",
+  "item.gildednetherite.gilded_netherite_pickaxe": "Позолоченная незеритовая кирка",
+  "item.gildednetherite.gilded_netherite_axe": "Позолоченный незеритовый топор",
+  "item.gildednetherite.gilded_netherite_shovel": "Позолоченная незеритовая лопата",
+  "item.gildednetherite.gilded_netherite_hoe": "Позолоченная незеритовая мотыга",
+  "advancements.nether.gildednetherite.obtain_golden_core.title": "Может им понравится на моей броне?",
+  "advancements.nether.gildednetherite.obtain_golden_core.description": "Получить золотое ядро",
+  "advancements.nether.gildednetherite.gilded_netherite_armor.title": "Новые друзья!",
+  "advancements.nether.gildednetherite.gilded_netherite_armor.description": "Получить полный комплект позолоченной незеритовой брони.",
+  "advancements.husbandry.gildednetherite.obtain_gilded_netherite_hoe.title": "Позолоченная незеритовая мотыга!???",
+  "advancements.husbandry.gildednetherite.obtain_gilded_netherite_hoe.description": "Окей, когда ты это успел!?",
+  "tooltip.gildednetherite.golden_core_from_piglin": "Можно получить при торговле с пиглинами",
+  "tooltip.gildednetherite.golden_core_from_nether_chests": "Ищите в сундуках Нижнего мира",
+  "tooltip.gildednetherite.gilded_netherite_armor.description": "Делает пиглинов дружелюбными"
+}

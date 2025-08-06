@@ -1,0 +1,24 @@
+{
+    "block.shorkmod.blue_shark": "Синяя акула",
+    "block.shorkmod.black_shark": "Чёрная акула",
+    "block.shorkmod.blue2_shark": "Тёмно-синяя акула",
+    "block.shorkmod.brown_shark": "Коричневая акула",
+    "block.shorkmod.green_shark": "Зелёная акула",
+    "block.shorkmod.gray_shark": "Серая акула",
+    "block.shorkmod.light_gray_shark": "Светло-серая акула",
+    "block.shorkmod.cyan_shark": "Бирюзовая акула",
+    "block.shorkmod.lime_shark": "Лаймовая акула",
+    "block.shorkmod.pink_shark": "Розовая акула",
+    "block.shorkmod.purple_shark": "Фиолетовая акула",
+    "block.shorkmod.red_shark": "Красная акула",
+    "block.shorkmod.trans_shark": "Транс-акула",
+    "block.shorkmod.white_shark": "Белая акула",
+    "block.shorkmod.yellow_shark": "Жёлтая акула",
+    "block.shorkmod.orange_shark": "Оранжевая акула",
+    "block.shorkmod.magenta_shark": "Пурпурная акула",
+
+    "block.shorkmod.blahaj.tooltip": "Самое прекрасное создание.",
+
+    "tooltip.shorkmod.owner.craft": "Создано игроком %s",
+    "tooltip.shorkmod.owner.rename": "%s игрока %s"
+}

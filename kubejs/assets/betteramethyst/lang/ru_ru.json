@@ -1,0 +1,11 @@
+{
+  "block.betteramethyst.amethyst_crystal_block": "Блок аметистового кристалла",
+  "block.betteramethyst.smooth_amethyst_crystal_block": "Гладкий блок аметистового кристалла",
+  "block.betteramethyst.chiseled_amethyst_crystal_block": "Резной блок аметистового кристалла",
+  "block.betteramethyst.amethyst_crystal_lamp": "Аметистовая кристальная лампа",
+  "block.betteramethyst.amethyst_bricks": "Аметистовые кирпичи",
+  "block.betteramethyst.amethyst_bricks_slab": "Плита из аметистовых кирпичей",
+  "block.betteramethyst.amethyst_bricks_stairs": "Ступеньки из аметистовых кирпичей",
+  "block.betteramethyst.amethyst_bricks_wall": "Ограда из аметистовых кирпичей",
+  "block.betteramethyst.amethyst_redstone_lamp": "Аметистовая редстоун-лампа"
+}
