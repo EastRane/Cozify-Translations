@@ -101,189 +101,6 @@
 		}
 		{
 			description: [
-				"{cottagewitch.building__decorating.quests2.description0}"
-				""
-				"{cottagewitch.building__decorating.quests2.description1}"
-			]
-			id: "1AFE0FBF887D22FD"
-			rewards: [
-				{
-					id: "2D8DA9461014B308"
-					table_id: 8808494820591225409L
-					type: "loot"
-				}
-				{
-					count: 32
-					id: "3B221CEDD8AD10FD"
-					item: "buildinggadgets:construction_paste"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			size: 2.0d
-			subtitle: "{cottagewitch.building__decorating.quests2.subtitle}"
-			tasks: [
-				{
-					id: "4060C5FB1511ED4E"
-					item: {
-						Count: 1b
-						id: "buildinggadgets:gadget_building"
-						tag: {
-							energy: 500000.0d
-							state: {
-								data: { }
-								serializer: "buildinggadgets:dummy_serializer"
-								state: {
-									Name: "minecraft:air"
-								}
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "518D12073E1E0981"
-					item: {
-						Count: 1b
-						id: "buildinggadgets:gadget_exchanging"
-						tag: {
-							energy: 500000.0d
-							state: {
-								data: { }
-								serializer: "buildinggadgets:dummy_serializer"
-								state: {
-									Name: "minecraft:air"
-								}
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "{cottagewitch.building__decorating.quests2.title}"
-			x: 5.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["1AFE0FBF887D22FD"]
-			description: [
-				"{cottagewitch.building__decorating.quests3.description0}"
-				""
-				"{cottagewitch.building__decorating.quests3.description1}"
-				""
-				"{cottagewitch.building__decorating.quests3.description2}"
-			]
-			id: "1184EA40A20DEB5D"
-			rewards: [
-				{
-					id: "31D2BCCAA5AF5BA4"
-					table_id: 6941837675484043489L
-					type: "loot"
-				}
-				{
-					id: "2BF661D75FC4715C"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			subtitle: "{cottagewitch.building__decorating.quests3.subtitle}"
-			tasks: [
-				{
-					id: "329EA864CDCD816B"
-					item: {
-						Count: 1b
-						id: "buildinggadgets:gadget_copy_paste"
-						tag: {
-							energy: 500000.0d
-							mode: 0b
-							template_id: [I;
-								-1971559654
-								1481982377
-								-1575195989
-								1840957655
-							]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1136D19390575603"
-					item: "buildinggadgets:template_manager"
-					type: "item"
-				}
-			]
-			title: "{cottagewitch.building__decorating.quests3.title}"
-			x: 7.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["1184EA40A20DEB5D"]
-			description: ["{cottagewitch.building__decorating.quests4.description0}"]
-			id: "7CB901D8FE793DF6"
-			rewards: [{
-				id: "47CF7C0058F220DE"
-				table_id: 6941837675484043489L
-				type: "loot"
-			}]
-			shape: "hexagon"
-			subtitle: "{cottagewitch.building__decorating.quests4.subtitle}"
-			tasks: [{
-				id: "6E1F006DF7BBCF80"
-				item: {
-					Count: 1b
-					id: "buildinggadgets:gadget_destruction"
-					tag: {
-						energy: 1000000.0d
-						fuzzy: 1b
-						overlay: 1b
-					}
-				}
-				type: "item"
-			}]
-			x: 7.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["1184EA40A20DEB5D"]
-			description: [
-				"{cottagewitch.building__decorating.quests5.description0}"
-				""
-				"{cottagewitch.building__decorating.quests5.description1}"
-				""
-				"{cottagewitch.building__decorating.quests5.description2}"
-			]
-			id: "255D49A0CC045204"
-			rewards: [
-				{
-					id: "1B8EA75AD1A0ECED"
-					item: "buildinggadgets:construction_paste_container_t1"
-					type: "item"
-				}
-				{
-					count: 15
-					id: "675238AF9ECEB04A"
-					item: "buildinggadgets:construction_paste"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "{cottagewitch.building__decorating.quests5.subtitle}"
-			tasks: [{
-				id: "243D764629FA7983"
-				item: {
-					Count: 1b
-					id: "buildinggadgets:construction_paste_container_t1"
-					tag: {
-						amount: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 8.0d
-			y: 0.0d
-		}
-		{
-			description: [
 				"{cottagewitch.building__decorating.quests6.description0}"
 				""
 				"{cottagewitch.building__decorating.quests6.description1}"
@@ -335,8 +152,8 @@
 				type: "item"
 			}]
 			title: "{cottagewitch.building__decorating.quests7.title}"
-			x: 3.0d
-			y: -1.5d
+			x: 6.0d
+			y: -1.0d
 		}
 		{
 			description: ["{cottagewitch.building__decorating.quests8.description0}"]
@@ -757,29 +574,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["1AFE0FBF887D22FD"]
-			description: ["{cottagewitch.building__decorating.quests22.description0}"]
-			id: "6D3D3329A2772A3F"
-			rewards: [{
-				count: 25
-				id: "4D5B508BB59CE983"
-				item: "minecraft:coal"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5EE45AA279FC7F22"
-				item: {
-					Count: 1b
-					id: "charginggadgets:charging_station"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 6.0d
+			x: 4.0d
 			y: 1.5d
 		}
 	]

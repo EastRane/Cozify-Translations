@@ -61,14 +61,6 @@
 			id: "6C6635F6D9644BB7"
 			rewards: [
 				{
-					auto: "enabled"
-					command: "/say Привет, @p! Если не знаешь, с чего начать, можешь открыть книгу квестов на клавишу -, там много полезностей."
-					icon: "minecraft:grass_block"
-					id: "4B2B69209045245C"
-					team_reward: false
-					type: "command"
-				}
-				{
 					id: "6EAB9BDBE6FFD03E"
 					item: {
 						Count: 1b
